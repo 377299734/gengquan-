@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="101" timestamp="1443753680376" analysisTimestamp="1443753680023" release="">
+  <Project projectName="BinarySearchTreeMethods">
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/BinarySearchTreeMethods/bin/BinarySearchTreeMethods.class</Jar>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/BinarySearchTreeMethods/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/BinarySearchTreeMethods/lib/binary-tree-utility.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/rt.jar</AuxClasspathEntry>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/BinarySearchTreeMethods/test</SrcDir>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/BinarySearchTreeMethods/src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="83" last="86" removedByChange="true">
+    <Class classname="BinarySearchTreeMethods">
+      <SourceLine classname="BinarySearchTreeMethods" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+    </Class>
+    <Method classname="BinarySearchTreeMethods" name="removeFromTree" signature="(Lcomponents/binarytree/BinaryTree;Ljava/lang/Comparable;)Ljava/lang/Comparable;" isStatic="true">
+      <SourceLine classname="BinarySearchTreeMethods" start="90" end="132" startBytecode="0" endBytecode="143" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+    </Method>
+    <LocalVariable name="next" register="6" pc="157" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="BinarySearchTreeMethods" start="107" end="107" startBytecode="155" endBytecode="155" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+    <SourceLine classname="BinarySearchTreeMethods" start="107" end="107" startBytecode="155" endBytecode="155" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="next"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="38" last="38" removedByChange="true">
+    <Class classname="BinarySearchTreeMethods">
+      <SourceLine classname="BinarySearchTreeMethods" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+    </Class>
+    <Method classname="BinarySearchTreeMethods" name="removeSmallest" signature="(Lcomponents/binarytree/BinaryTree;)Ljava/lang/Object;" isStatic="true">
+      <SourceLine classname="BinarySearchTreeMethods" start="104" end="109" startBytecode="0" endBytecode="11" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+    </Method>
+    <LocalVariable name="left" register="2" pc="12" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="BinarySearchTreeMethods" start="106" end="106" startBytecode="11" endBytecode="11" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+    <SourceLine classname="BinarySearchTreeMethods" start="106" end="106" startBytecode="11" endBytecode="11" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="left"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="24" last="29" removedByChange="true">
+    <Class classname="BinarySearchTreeMethods">
+      <SourceLine classname="BinarySearchTreeMethods" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+    </Class>
+    <Method classname="BinarySearchTreeMethods" name="removeSmallest" signature="(Lcomponents/binarytree/BinaryTree;)Ljava/lang/Object;" isStatic="true">
+      <SourceLine classname="BinarySearchTreeMethods" start="104" end="116" startBytecode="0" endBytecode="28" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+    </Method>
+    <LocalVariable name="name" register="3" pc="29" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="BinarySearchTreeMethods" start="107" end="107" startBytecode="28" endBytecode="28" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+    <SourceLine classname="BinarySearchTreeMethods" start="107" end="107" startBytecode="28" endBytecode="28" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="name"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="38" last="38" removedByChange="true">
+    <Class classname="BinarySearchTreeMethods">
+      <SourceLine classname="BinarySearchTreeMethods" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+    </Class>
+    <Method classname="BinarySearchTreeMethods" name="removeSmallest" signature="(Lcomponents/binarytree/BinaryTree;)Ljava/lang/Object;" isStatic="true">
+      <SourceLine classname="BinarySearchTreeMethods" start="104" end="109" startBytecode="0" endBytecode="11" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+    </Method>
+    <LocalVariable name="right" register="3" pc="22" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="BinarySearchTreeMethods" start="107" end="107" startBytecode="21" endBytecode="21" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+    <SourceLine classname="BinarySearchTreeMethods" start="107" end="107" startBytecode="21" endBytecode="21" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="right"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="32" last="34" removedByChange="true">
+    <Class classname="BinarySearchTreeMethods">
+      <SourceLine classname="BinarySearchTreeMethods" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+    </Class>
+    <Method classname="BinarySearchTreeMethods" name="removeSmallest" signature="(Lcomponents/binarytree/BinaryTree;)Ljava/lang/Object;" isStatic="true">
+      <SourceLine classname="BinarySearchTreeMethods" start="104" end="120" startBytecode="0" endBytecode="35" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+    </Method>
+    <LocalVariable name="root" register="4" pc="64" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="BinarySearchTreeMethods" start="114" end="114" startBytecode="62" endBytecode="62" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+    <SourceLine classname="BinarySearchTreeMethods" start="114" end="114" startBytecode="62" endBytecode="62" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.COPY_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="root"/>
+  </BugInstance>
+  <BugInstance type="EC_NULL_ARG" priority="2" rank="9" abbrev="EC" category="CORRECTNESS" first="9" last="9" removedByChange="true">
+    <Class classname="BinarySearchTreeMethods">
+      <SourceLine classname="BinarySearchTreeMethods" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+    </Class>
+    <Method classname="BinarySearchTreeMethods" name="isInTree" signature="(Lcomponents/binarytree/BinaryTree;Ljava/lang/Comparable;)Z" isStatic="true">
+      <SourceLine classname="BinarySearchTreeMethods" start="48" end="77" startBytecode="0" endBytecode="82" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+    </Method>
+    <SourceLine classname="BinarySearchTreeMethods" start="56" end="56" startBytecode="60" endBytecode="60" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+    <SourceLine classname="BinarySearchTreeMethods" start="56" end="56" startBytecode="60" endBytecode="60" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+  </BugInstance>
+  <BugInstance type="EC_NULL_ARG" priority="2" rank="9" abbrev="EC" category="CORRECTNESS" first="27" last="57" removedByChange="true">
+    <Class classname="BinarySearchTreeMethods">
+      <SourceLine classname="BinarySearchTreeMethods" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+    </Class>
+    <Method classname="BinarySearchTreeMethods" name="removeSmallest" signature="(Lcomponents/binarytree/BinaryTree;)Ljava/lang/Object;" isStatic="true">
+      <SourceLine classname="BinarySearchTreeMethods" start="86" end="125" startBytecode="0" endBytecode="125" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+    </Method>
+    <SourceLine classname="BinarySearchTreeMethods" start="97" end="97" startBytecode="79" endBytecode="79" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+    <SourceLine classname="BinarySearchTreeMethods" start="97" end="97" startBytecode="79" endBytecode="79" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+  </BugInstance>
+  <BugInstance type="NP_ALWAYS_NULL" priority="1" rank="5" abbrev="NP" category="CORRECTNESS" first="11" last="11" removedByChange="true">
+    <Class classname="BinarySearchTreeMethods">
+      <SourceLine classname="BinarySearchTreeMethods" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+    </Class>
+    <Method classname="BinarySearchTreeMethods" name="isInTree" signature="(Lcomponents/binarytree/BinaryTree;Ljava/lang/Comparable;)Z" isStatic="true">
+      <SourceLine classname="BinarySearchTreeMethods" start="48" end="77" startBytecode="0" endBytecode="464" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java"/>
+    </Method>
+    <LocalVariable name="name" register="3" pc="179" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="BinarySearchTreeMethods" start="74" end="74" startBytecode="180" endBytecode="180" sourcefile="BinarySearchTreeMethods.java" sourcepath="BinarySearchTreeMethods.java" role="SOURCE_LINE_DEREF"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 1 Oct 2015 22:41:19 -0400" total_classes="1" referenced_classes="19" total_bugs="0" total_size="109" num_packages="1" java_version="1.7.0_71" vm_version="24.71-b01" cpu_seconds="0.65" clock_seconds="0.36" peak_mbytes="434.02" alloc_mbytes="455.00" gc_seconds="0.02">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="109">
+      <ClassStats class="BinarySearchTreeMethods" sourceFile="BinarySearchTreeMethods.java" interface="false" size="109" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="93" invocations="318" avgMicrosecondsPerInvocation="293" maxMicrosecondsPerInvocation="19154" standardDeviationMircosecondsPerInvocation="1120"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="61" invocations="2" avgMicrosecondsPerInvocation="30567" maxMicrosecondsPerInvocation="53532" standardDeviationMircosecondsPerInvocation="22965"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="17" invocations="19" avgMicrosecondsPerInvocation="917" maxMicrosecondsPerInvocation="4524" standardDeviationMircosecondsPerInvocation="1265"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="15" invocations="318" avgMicrosecondsPerInvocation="49" maxMicrosecondsPerInvocation="153" standardDeviationMircosecondsPerInvocation="22"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="15" invocations="59" avgMicrosecondsPerInvocation="265" maxMicrosecondsPerInvocation="917" standardDeviationMircosecondsPerInvocation="195"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1443112867700" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1443112867705" release="" codeSize="53" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1443113626409" release="" codeSize="67" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1443113726741" release="" codeSize="51" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1443113782016" release="" codeSize="69" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1443114108466" release="" codeSize="69" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1443114168407" release="" codeSize="71" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1443114559554" release="" codeSize="71" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1443114874752" release="" codeSize="72" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1443115163164" release="" codeSize="72" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1443115263248" release="" codeSize="72" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1443115544930" release="" codeSize="72" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1443115630971" release="" codeSize="144" numClasses="2"/>
+    <AppVersion sequence="13" timestamp="1443238957525" release="" codeSize="144" numClasses="2"/>
+    <AppVersion sequence="14" timestamp="1443402544769" release="" codeSize="75" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1443402646186" release="" codeSize="77" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1443402673684" release="" codeSize="77" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1443403155319" release="" codeSize="73" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1443403313922" release="" codeSize="73" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1443403388290" release="" codeSize="73" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1443403483953" release="" codeSize="72" numClasses="1"/>
+    <AppVersion sequence="21" timestamp="1443403496140" release="" codeSize="71" numClasses="1"/>
+    <AppVersion sequence="22" timestamp="1443403831647" release="" codeSize="77" numClasses="1"/>
+    <AppVersion sequence="23" timestamp="1443404184885" release="" codeSize="76" numClasses="1"/>
+    <AppVersion sequence="24" timestamp="1443404741856" release="" codeSize="76" numClasses="1"/>
+    <AppVersion sequence="25" timestamp="1443404768414" release="" codeSize="76" numClasses="1"/>
+    <AppVersion sequence="26" timestamp="1443404812329" release="" codeSize="76" numClasses="1"/>
+    <AppVersion sequence="27" timestamp="1443404913198" release="" codeSize="76" numClasses="1"/>
+    <AppVersion sequence="28" timestamp="1443404939834" release="" codeSize="76" numClasses="1"/>
+    <AppVersion sequence="29" timestamp="1443404954020" release="" codeSize="76" numClasses="1"/>
+    <AppVersion sequence="30" timestamp="1443405126363" release="" codeSize="80" numClasses="1"/>
+    <AppVersion sequence="31" timestamp="1443405157945" release="" codeSize="80" numClasses="1"/>
+    <AppVersion sequence="32" timestamp="1443405211368" release="" codeSize="78" numClasses="1"/>
+    <AppVersion sequence="33" timestamp="1443405227412" release="" codeSize="78" numClasses="1"/>
+    <AppVersion sequence="34" timestamp="1443405264698" release="" codeSize="78" numClasses="1"/>
+    <AppVersion sequence="35" timestamp="1443405289538" release="" codeSize="75" numClasses="1"/>
+    <AppVersion sequence="36" timestamp="1443405358848" release="" codeSize="74" numClasses="1"/>
+    <AppVersion sequence="37" timestamp="1443405548051" release="" codeSize="75" numClasses="1"/>
+    <AppVersion sequence="38" timestamp="1443407432257" release="" codeSize="71" numClasses="1"/>
+    <AppVersion sequence="39" timestamp="1443407696345" release="" codeSize="77" numClasses="1"/>
+    <AppVersion sequence="40" timestamp="1443407883762" release="" codeSize="80" numClasses="1"/>
+    <AppVersion sequence="41" timestamp="1443408360156" release="" codeSize="54" numClasses="1"/>
+    <AppVersion sequence="42" timestamp="1443408365271" release="" codeSize="65" numClasses="1"/>
+    <AppVersion sequence="43" timestamp="1443408437680" release="" codeSize="65" numClasses="1"/>
+    <AppVersion sequence="44" timestamp="1443408598966" release="" codeSize="65" numClasses="1"/>
+    <AppVersion sequence="45" timestamp="1443408698189" release="" codeSize="66" numClasses="1"/>
+    <AppVersion sequence="46" timestamp="1443408999217" release="" codeSize="68" numClasses="1"/>
+    <AppVersion sequence="47" timestamp="1443409176329" release="" codeSize="68" numClasses="1"/>
+    <AppVersion sequence="48" timestamp="1443409319301" release="" codeSize="68" numClasses="1"/>
+    <AppVersion sequence="49" timestamp="1443409952325" release="" codeSize="75" numClasses="1"/>
+    <AppVersion sequence="50" timestamp="1443410056318" release="" codeSize="75" numClasses="1"/>
+    <AppVersion sequence="51" timestamp="1443410203227" release="" codeSize="75" numClasses="1"/>
+    <AppVersion sequence="52" timestamp="1443410380790" release="" codeSize="75" numClasses="1"/>
+    <AppVersion sequence="53" timestamp="1443410717629" release="" codeSize="75" numClasses="1"/>
+    <AppVersion sequence="54" timestamp="1443411044178" release="" codeSize="76" numClasses="1"/>
+    <AppVersion sequence="55" timestamp="1443411091226" release="" codeSize="150" numClasses="2"/>
+    <AppVersion sequence="56" timestamp="1443449625131" release="" codeSize="75" numClasses="1"/>
+    <AppVersion sequence="57" timestamp="1443450073745" release="" codeSize="83" numClasses="1"/>
+    <AppVersion sequence="58" timestamp="1443450162871" release="" codeSize="75" numClasses="1"/>
+    <AppVersion sequence="59" timestamp="1443450211113" release="" codeSize="75" numClasses="1"/>
+    <AppVersion sequence="60" timestamp="1443450311857" release="" codeSize="75" numClasses="1"/>
+    <AppVersion sequence="61" timestamp="1443450428238" release="" codeSize="75" numClasses="1"/>
+    <AppVersion sequence="62" timestamp="1443450783252" release="" codeSize="75" numClasses="1"/>
+    <AppVersion sequence="63" timestamp="1443451354572" release="" codeSize="102" numClasses="1"/>
+    <AppVersion sequence="64" timestamp="1443451455911" release="" codeSize="101" numClasses="1"/>
+    <AppVersion sequence="65" timestamp="1443451557676" release="" codeSize="105" numClasses="1"/>
+    <AppVersion sequence="66" timestamp="1443451619643" release="" codeSize="105" numClasses="1"/>
+    <AppVersion sequence="67" timestamp="1443451712493" release="" codeSize="105" numClasses="1"/>
+    <AppVersion sequence="68" timestamp="1443452705775" release="" codeSize="107" numClasses="1"/>
+    <AppVersion sequence="69" timestamp="1443452814566" release="" codeSize="105" numClasses="1"/>
+    <AppVersion sequence="70" timestamp="1443475128050" release="" codeSize="103" numClasses="1"/>
+    <AppVersion sequence="71" timestamp="1443475262957" release="" codeSize="105" numClasses="1"/>
+    <AppVersion sequence="72" timestamp="1443475373852" release="" codeSize="107" numClasses="1"/>
+    <AppVersion sequence="73" timestamp="1443475435999" release="" codeSize="107" numClasses="1"/>
+    <AppVersion sequence="74" timestamp="1443542244969" release="" codeSize="130" numClasses="1"/>
+    <AppVersion sequence="75" timestamp="1443542373204" release="" codeSize="130" numClasses="1"/>
+    <AppVersion sequence="76" timestamp="1443542377453" release="" codeSize="132" numClasses="1"/>
+    <AppVersion sequence="77" timestamp="1443542519264" release="" codeSize="130" numClasses="1"/>
+    <AppVersion sequence="78" timestamp="1443548821325" release="" codeSize="133" numClasses="1"/>
+    <AppVersion sequence="79" timestamp="1443548910689" release="" codeSize="133" numClasses="1"/>
+    <AppVersion sequence="80" timestamp="1443549003402" release="" codeSize="133" numClasses="1"/>
+    <AppVersion sequence="81" timestamp="1443549304233" release="" codeSize="111" numClasses="1"/>
+    <AppVersion sequence="82" timestamp="1443549313295" release="" codeSize="138" numClasses="1"/>
+    <AppVersion sequence="83" timestamp="1443549506480" release="" codeSize="142" numClasses="1"/>
+    <AppVersion sequence="84" timestamp="1443549888656" release="" codeSize="144" numClasses="1"/>
+    <AppVersion sequence="85" timestamp="1443549960108" release="" codeSize="144" numClasses="1"/>
+    <AppVersion sequence="86" timestamp="1443550134641" release="" codeSize="143" numClasses="1"/>
+    <AppVersion sequence="87" timestamp="1443565229124" release="" codeSize="121" numClasses="1"/>
+    <AppVersion sequence="88" timestamp="1443621113680" release="" codeSize="244" numClasses="2"/>
+    <AppVersion sequence="89" timestamp="1443741741108" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="90" timestamp="1443741762549" release="" codeSize="138" numClasses="1"/>
+    <AppVersion sequence="91" timestamp="1443741826101" release="" codeSize="139" numClasses="1"/>
+    <AppVersion sequence="92" timestamp="1443741998208" release="" codeSize="138" numClasses="1"/>
+    <AppVersion sequence="93" timestamp="1443742401889" release="" codeSize="141" numClasses="1"/>
+    <AppVersion sequence="94" timestamp="1443742562003" release="" codeSize="113" numClasses="1"/>
+    <AppVersion sequence="95" timestamp="1443742632937" release="" codeSize="144" numClasses="1"/>
+    <AppVersion sequence="96" timestamp="1443742809137" release="" codeSize="144" numClasses="1"/>
+    <AppVersion sequence="97" timestamp="1443742978531" release="" codeSize="147" numClasses="1"/>
+    <AppVersion sequence="98" timestamp="1443743068469" release="" codeSize="113" numClasses="1"/>
+    <AppVersion sequence="99" timestamp="1443743077552" release="" codeSize="148" numClasses="1"/>
+    <AppVersion sequence="100" timestamp="1443743205879" release="" codeSize="150" numClasses="1"/>
+  </History>
+</BugCollection>

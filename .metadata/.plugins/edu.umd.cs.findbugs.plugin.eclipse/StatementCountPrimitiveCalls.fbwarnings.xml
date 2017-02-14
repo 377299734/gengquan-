@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="37" timestamp="1445605638718" analysisTimestamp="1445605637661" release="">
+  <Project projectName="StatementCountPrimitiveCalls">
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/StatementCountPrimitiveCalls/bin/CountPrimitiveCalls.class</Jar>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/StatementCountPrimitiveCalls/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/rt.jar</AuxClasspathEntry>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/StatementCountPrimitiveCalls/test</SrcDir>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/StatementCountPrimitiveCalls/src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="EC_UNRELATED_CLASS_AND_INTERFACE" priority="1" rank="4" abbrev="EC" category="CORRECTNESS" first="1" last="5" removedByChange="true">
+    <Class classname="CountPrimitiveCalls">
+      <SourceLine classname="CountPrimitiveCalls" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    </Class>
+    <Method classname="CountPrimitiveCalls" name="countOfPrimitiveCalls" signature="(Lcomponents/statement/Statement;)I" isStatic="true">
+      <SourceLine classname="CountPrimitiveCalls" start="32" end="157" startBytecode="0" endBytecode="268" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Type descriptor="Lcomponents/statement/Statement;" role="TYPE_EXPECTED">
+      <SourceLine classname="components.statement.Statement" sourcefile="SourceFile" sourcepath="components/statement/SourceFile"/>
+    </Type>
+    <String value="infect" role="STRING_CONSTANT"/>
+    <LocalVariable name="m" register="3" pc="568" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Method classname="java.lang.Object" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.Object" start="150" end="150" startBytecode="0" endBytecode="45" sourcefile="Object.java" sourcepath="java/lang/Object.java"/>
+    </Method>
+    <SourceLine classname="CountPrimitiveCalls" start="124" end="124" startBytecode="570" endBytecode="570" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    <SourceLine classname="CountPrimitiveCalls" start="124" end="124" startBytecode="570" endBytecode="570" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_CLASS_AND_INTERFACE" priority="1" rank="4" abbrev="EC" category="CORRECTNESS" first="1" last="5" removedByChange="true">
+    <Class classname="CountPrimitiveCalls">
+      <SourceLine classname="CountPrimitiveCalls" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    </Class>
+    <Method classname="CountPrimitiveCalls" name="countOfPrimitiveCalls" signature="(Lcomponents/statement/Statement;)I" isStatic="true">
+      <SourceLine classname="CountPrimitiveCalls" start="32" end="157" startBytecode="0" endBytecode="268" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Type descriptor="Lcomponents/statement/Statement;" role="TYPE_EXPECTED">
+      <SourceLine classname="components.statement.Statement" sourcefile="SourceFile" sourcepath="components/statement/SourceFile"/>
+    </Type>
+    <String value="move" role="STRING_CONSTANT"/>
+    <LocalVariable name="m" register="3" pc="550" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Method classname="java.lang.Object" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.Object" start="150" end="150" startBytecode="0" endBytecode="45" sourcefile="Object.java" sourcepath="java/lang/Object.java"/>
+    </Method>
+    <SourceLine classname="CountPrimitiveCalls" start="123" end="123" startBytecode="552" endBytecode="552" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    <SourceLine classname="CountPrimitiveCalls" start="123" end="123" startBytecode="552" endBytecode="552" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_CLASS_AND_INTERFACE" priority="1" rank="4" abbrev="EC" category="CORRECTNESS" first="1" last="5" removedByChange="true">
+    <Class classname="CountPrimitiveCalls">
+      <SourceLine classname="CountPrimitiveCalls" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    </Class>
+    <Method classname="CountPrimitiveCalls" name="countOfPrimitiveCalls" signature="(Lcomponents/statement/Statement;)I" isStatic="true">
+      <SourceLine classname="CountPrimitiveCalls" start="32" end="157" startBytecode="0" endBytecode="268" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Type descriptor="Lcomponents/statement/Statement;" role="TYPE_EXPECTED">
+      <SourceLine classname="components.statement.Statement" sourcefile="SourceFile" sourcepath="components/statement/SourceFile"/>
+    </Type>
+    <String value="skip" role="STRING_CONSTANT"/>
+    <LocalVariable name="m" register="3" pc="559" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Method classname="java.lang.Object" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.Object" start="150" end="150" startBytecode="0" endBytecode="45" sourcefile="Object.java" sourcepath="java/lang/Object.java"/>
+    </Method>
+    <SourceLine classname="CountPrimitiveCalls" start="123" end="123" startBytecode="561" endBytecode="561" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    <SourceLine classname="CountPrimitiveCalls" start="123" end="123" startBytecode="561" endBytecode="561" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_CLASS_AND_INTERFACE" priority="1" rank="4" abbrev="EC" category="CORRECTNESS" first="1" last="5" removedByChange="true">
+    <Class classname="CountPrimitiveCalls">
+      <SourceLine classname="CountPrimitiveCalls" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    </Class>
+    <Method classname="CountPrimitiveCalls" name="countOfPrimitiveCalls" signature="(Lcomponents/statement/Statement;)I" isStatic="true">
+      <SourceLine classname="CountPrimitiveCalls" start="32" end="157" startBytecode="0" endBytecode="268" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Type descriptor="Lcomponents/statement/Statement;" role="TYPE_EXPECTED">
+      <SourceLine classname="components.statement.Statement" sourcefile="SourceFile" sourcepath="components/statement/SourceFile"/>
+    </Type>
+    <String value="turnleft" role="STRING_CONSTANT"/>
+    <LocalVariable name="m" register="3" pc="583" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Method classname="java.lang.Object" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.Object" start="150" end="150" startBytecode="0" endBytecode="45" sourcefile="Object.java" sourcepath="java/lang/Object.java"/>
+    </Method>
+    <SourceLine classname="CountPrimitiveCalls" start="126" end="126" startBytecode="585" endBytecode="585" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    <SourceLine classname="CountPrimitiveCalls" start="126" end="126" startBytecode="585" endBytecode="585" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_CLASS_AND_INTERFACE" priority="1" rank="4" abbrev="EC" category="CORRECTNESS" first="1" last="5" removedByChange="true">
+    <Class classname="CountPrimitiveCalls">
+      <SourceLine classname="CountPrimitiveCalls" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    </Class>
+    <Method classname="CountPrimitiveCalls" name="countOfPrimitiveCalls" signature="(Lcomponents/statement/Statement;)I" isStatic="true">
+      <SourceLine classname="CountPrimitiveCalls" start="32" end="157" startBytecode="0" endBytecode="268" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Type descriptor="Lcomponents/statement/Statement;" role="TYPE_EXPECTED">
+      <SourceLine classname="components.statement.Statement" sourcefile="SourceFile" sourcepath="components/statement/SourceFile"/>
+    </Type>
+    <String value="turnright" role="STRING_CONSTANT"/>
+    <LocalVariable name="m" register="3" pc="592" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Method classname="java.lang.Object" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.Object" start="150" end="150" startBytecode="0" endBytecode="45" sourcefile="Object.java" sourcepath="java/lang/Object.java"/>
+    </Method>
+    <SourceLine classname="CountPrimitiveCalls" start="126" end="126" startBytecode="594" endBytecode="594" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    <SourceLine classname="CountPrimitiveCalls" start="126" end="126" startBytecode="594" endBytecode="594" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_TYPES" priority="1" rank="1" abbrev="EC" category="CORRECTNESS" first="11" last="11" removedByChange="true">
+    <Class classname="CountPrimitiveCalls">
+      <SourceLine classname="CountPrimitiveCalls" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    </Class>
+    <Method classname="CountPrimitiveCalls" name="countOfPrimitiveCalls" signature="(Lcomponents/statement/Statement;)I" isStatic="true">
+      <SourceLine classname="CountPrimitiveCalls" start="32" end="175" startBytecode="0" endBytecode="317" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Type descriptor="Lcomponents/statement/StatementKernel$Kind;" role="TYPE_EXPECTED">
+      <SourceLine classname="components.statement.StatementKernel$Kind" start="1" end="57" sourcefile="SourceFile" sourcepath="components/statement/SourceFile"/>
+    </Type>
+    <String value="BLOCK" role="STRING_CONSTANT"/>
+    <Method classname="components.statement.Statement" name="kind" signature="()Lcomponents/statement/StatementKernel$Kind;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="components.statement.Statement" sourcefile="SourceFile" sourcepath="components/statement/SourceFile"/>
+    </Method>
+    <Method classname="java.lang.Enum" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.Enum" start="143" end="143" startBytecode="0" endBytecode="45" sourcefile="Enum.java" sourcepath="java/lang/Enum.java"/>
+    </Method>
+    <SourceLine classname="CountPrimitiveCalls" start="40" end="40" startBytecode="56" endBytecode="56" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    <SourceLine classname="CountPrimitiveCalls" start="40" end="40" startBytecode="56" endBytecode="56" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_TYPES" priority="1" rank="1" abbrev="EC" category="CORRECTNESS" first="11" last="11" removedByChange="true">
+    <Class classname="CountPrimitiveCalls">
+      <SourceLine classname="CountPrimitiveCalls" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    </Class>
+    <Method classname="CountPrimitiveCalls" name="countOfPrimitiveCalls" signature="(Lcomponents/statement/Statement;)I" isStatic="true">
+      <SourceLine classname="CountPrimitiveCalls" start="32" end="175" startBytecode="0" endBytecode="317" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Type descriptor="Lcomponents/statement/StatementKernel$Kind;" role="TYPE_EXPECTED">
+      <SourceLine classname="components.statement.StatementKernel$Kind" start="1" end="57" sourcefile="SourceFile" sourcepath="components/statement/SourceFile"/>
+    </Type>
+    <String value="CALL" role="STRING_CONSTANT"/>
+    <Method classname="components.statement.Statement" name="kind" signature="()Lcomponents/statement/StatementKernel$Kind;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="components.statement.Statement" sourcefile="SourceFile" sourcepath="components/statement/SourceFile"/>
+    </Method>
+    <Method classname="java.lang.Enum" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.Enum" start="143" end="143" startBytecode="0" endBytecode="45" sourcefile="Enum.java" sourcepath="java/lang/Enum.java"/>
+    </Method>
+    <SourceLine classname="CountPrimitiveCalls" start="55" end="55" startBytecode="215" endBytecode="215" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    <SourceLine classname="CountPrimitiveCalls" start="55" end="55" startBytecode="215" endBytecode="215" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_TYPES" priority="1" rank="1" abbrev="EC" category="CORRECTNESS" first="11" last="11" removedByChange="true">
+    <Class classname="CountPrimitiveCalls">
+      <SourceLine classname="CountPrimitiveCalls" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    </Class>
+    <Method classname="CountPrimitiveCalls" name="countOfPrimitiveCalls" signature="(Lcomponents/statement/Statement;)I" isStatic="true">
+      <SourceLine classname="CountPrimitiveCalls" start="32" end="175" startBytecode="0" endBytecode="317" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Type descriptor="Lcomponents/statement/StatementKernel$Kind;" role="TYPE_EXPECTED">
+      <SourceLine classname="components.statement.StatementKernel$Kind" start="1" end="57" sourcefile="SourceFile" sourcepath="components/statement/SourceFile"/>
+    </Type>
+    <String value="IF" role="STRING_CONSTANT"/>
+    <Method classname="components.statement.Statement" name="kind" signature="()Lcomponents/statement/StatementKernel$Kind;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="components.statement.Statement" sourcefile="SourceFile" sourcepath="components/statement/SourceFile"/>
+    </Method>
+    <Method classname="java.lang.Enum" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.Enum" start="143" end="143" startBytecode="0" endBytecode="45" sourcefile="Enum.java" sourcepath="java/lang/Enum.java"/>
+    </Method>
+    <SourceLine classname="CountPrimitiveCalls" start="52" end="52" startBytecode="173" endBytecode="173" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    <SourceLine classname="CountPrimitiveCalls" start="52" end="52" startBytecode="173" endBytecode="173" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_TYPES" priority="1" rank="1" abbrev="EC" category="CORRECTNESS" first="11" last="11" removedByChange="true">
+    <Class classname="CountPrimitiveCalls">
+      <SourceLine classname="CountPrimitiveCalls" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    </Class>
+    <Method classname="CountPrimitiveCalls" name="countOfPrimitiveCalls" signature="(Lcomponents/statement/Statement;)I" isStatic="true">
+      <SourceLine classname="CountPrimitiveCalls" start="32" end="175" startBytecode="0" endBytecode="317" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Type descriptor="Lcomponents/statement/StatementKernel$Kind;" role="TYPE_EXPECTED">
+      <SourceLine classname="components.statement.StatementKernel$Kind" start="1" end="57" sourcefile="SourceFile" sourcepath="components/statement/SourceFile"/>
+    </Type>
+    <String value="IF_ELSE" role="STRING_CONSTANT"/>
+    <Method classname="components.statement.Statement" name="kind" signature="()Lcomponents/statement/StatementKernel$Kind;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="components.statement.Statement" sourcefile="SourceFile" sourcepath="components/statement/SourceFile"/>
+    </Method>
+    <Method classname="java.lang.Enum" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.Enum" start="143" end="143" startBytecode="0" endBytecode="45" sourcefile="Enum.java" sourcepath="java/lang/Enum.java"/>
+    </Method>
+    <SourceLine classname="CountPrimitiveCalls" start="53" end="53" startBytecode="187" endBytecode="187" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    <SourceLine classname="CountPrimitiveCalls" start="53" end="53" startBytecode="187" endBytecode="187" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_TYPES" priority="1" rank="1" abbrev="EC" category="CORRECTNESS" first="11" last="11" removedByChange="true">
+    <Class classname="CountPrimitiveCalls">
+      <SourceLine classname="CountPrimitiveCalls" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    </Class>
+    <Method classname="CountPrimitiveCalls" name="countOfPrimitiveCalls" signature="(Lcomponents/statement/Statement;)I" isStatic="true">
+      <SourceLine classname="CountPrimitiveCalls" start="32" end="175" startBytecode="0" endBytecode="317" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Type descriptor="Lcomponents/statement/StatementKernel$Kind;" role="TYPE_EXPECTED">
+      <SourceLine classname="components.statement.StatementKernel$Kind" start="1" end="57" sourcefile="SourceFile" sourcepath="components/statement/SourceFile"/>
+    </Type>
+    <String value="WHILE" role="STRING_CONSTANT"/>
+    <Method classname="components.statement.Statement" name="kind" signature="()Lcomponents/statement/StatementKernel$Kind;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="components.statement.Statement" sourcefile="SourceFile" sourcepath="components/statement/SourceFile"/>
+    </Method>
+    <Method classname="java.lang.Enum" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.Enum" start="143" end="143" startBytecode="0" endBytecode="45" sourcefile="Enum.java" sourcepath="java/lang/Enum.java"/>
+    </Method>
+    <SourceLine classname="CountPrimitiveCalls" start="54" end="54" startBytecode="201" endBytecode="201" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    <SourceLine classname="CountPrimitiveCalls" start="54" end="54" startBytecode="201" endBytecode="201" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="16" last="16" removedByChange="true">
+    <Class classname="CountPrimitiveCalls">
+      <SourceLine classname="CountPrimitiveCalls" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    </Class>
+    <Field classname="CountPrimitiveCalls" name="i" signature="I" isStatic="false">
+      <SourceLine classname="CountPrimitiveCalls" start="72" end="72" startBytecode="0" endBytecode="0" sourcefile="CountPrimitiveCalls.java" sourcepath="CountPrimitiveCalls.java"/>
+    </Field>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 23 Oct 2015 09:07:17 -0400" total_classes="1" referenced_classes="15" total_bugs="0" total_size="41" num_packages="1" java_version="1.7.0_71" vm_version="24.71-b01" cpu_seconds="2.84" clock_seconds="1.07" peak_mbytes="339.80" alloc_mbytes="455.00" gc_seconds="0.02">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="41">
+      <ClassStats class="CountPrimitiveCalls" sourceFile="CountPrimitiveCalls.java" interface="false" size="41" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="217" invocations="309" avgMicrosecondsPerInvocation="704" maxMicrosecondsPerInvocation="19157" standardDeviationMircosecondsPerInvocation="1490"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="147" invocations="2" avgMicrosecondsPerInvocation="73852" maxMicrosecondsPerInvocation="128615" standardDeviationMircosecondsPerInvocation="54763"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="130" invocations="309" avgMicrosecondsPerInvocation="422" maxMicrosecondsPerInvocation="10251" standardDeviationMircosecondsPerInvocation="755"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="69" invocations="56" avgMicrosecondsPerInvocation="1242" maxMicrosecondsPerInvocation="6928" standardDeviationMircosecondsPerInvocation="1145"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="61" invocations="15" avgMicrosecondsPerInvocation="4073" maxMicrosecondsPerInvocation="21555" standardDeviationMircosecondsPerInvocation="6191"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="24" invocations="3" avgMicrosecondsPerInvocation="8280" maxMicrosecondsPerInvocation="20704" standardDeviationMircosecondsPerInvocation="8895"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="22" invocations="15" avgMicrosecondsPerInvocation="1524" maxMicrosecondsPerInvocation="7286" standardDeviationMircosecondsPerInvocation="2351"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="22" invocations="3" avgMicrosecondsPerInvocation="7555" maxMicrosecondsPerInvocation="18257" standardDeviationMircosecondsPerInvocation="7706"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="20" invocations="15" avgMicrosecondsPerInvocation="1346" maxMicrosecondsPerInvocation="4438" standardDeviationMircosecondsPerInvocation="1492"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="19" invocations="276" avgMicrosecondsPerInvocation="71" maxMicrosecondsPerInvocation="679" standardDeviationMircosecondsPerInvocation="96"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="18" invocations="3" avgMicrosecondsPerInvocation="6192" maxMicrosecondsPerInvocation="12388" standardDeviationMircosecondsPerInvocation="4924"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1445530766133" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1445530766145" release="" codeSize="65" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1445532177164" release="" codeSize="67" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1445532197903" release="" codeSize="69" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1445532242562" release="" codeSize="73" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1445532249563" release="" codeSize="73" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1445532269085" release="" codeSize="75" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1445532311446" release="" codeSize="75" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1445532593395" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1445532635052" release="" codeSize="76" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1445533402563" release="" codeSize="4" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1445533405930" release="" codeSize="85" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1445533440886" release="" codeSize="85" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1445533468249" release="" codeSize="4" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1445533472939" release="" codeSize="4" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1445533476825" release="" codeSize="5" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1445533481954" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1445533485373" release="" codeSize="5" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1445533526303" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1445533653567" release="" codeSize="106" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1445533769216" release="" codeSize="106" numClasses="1"/>
+    <AppVersion sequence="21" timestamp="1445534125799" release="" codeSize="105" numClasses="1"/>
+    <AppVersion sequence="22" timestamp="1445534160755" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="23" timestamp="1445534224277" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="24" timestamp="1445534434074" release="" codeSize="53" numClasses="1"/>
+    <AppVersion sequence="25" timestamp="1445534478520" release="" codeSize="54" numClasses="1"/>
+    <AppVersion sequence="26" timestamp="1445534483419" release="" codeSize="54" numClasses="1"/>
+    <AppVersion sequence="27" timestamp="1445534532888" release="" codeSize="53" numClasses="1"/>
+    <AppVersion sequence="28" timestamp="1445534563756" release="" codeSize="51" numClasses="1"/>
+    <AppVersion sequence="29" timestamp="1445534693284" release="" codeSize="54" numClasses="1"/>
+    <AppVersion sequence="30" timestamp="1445534759394" release="" codeSize="43" numClasses="1"/>
+    <AppVersion sequence="31" timestamp="1445534796144" release="" codeSize="43" numClasses="1"/>
+    <AppVersion sequence="32" timestamp="1445534877099" release="" codeSize="43" numClasses="1"/>
+    <AppVersion sequence="33" timestamp="1445535079211" release="" codeSize="41" numClasses="1"/>
+    <AppVersion sequence="34" timestamp="1445535270808" release="" codeSize="82" numClasses="2"/>
+    <AppVersion sequence="35" timestamp="1445604736520" release="" codeSize="49" numClasses="1"/>
+    <AppVersion sequence="36" timestamp="1445605384544" release="" codeSize="75" numClasses="1"/>
+  </History>
+</BugCollection>

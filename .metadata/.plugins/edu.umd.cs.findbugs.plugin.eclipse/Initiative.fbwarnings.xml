@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="93" timestamp="1450496852869" analysisTimestamp="1450496852304" release="">
+  <Project projectName="Initiative">
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/Initiative/bin/Initiative$Com$CharacterKeySort.class</Jar>
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/Initiative/bin/Initiative$Com$CharacterValueSort.class</Jar>
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/Initiative/bin/Initiative$Com$StringKeySort.class</Jar>
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/Initiative/bin/Initiative$Com$StringValueSort.class</Jar>
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/Initiative/bin/Initiative$Com.class</Jar>
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/Initiative/bin/Initiative$Helper.class</Jar>
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/Initiative/bin/Initiative$Sort.class</Jar>
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/Initiative/bin/Initiative.class</Jar>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/Initiative/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/rt.jar</AuxClasspathEntry>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/Initiative/src</SrcDir>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/Initiative/test</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="5" last="65" removedByChange="true">
+    <Class classname="Initiative">
+      <SourceLine classname="Initiative" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Class>
+    <Method classname="Initiative" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Initiative" start="235" end="267" startBytecode="0" endBytecode="57" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Method>
+    <LocalVariable name="characters" register="4" pc="108" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Initiative" start="262" end="262" startBytecode="106" endBytecode="106" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    <SourceLine classname="Initiative" start="262" end="262" startBytecode="106" endBytecode="106" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="characters"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="28" last="65" removedByChange="true">
+    <Class classname="Initiative">
+      <SourceLine classname="Initiative" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Class>
+    <Method classname="Initiative" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Initiative" start="235" end="267" startBytecode="0" endBytecode="57" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Method>
+    <LocalVariable name="words" register="5" pc="117" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Initiative" start="263" end="263" startBytecode="115" endBytecode="115" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    <SourceLine classname="Initiative" start="263" end="263" startBytecode="115" endBytecode="115" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="words"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="12" last="13" removedByChange="true">
+    <Class classname="Initiative">
+      <SourceLine classname="Initiative" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Class>
+    <Method classname="Initiative" name="valueSort" signature="(Ljava/util/Map;)V" isStatic="true">
+      <SourceLine classname="Initiative" start="70" end="75" startBytecode="0" endBytecode="8" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Method>
+    <LocalVariable name="values" register="1" pc="8" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Initiative" start="70" end="70" startBytecode="7" endBytecode="7" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    <SourceLine classname="Initiative" start="70" end="70" startBytecode="7" endBytecode="7" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="values"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="23" last="33" removedByChange="true">
+    <Class classname="Initiative">
+      <SourceLine classname="Initiative" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Class>
+    <Method classname="Initiative" name="lineReader" signature="(Ljava/lang/String;I)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="Initiative" start="123" end="132" startBytecode="0" endBytecode="42" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Method>
+    <LocalVariable name="word" register="2" pc="65" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Initiative" start="129" end="129" startBytecode="64" endBytecode="64" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    <SourceLine classname="Initiative" start="129" end="129" startBytecode="64" endBytecode="64" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="word"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="68" last="75" removedByChange="true">
+    <Class classname="Initiative">
+      <SourceLine classname="Initiative" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Class>
+    <Method classname="Initiative" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Initiative" start="232" end="271" startBytecode="0" endBytecode="70" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Method>
+    <LocalVariable name="cKeys" register="7" pc="139" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Initiative" start="266" end="266" startBytecode="137" endBytecode="137" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    <SourceLine classname="Initiative" start="266" end="266" startBytecode="137" endBytecode="137" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="cKeys"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="68" last="75" removedByChange="true">
+    <Class classname="Initiative">
+      <SourceLine classname="Initiative" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Class>
+    <Method classname="Initiative" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Initiative" start="232" end="271" startBytecode="0" endBytecode="70" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Method>
+    <LocalVariable name="cValues" register="6" pc="132" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Initiative" start="264" end="264" startBytecode="130" endBytecode="130" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    <SourceLine classname="Initiative" start="264" end="264" startBytecode="130" endBytecode="130" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="cValues"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="68" last="75" removedByChange="true">
+    <Class classname="Initiative">
+      <SourceLine classname="Initiative" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Class>
+    <Method classname="Initiative" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Initiative" start="232" end="271" startBytecode="0" endBytecode="70" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Method>
+    <LocalVariable name="sKeys" register="9" pc="153" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Initiative" start="269" end="269" startBytecode="151" endBytecode="151" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    <SourceLine classname="Initiative" start="269" end="269" startBytecode="151" endBytecode="151" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="sKeys"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="68" last="75" removedByChange="true">
+    <Class classname="Initiative">
+      <SourceLine classname="Initiative" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Class>
+    <Method classname="Initiative" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Initiative" start="232" end="271" startBytecode="0" endBytecode="70" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Method>
+    <LocalVariable name="sValues" register="8" pc="146" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Initiative" start="268" end="268" startBytecode="144" endBytecode="144" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    <SourceLine classname="Initiative" start="268" end="268" startBytecode="144" endBytecode="144" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="sValues"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="36" last="65" removedByChange="true">
+    <Class classname="Initiative">
+      <SourceLine classname="Initiative" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Class>
+    <Method classname="Initiative" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Initiative" start="235" end="267" startBytecode="0" endBytecode="57" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Method>
+    <LocalVariable name="total" register="6" pc="123" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Initiative" start="265" end="265" startBytecode="121" endBytecode="121" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    <SourceLine classname="Initiative" start="265" end="265" startBytecode="121" endBytecode="121" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="total"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="13" last="13" removedByChange="true">
+    <Class classname="Initiative">
+      <SourceLine classname="Initiative" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Class>
+    <Method classname="Initiative" name="valueSort" signature="(Ljava/util/Map;)V" isStatic="true">
+      <SourceLine classname="Initiative" start="70" end="75" startBytecode="0" endBytecode="8" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Method>
+    <LocalVariable name="tempValues" register="2" pc="18" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Initiative" start="72" end="72" startBytecode="17" endBytecode="17" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    <SourceLine classname="Initiative" start="72" end="72" startBytecode="17" endBytecode="17" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="tempValues"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="5">
+    <Class classname="Initiative">
+      <SourceLine classname="Initiative" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Class>
+    <Method classname="Initiative" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Initiative" start="301" end="384" startBytecode="0" endBytecode="1046" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Method>
+    <Method classname="java.io.FileReader" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader" start="58" end="59" startBytecode="0" endBytecode="40" sourcefile="FileReader.java" sourcepath="java/io/FileReader.java"/>
+    </Method>
+    <SourceLine classname="Initiative" start="330" end="330" startBytecode="124" endBytecode="124" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    <SourceLine classname="Initiative" start="330" end="330" startBytecode="124" endBytecode="124" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="76">
+    <Class classname="Initiative">
+      <SourceLine classname="Initiative" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Class>
+    <Method classname="Initiative" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Initiative" start="301" end="384" startBytecode="0" endBytecode="1046" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Method>
+    <Method classname="java.io.FileWriter" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileWriter" start="63" end="64" startBytecode="0" endBytecode="40" sourcefile="FileWriter.java" sourcepath="java/io/FileWriter.java"/>
+    </Method>
+    <SourceLine classname="Initiative" start="372" end="372" startBytecode="309" endBytecode="309" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    <SourceLine classname="Initiative" start="372" end="372" startBytecode="309" endBytecode="309" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="5">
+    <Class classname="Initiative">
+      <SourceLine classname="Initiative" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Class>
+    <Method classname="Initiative" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Initiative" start="301" end="384" startBytecode="0" endBytecode="1046" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="72" end="79" startBytecode="0" endBytecode="108" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="Initiative" start="305" end="305" startBytecode="27" endBytecode="27" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    <SourceLine classname="Initiative" start="305" end="305" startBytecode="27" endBytecode="27" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+  </BugInstance>
+  <BugInstance type="GC_UNRELATED_TYPES" priority="1" rank="1" abbrev="GC" category="CORRECTNESS" first="91" last="91" removedByChange="true">
+    <Class classname="Initiative">
+      <SourceLine classname="Initiative" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Class>
+    <Method classname="Initiative" name="htmlOutput" signature="(Ljava/io/PrintWriter;ILjava/util/Map;Ljava/util/Map;Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Initiative" start="231" end="266" startBytecode="0" endBytecode="102" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/Character;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.Character" start="122" end="7030" sourcefile="Character.java" sourcepath="java/lang/Character.java"/>
+    </Type>
+    <Type descriptor="Ljava/util/Map$Entry;" role="TYPE_EXPECTED" typeParameters="&lt;java.lang.Character,java.lang.Integer&gt;">
+      <SourceLine classname="java.util.Map$Entry" sourcefile="Map.java" sourcepath="java/util/Map.java"/>
+    </Type>
+    <Method classname="java.util.List" name="contains" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.List" sourcefile="List.java" sourcepath="java/util/List.java"/>
+    </Method>
+    <LocalVariable name="charKeySorted" register="5" pc="48" role="LOCAL_VARIABLE_INVOKED_ON"/>
+    <Method classname="java.lang.Character" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.Character" start="4422" end="4425" startBytecode="0" endBytecode="72" sourcefile="Character.java" sourcepath="java/lang/Character.java"/>
+    </Method>
+    <SourceLine classname="Initiative" start="241" end="241" startBytecode="51" endBytecode="51" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    <SourceLine classname="Initiative" start="241" end="241" startBytecode="51" endBytecode="51" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="2" last="7" removedByChange="true">
+    <Class classname="Initiative">
+      <SourceLine classname="Initiative" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Class>
+    <Method classname="Initiative" name="charReader" signature="(Ljava/io/BufferedReader;)Ljava/util/Map;" isStatic="true">
+      <SourceLine classname="Initiative" start="24" end="59" startBytecode="0" endBytecode="496" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Method>
+    <LocalVariable name="line" register="2" pc="18" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Initiative" start="38" end="38" startBytecode="44" endBytecode="44" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    <SourceLine classname="Initiative" start="38" end="38" startBytecode="44" endBytecode="44" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="80" last="80" removedByChange="true">
+    <Class classname="Initiative">
+      <SourceLine classname="Initiative" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Class>
+    <Method classname="Initiative" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Initiative" start="286" end="367" startBytecode="0" endBytecode="1041" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Method>
+    <LocalVariable name="filename" register="2" pc="57" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Initiative" start="301" end="301" startBytecode="58" endBytecode="58" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    <SourceLine classname="Initiative" start="301" end="301" startBytecode="58" endBytecode="58" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="19" last="19" removedByChange="true">
+    <Class classname="Initiative">
+      <SourceLine classname="Initiative" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Class>
+    <Method classname="Initiative" name="wordReader" signature="(Ljava/io/BufferedReader;)Ljava/util/Map;" isStatic="true">
+      <SourceLine classname="Initiative" start="77" end="109" startBytecode="0" endBytecode="419" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Method>
+    <LocalVariable name="line" register="2" pc="18" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Initiative" start="92" end="92" startBytecode="112" endBytecode="112" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    <SourceLine classname="Initiative" start="92" end="92" startBytecode="112" endBytecode="112" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_PARAM_DEREF" priority="2" rank="8" abbrev="NP" category="CORRECTNESS" first="5" last="32" removedByChange="true">
+    <Class classname="Initiative">
+      <SourceLine classname="Initiative" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Class>
+    <Method classname="Initiative" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Initiative" start="161" end="189" startBytecode="0" endBytecode="395" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Method>
+    <Method classname="Initiative" name="charReader" signature="(Ljava/io/BufferedReader;)Ljava/util/Map;" isStatic="true" role="METHOD_CALLED">
+      <SourceLine classname="Initiative" start="39" end="73" startBytecode="0" endBytecode="463" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Method>
+    <Int value="1" role="INT_MAYBE_NULL_ARG"/>
+    <LocalVariable name="filein" register="3" pc="73" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Initiative" start="186" end="186" startBytecode="105" endBytecode="105" sourcefile="Initiative.java" sourcepath="Initiative.java" role="SOURCE_LINE_INVOKED"/>
+    <SourceLine classname="Initiative" start="176" end="176" startBytecode="55" endBytecode="55" sourcefile="Initiative.java" sourcepath="Initiative.java" role="SOURCE_LINE_NULL_VALUE"/>
+    <SourceLine classname="Initiative" start="179" end="179" startBytecode="76" endBytecode="76" sourcefile="Initiative.java" sourcepath="Initiative.java" role="SOURCE_LINE_KNOWN_NULL"/>
+    <SourceLine classname="Initiative" start="180" end="180" startBytecode="83" endBytecode="83" sourcefile="Initiative.java" sourcepath="Initiative.java" role="SOURCE_LINE_KNOWN_NULL"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullDerefProperty.ALWAYS_ON_EXCEPTION_PATH" value="true"/>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE" first="19" last="22" removedByChange="true">
+    <Class classname="Initiative">
+      <SourceLine classname="Initiative" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Class>
+    <Method classname="Initiative" name="lineReader" signature="(Ljava/lang/String;I)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="Initiative" start="123" end="133" startBytecode="0" endBytecode="202" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Method>
+    <SourceLine classname="Initiative" start="129" end="129" startBytecode="33" endBytecode="33" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+  </BugInstance>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE" first="12" last="16" removedByChange="true">
+    <Class classname="Initiative$ValueSort">
+      <SourceLine classname="Initiative$ValueSort" start="1" end="32" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Class>
+    <SourceLine classname="Initiative$ValueSort" start="28" end="28" startBytecode="0" endBytecode="0" sourcefile="ValueSort.java" sourcepath="ValueSort.java"/>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="54" last="55" removedByChange="true">
+    <Class classname="Initiative$helper">
+      <SourceLine classname="Initiative$helper" start="35" end="66" sourcefile="Initiative.java" sourcepath="Initiative.java"/>
+    </Class>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 18 Dec 2015 21:47:32 -0600" total_classes="8" referenced_classes="41" total_bugs="3" total_size="218" num_packages="1" java_version="1.7.0_71" vm_version="24.71-b01" cpu_seconds="1.11" clock_seconds="0.57" peak_mbytes="488.05" alloc_mbytes="455.00" gc_seconds="0.03" priority_1="3">
+    <PackageStats package="" total_bugs="3" total_types="8" total_size="218" priority_1="3">
+      <ClassStats class="Initiative" sourceFile="Initiative.java" interface="false" size="127" bugs="3" priority_1="3"/>
+      <ClassStats class="Initiative$Com" sourceFile="Initiative.java" interface="false" size="3" bugs="0"/>
+      <ClassStats class="Initiative$Com$CharacterKeySort" sourceFile="Initiative.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="Initiative$Com$CharacterValueSort" sourceFile="Initiative.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="Initiative$Com$StringKeySort" sourceFile="Initiative.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="Initiative$Com$StringValueSort" sourceFile="Initiative.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="Initiative$Helper" sourceFile="Initiative.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="Initiative$Sort" sourceFile="Initiative.java" interface="false" size="31" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="94" invocations="2" avgMicrosecondsPerInvocation="47477" maxMicrosecondsPerInvocation="80974" standardDeviationMircosecondsPerInvocation="33497"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="83" invocations="401" avgMicrosecondsPerInvocation="207" maxMicrosecondsPerInvocation="2512" standardDeviationMircosecondsPerInvocation="324"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.StreamResourceTracker" totalMilliseconds="29" invocations="26" avgMicrosecondsPerInvocation="1144" maxMicrosecondsPerInvocation="20378" standardDeviationMircosecondsPerInvocation="3847"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="22" invocations="41" avgMicrosecondsPerInvocation="557" maxMicrosecondsPerInvocation="3647" standardDeviationMircosecondsPerInvocation="847"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="21" invocations="150" avgMicrosecondsPerInvocation="143" maxMicrosecondsPerInvocation="679" standardDeviationMircosecondsPerInvocation="123"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="18" invocations="30" avgMicrosecondsPerInvocation="607" maxMicrosecondsPerInvocation="3850" standardDeviationMircosecondsPerInvocation="1047"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="17" invocations="401" avgMicrosecondsPerInvocation="43" maxMicrosecondsPerInvocation="228" standardDeviationMircosecondsPerInvocation="26"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="17" invocations="30" avgMicrosecondsPerInvocation="584" maxMicrosecondsPerInvocation="2756" standardDeviationMircosecondsPerInvocation="837"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="17" invocations="28" avgMicrosecondsPerInvocation="616" maxMicrosecondsPerInvocation="3599" standardDeviationMircosecondsPerInvocation="1011"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="12" invocations="28" avgMicrosecondsPerInvocation="428" maxMicrosecondsPerInvocation="2887" standardDeviationMircosecondsPerInvocation="736"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1450318711862" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1450318711866" release="" codeSize="8" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1450320171725" release="" codeSize="28" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1450320256504" release="" codeSize="28" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1450320375058" release="" codeSize="28" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1450320422954" release="" codeSize="44" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1450320476926" release="" codeSize="24" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1450320484709" release="" codeSize="46" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1450320556707" release="" codeSize="47" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1450320563550" release="" codeSize="44" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1450320599226" release="" codeSize="44" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1450320639475" release="" codeSize="44" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1450320837400" release="" codeSize="50" numClasses="2"/>
+    <AppVersion sequence="13" timestamp="1450321034045" release="" codeSize="52" numClasses="2"/>
+    <AppVersion sequence="14" timestamp="1450321282444" release="" codeSize="49" numClasses="2"/>
+    <AppVersion sequence="15" timestamp="1450322178642" release="" codeSize="56" numClasses="2"/>
+    <AppVersion sequence="16" timestamp="1450322238977" release="" codeSize="58" numClasses="2"/>
+    <AppVersion sequence="17" timestamp="1450322289077" release="" codeSize="58" numClasses="2"/>
+    <AppVersion sequence="18" timestamp="1450322348158" release="" codeSize="60" numClasses="2"/>
+    <AppVersion sequence="19" timestamp="1450323128784" release="" codeSize="86" numClasses="2"/>
+    <AppVersion sequence="20" timestamp="1450323193918" release="" codeSize="68" numClasses="2"/>
+    <AppVersion sequence="21" timestamp="1450323243016" release="" codeSize="87" numClasses="2"/>
+    <AppVersion sequence="22" timestamp="1450323439648" release="" codeSize="87" numClasses="2"/>
+    <AppVersion sequence="23" timestamp="1450323530616" release="" codeSize="87" numClasses="2"/>
+    <AppVersion sequence="24" timestamp="1450323593559" release="" codeSize="87" numClasses="2"/>
+    <AppVersion sequence="25" timestamp="1450323737897" release="" codeSize="87" numClasses="2"/>
+    <AppVersion sequence="26" timestamp="1450323797075" release="" codeSize="87" numClasses="2"/>
+    <AppVersion sequence="27" timestamp="1450323906764" release="" codeSize="87" numClasses="2"/>
+    <AppVersion sequence="28" timestamp="1450323947539" release="" codeSize="89" numClasses="2"/>
+    <AppVersion sequence="29" timestamp="1450324102930" release="" codeSize="69" numClasses="2"/>
+    <AppVersion sequence="30" timestamp="1450324144450" release="" codeSize="89" numClasses="2"/>
+    <AppVersion sequence="31" timestamp="1450324264853" release="" codeSize="91" numClasses="2"/>
+    <AppVersion sequence="32" timestamp="1450324360511" release="" codeSize="89" numClasses="2"/>
+    <AppVersion sequence="33" timestamp="1450324506671" release="" codeSize="92" numClasses="2"/>
+    <AppVersion sequence="34" timestamp="1450325253987" release="" codeSize="48" numClasses="2"/>
+    <AppVersion sequence="35" timestamp="1450325949935" release="" codeSize="78" numClasses="2"/>
+    <AppVersion sequence="36" timestamp="1450325994402" release="" codeSize="79" numClasses="2"/>
+    <AppVersion sequence="37" timestamp="1450326118971" release="" codeSize="80" numClasses="2"/>
+    <AppVersion sequence="38" timestamp="1450326225604" release="" codeSize="80" numClasses="2"/>
+    <AppVersion sequence="39" timestamp="1450326398041" release="" codeSize="80" numClasses="2"/>
+    <AppVersion sequence="40" timestamp="1450326504146" release="" codeSize="79" numClasses="2"/>
+    <AppVersion sequence="41" timestamp="1450326577088" release="" codeSize="79" numClasses="2"/>
+    <AppVersion sequence="42" timestamp="1450326710860" release="" codeSize="78" numClasses="2"/>
+    <AppVersion sequence="43" timestamp="1450326752191" release="" codeSize="80" numClasses="2"/>
+    <AppVersion sequence="44" timestamp="1450326828094" release="" codeSize="80" numClasses="2"/>
+    <AppVersion sequence="45" timestamp="1450326999411" release="" codeSize="80" numClasses="2"/>
+    <AppVersion sequence="46" timestamp="1450327051440" release="" codeSize="80" numClasses="2"/>
+    <AppVersion sequence="47" timestamp="1450327248054" release="" codeSize="81" numClasses="2"/>
+    <AppVersion sequence="48" timestamp="1450327394463" release="" codeSize="81" numClasses="2"/>
+    <AppVersion sequence="49" timestamp="1450327479478" release="" codeSize="82" numClasses="2"/>
+    <AppVersion sequence="50" timestamp="1450327582496" release="" codeSize="82" numClasses="2"/>
+    <AppVersion sequence="51" timestamp="1450327952358" release="" codeSize="89" numClasses="2"/>
+    <AppVersion sequence="52" timestamp="1450328030405" release="" codeSize="88" numClasses="2"/>
+    <AppVersion sequence="53" timestamp="1450328160022" release="" codeSize="88" numClasses="2"/>
+    <AppVersion sequence="54" timestamp="1450328277658" release="" codeSize="58" numClasses="3"/>
+    <AppVersion sequence="55" timestamp="1450328286057" release="" codeSize="91" numClasses="3"/>
+    <AppVersion sequence="56" timestamp="1450328622822" release="" codeSize="96" numClasses="4"/>
+    <AppVersion sequence="57" timestamp="1450328668535" release="" codeSize="101" numClasses="4"/>
+    <AppVersion sequence="58" timestamp="1450328716177" release="" codeSize="110" numClasses="5"/>
+    <AppVersion sequence="59" timestamp="1450328725486" release="" codeSize="36" numClasses="6"/>
+    <AppVersion sequence="60" timestamp="1450328790357" release="" codeSize="114" numClasses="6"/>
+    <AppVersion sequence="61" timestamp="1450328858622" release="" codeSize="119" numClasses="7"/>
+    <AppVersion sequence="62" timestamp="1450328943661" release="" codeSize="121" numClasses="7"/>
+    <AppVersion sequence="63" timestamp="1450329026801" release="" codeSize="44" numClasses="7"/>
+    <AppVersion sequence="64" timestamp="1450329082923" release="" codeSize="47" numClasses="7"/>
+    <AppVersion sequence="65" timestamp="1450329134154" release="" codeSize="149" numClasses="7"/>
+    <AppVersion sequence="66" timestamp="1450329207453" release="" codeSize="35" numClasses="6"/>
+    <AppVersion sequence="67" timestamp="1450329273303" release="" codeSize="145" numClasses="7"/>
+    <AppVersion sequence="68" timestamp="1450329438013" release="" codeSize="151" numClasses="7"/>
+    <AppVersion sequence="69" timestamp="1450329546510" release="" codeSize="151" numClasses="7"/>
+    <AppVersion sequence="70" timestamp="1450329631879" release="" codeSize="151" numClasses="7"/>
+    <AppVersion sequence="71" timestamp="1450329844108" release="" codeSize="151" numClasses="7"/>
+    <AppVersion sequence="72" timestamp="1450329913010" release="" codeSize="151" numClasses="7"/>
+    <AppVersion sequence="73" timestamp="1450329994775" release="" codeSize="151" numClasses="7"/>
+    <AppVersion sequence="74" timestamp="1450330173629" release="" codeSize="154" numClasses="8"/>
+    <AppVersion sequence="75" timestamp="1450330240850" release="" codeSize="154" numClasses="8"/>
+    <AppVersion sequence="76" timestamp="1450330597481" release="" codeSize="166" numClasses="8"/>
+    <AppVersion sequence="77" timestamp="1450401790431" release="" codeSize="165" numClasses="8"/>
+    <AppVersion sequence="78" timestamp="1450403474478" release="" codeSize="163" numClasses="8"/>
+    <AppVersion sequence="79" timestamp="1450404383212" release="" codeSize="163" numClasses="8"/>
+    <AppVersion sequence="80" timestamp="1450404462044" release="" codeSize="214" numClasses="8"/>
+    <AppVersion sequence="81" timestamp="1450412650477" release="" codeSize="216" numClasses="8"/>
+    <AppVersion sequence="82" timestamp="1450412704547" release="" codeSize="202" numClasses="8"/>
+    <AppVersion sequence="83" timestamp="1450412713878" release="" codeSize="202" numClasses="8"/>
+    <AppVersion sequence="84" timestamp="1450412732977" release="" codeSize="216" numClasses="8"/>
+    <AppVersion sequence="85" timestamp="1450412839564" release="" codeSize="8" numClasses="1"/>
+    <AppVersion sequence="86" timestamp="1450412943104" release="" codeSize="218" numClasses="8"/>
+    <AppVersion sequence="87" timestamp="1450413273874" release="" codeSize="200" numClasses="8"/>
+    <AppVersion sequence="88" timestamp="1450496087442" release="" codeSize="130" numClasses="8"/>
+    <AppVersion sequence="89" timestamp="1450496109538" release="" codeSize="152" numClasses="8"/>
+    <AppVersion sequence="90" timestamp="1450496279204" release="" codeSize="182" numClasses="8"/>
+    <AppVersion sequence="91" timestamp="1450496327310" release="" codeSize="207" numClasses="8"/>
+    <AppVersion sequence="92" timestamp="1450496569511" release="" codeSize="214" numClasses="8"/>
+  </History>
+</BugCollection>

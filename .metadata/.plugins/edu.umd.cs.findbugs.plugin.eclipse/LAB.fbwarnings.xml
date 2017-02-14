@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="2" timestamp="1429683331133" analysisTimestamp="1429683324736" release="">
+  <Project projectName="LAB">
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/LAB/bin/DemoController.class</Jar>
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/LAB/bin/DemoController1.class</Jar>
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/LAB/bin/DemoGUI.class</Jar>
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/LAB/bin/DemoModel.class</Jar>
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/LAB/bin/DemoModel1.class</Jar>
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/LAB/bin/DemoView.class</Jar>
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/LAB/bin/DemoView1.class</Jar>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/LAB/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/rt.jar</AuxClasspathEntry>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/LAB/test</SrcDir>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/LAB/src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 22 Apr 2015 02:15:24 -0400" total_classes="7" referenced_classes="278" total_bugs="0" total_size="125" num_packages="1" java_version="1.7.0_71" vm_version="24.71-b01" cpu_seconds="18.55" clock_seconds="6.40" peak_mbytes="311.69" alloc_mbytes="455.00" gc_seconds="0.06">
+    <PackageStats package="" total_bugs="0" total_types="7" total_size="125">
+      <ClassStats class="DemoController" sourceFile="DemoController.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="DemoController1" sourceFile="DemoController1.java" interface="false" size="25" bugs="0"/>
+      <ClassStats class="DemoGUI" sourceFile="DemoGUI.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="DemoModel" sourceFile="DemoModel.java" interface="true" size="5" bugs="0"/>
+      <ClassStats class="DemoModel1" sourceFile="DemoModel1.java" interface="false" size="18" bugs="0"/>
+      <ClassStats class="DemoView" sourceFile="DemoView.java" interface="true" size="4" bugs="0"/>
+      <ClassStats class="DemoView1" sourceFile="DemoView1.java" interface="false" size="60" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="1177" invocations="278" avgMicrosecondsPerInvocation="4237" maxMicrosecondsPerInvocation="84939" standardDeviationMircosecondsPerInvocation="9772"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="942" invocations="1340" avgMicrosecondsPerInvocation="703" maxMicrosecondsPerInvocation="26621" standardDeviationMircosecondsPerInvocation="1765"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="774" invocations="579" avgMicrosecondsPerInvocation="1337" maxMicrosecondsPerInvocation="27388" standardDeviationMircosecondsPerInvocation="2249"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="409" invocations="1343" avgMicrosecondsPerInvocation="305" maxMicrosecondsPerInvocation="6090" standardDeviationMircosecondsPerInvocation="577"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="382" invocations="278" avgMicrosecondsPerInvocation="1376" maxMicrosecondsPerInvocation="24886" standardDeviationMircosecondsPerInvocation="2974"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="305" invocations="278" avgMicrosecondsPerInvocation="1100" maxMicrosecondsPerInvocation="93746" standardDeviationMircosecondsPerInvocation="7536"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="268" invocations="278" avgMicrosecondsPerInvocation="966" maxMicrosecondsPerInvocation="14036" standardDeviationMircosecondsPerInvocation="1879"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="235" invocations="278" avgMicrosecondsPerInvocation="846" maxMicrosecondsPerInvocation="19386" standardDeviationMircosecondsPerInvocation="2111"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="229" invocations="2" avgMicrosecondsPerInvocation="114551" maxMicrosecondsPerInvocation="144599" standardDeviationMircosecondsPerInvocation="30048"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="228" invocations="315" avgMicrosecondsPerInvocation="726" maxMicrosecondsPerInvocation="12070" standardDeviationMircosecondsPerInvocation="1314"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1429683276560" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1429683276563" release="" codeSize="37" numClasses="4"/>
+  </History>
+</BugCollection>

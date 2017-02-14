@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="6" timestamp="1428683865543" analysisTimestamp="1428683864884" release="">
+  <Project projectName="PizzaOrderManager">
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/PizzaOrderManager/bin/PizzaOrderManager.class</Jar>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/PizzaOrderManager/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/rt.jar</AuxClasspathEntry>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/PizzaOrderManager/src</SrcDir>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/PizzaOrderManager/test</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="2" last="2" removedByChange="true">
+    <Class classname="PizzaOrderManager">
+      <SourceLine classname="PizzaOrderManager" sourcefile="PizzaOrderManager.java" sourcepath="PizzaOrderManager.java"/>
+    </Class>
+    <Method classname="PizzaOrderManager" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="PizzaOrderManager" start="143" end="176" startBytecode="0" endBytecode="67" sourcefile="PizzaOrderManager.java" sourcepath="PizzaOrderManager.java"/>
+    </Method>
+    <LocalVariable name="in" register="1" pc="10" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="PizzaOrderManager" start="143" end="143" startBytecode="9" endBytecode="9" sourcefile="PizzaOrderManager.java" sourcepath="PizzaOrderManager.java"/>
+    <SourceLine classname="PizzaOrderManager" start="143" end="143" startBytecode="9" endBytecode="9" sourcefile="PizzaOrderManager.java" sourcepath="PizzaOrderManager.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="in"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="2" last="2" removedByChange="true">
+    <Class classname="PizzaOrderManager">
+      <SourceLine classname="PizzaOrderManager" sourcefile="PizzaOrderManager.java" sourcepath="PizzaOrderManager.java"/>
+    </Class>
+    <Method classname="PizzaOrderManager" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="PizzaOrderManager" start="143" end="176" startBytecode="0" endBytecode="67" sourcefile="PizzaOrderManager.java" sourcepath="PizzaOrderManager.java"/>
+    </Method>
+    <LocalVariable name="out" register="2" pc="18" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="PizzaOrderManager" start="144" end="144" startBytecode="17" endBytecode="17" sourcefile="PizzaOrderManager.java" sourcepath="PizzaOrderManager.java"/>
+    <SourceLine classname="PizzaOrderManager" start="144" end="144" startBytecode="17" endBytecode="17" sourcefile="PizzaOrderManager.java" sourcepath="PizzaOrderManager.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="out"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="2" last="2" removedByChange="true">
+    <Class classname="PizzaOrderManager">
+      <SourceLine classname="PizzaOrderManager" sourcefile="PizzaOrderManager.java" sourcepath="PizzaOrderManager.java"/>
+    </Class>
+    <Method classname="PizzaOrderManager" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="PizzaOrderManager" start="143" end="176" startBytecode="0" endBytecode="67" sourcefile="PizzaOrderManager.java" sourcepath="PizzaOrderManager.java"/>
+    </Method>
+    <LocalVariable name="toppingMenu" register="4" pc="35" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="PizzaOrderManager" start="146" end="146" startBytecode="33" endBytecode="33" sourcefile="PizzaOrderManager.java" sourcepath="PizzaOrderManager.java"/>
+    <SourceLine classname="PizzaOrderManager" start="146" end="146" startBytecode="33" endBytecode="33" sourcefile="PizzaOrderManager.java" sourcepath="PizzaOrderManager.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="toppingMenu"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED" priority="1" rank="3" abbrev="RV" category="CORRECTNESS" first="3" last="3" removedByChange="true">
+    <Class classname="PizzaOrderManager">
+      <SourceLine classname="PizzaOrderManager" sourcefile="PizzaOrderManager.java" sourcepath="PizzaOrderManager.java"/>
+    </Class>
+    <Method classname="PizzaOrderManager" name="getPriceMap" signature="(Ljava/lang/String;Lcomponents/map/Map;)V" isStatic="true">
+      <SourceLine classname="PizzaOrderManager" start="42" end="64" startBytecode="0" endBytecode="402" sourcefile="PizzaOrderManager.java" sourcepath="PizzaOrderManager.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="substring" signature="(II)Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="1903" end="1913" startBytecode="0" endBytecode="149" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="PizzaOrderManager" start="57" end="57" startBytecode="91" endBytecode="91" sourcefile="PizzaOrderManager.java" sourcepath="PizzaOrderManager.java"/>
+    <SourceLine classname="PizzaOrderManager" start="57" end="57" startBytecode="91" endBytecode="91" sourcefile="PizzaOrderManager.java" sourcepath="PizzaOrderManager.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 10 Apr 2015 12:37:44 -0400" total_classes="1" referenced_classes="17" total_bugs="0" total_size="64" num_packages="1" java_version="1.7.0_71" vm_version="24.71-b01" cpu_seconds="1.23" clock_seconds="0.66" peak_mbytes="375.28" alloc_mbytes="455.00" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="64">
+      <ClassStats class="PizzaOrderManager" sourceFile="PizzaOrderManager.java" interface="false" size="64" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="138" invocations="2" avgMicrosecondsPerInvocation="69439" maxMicrosecondsPerInvocation="127544" standardDeviationMircosecondsPerInvocation="58105"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="116" invocations="319" avgMicrosecondsPerInvocation="365" maxMicrosecondsPerInvocation="15196" standardDeviationMircosecondsPerInvocation="975"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="108" invocations="319" avgMicrosecondsPerInvocation="340" maxMicrosecondsPerInvocation="3902" standardDeviationMircosecondsPerInvocation="446"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="23" invocations="17" avgMicrosecondsPerInvocation="1374" maxMicrosecondsPerInvocation="6836" standardDeviationMircosecondsPerInvocation="1894"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="20" invocations="9" avgMicrosecondsPerInvocation="2252" maxMicrosecondsPerInvocation="4429" standardDeviationMircosecondsPerInvocation="1664"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="19" invocations="62" avgMicrosecondsPerInvocation="317" maxMicrosecondsPerInvocation="1184" standardDeviationMircosecondsPerInvocation="253"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="19" invocations="9" avgMicrosecondsPerInvocation="2162" maxMicrosecondsPerInvocation="4101" standardDeviationMircosecondsPerInvocation="1506"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="15" invocations="6" avgMicrosecondsPerInvocation="2664" maxMicrosecondsPerInvocation="5219" standardDeviationMircosecondsPerInvocation="2288"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="15" invocations="6" avgMicrosecondsPerInvocation="2617" maxMicrosecondsPerInvocation="5617" standardDeviationMircosecondsPerInvocation="2189"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="14" invocations="6" avgMicrosecondsPerInvocation="2350" maxMicrosecondsPerInvocation="4609" standardDeviationMircosecondsPerInvocation="1831"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1428679989870" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1428679989875" release="" codeSize="8" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1428680081596" release="" codeSize="40" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1428680094755" release="" codeSize="55" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1428680405163" release="" codeSize="69" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1428680727497" release="" codeSize="69" numClasses="1"/>
+  </History>
+</BugCollection>

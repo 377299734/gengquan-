@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="80" timestamp="1427952089885" analysisTimestamp="1427952089382" release="">
+  <Project projectName="CryptoUtilities">
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/CryptoUtilities/bin/CryptoUtilitiesTest.class</Jar>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/CryptoUtilities/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/rt.jar</AuxClasspathEntry>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/CryptoUtilities/test</SrcDir>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/CryptoUtilities/src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="4" last="7" removedByChange="true">
+    <Class classname="CryptoUtilities">
+      <SourceLine classname="CryptoUtilities" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Class>
+    <Method classname="CryptoUtilities" name="isEven" signature="(Lcomponents/naturalnumber/NaturalNumber;)Z" isStatic="true">
+      <SourceLine classname="CryptoUtilities" start="115" end="125" startBytecode="0" endBytecode="23" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Method>
+    <LocalVariable name="copy" register="1" pc="9" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="CryptoUtilities" start="115" end="115" startBytecode="8" endBytecode="8" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    <SourceLine classname="CryptoUtilities" start="115" end="115" startBytecode="8" endBytecode="8" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="copy"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="52" last="52" removedByChange="true">
+    <Class classname="CryptoUtilities">
+      <SourceLine classname="CryptoUtilities" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Class>
+    <Method classname="CryptoUtilities" name="isWitnessToCompositeness" signature="(Lcomponents/naturalnumber/NaturalNumber;Lcomponents/naturalnumber/NaturalNumber;)Z" isStatic="true">
+      <SourceLine classname="CryptoUtilities" start="219" end="250" startBytecode="0" endBytecode="106" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Method>
+    <LocalVariable name="two" register="8" pc="163" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="CryptoUtilities" start="232" end="232" startBytecode="161" endBytecode="161" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    <SourceLine classname="CryptoUtilities" start="232" end="232" startBytecode="161" endBytecode="161" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="two"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="19" last="19" removedByChange="true">
+    <Class classname="CryptoUtilities">
+      <SourceLine classname="CryptoUtilities" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Class>
+    <Method classname="CryptoUtilities" name="reduceToGCD" signature="(Lcomponents/naturalnumber/NaturalNumber;Lcomponents/naturalnumber/NaturalNumber;)V" isStatic="true">
+      <SourceLine classname="CryptoUtilities" start="105" end="127" startBytecode="0" endBytecode="62" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Method>
+    <LocalVariable name="GCD" register="4" pc="28" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="CryptoUtilities" start="107" end="107" startBytecode="26" endBytecode="26" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    <SourceLine classname="CryptoUtilities" start="107" end="107" startBytecode="26" endBytecode="26" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="GCD"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="49" last="50" removedByChange="true">
+    <Class classname="CryptoUtilities">
+      <SourceLine classname="CryptoUtilities" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Class>
+    <Method classname="CryptoUtilities" name="isPrime2" signature="(Lcomponents/naturalnumber/NaturalNumber;)Z" isStatic="true">
+      <SourceLine classname="CryptoUtilities" start="314" end="383" startBytecode="0" endBytecode="154" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Method>
+    <LocalVariable name="max" register="7" pc="215" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="CryptoUtilities" start="355" end="355" startBytecode="213" endBytecode="213" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    <SourceLine classname="CryptoUtilities" start="355" end="355" startBytecode="213" endBytecode="213" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="max"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="18" last="18" removedByChange="true">
+    <Class classname="CryptoUtilities">
+      <SourceLine classname="CryptoUtilities" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Class>
+    <Method classname="CryptoUtilities" name="reduceToGCD" signature="(Lcomponents/naturalnumber/NaturalNumber;Lcomponents/naturalnumber/NaturalNumber;)V" isStatic="true">
+      <SourceLine classname="CryptoUtilities" start="105" end="117" startBytecode="0" endBytecode="37" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Method>
+    <LocalVariable name="copyN2" register="5" pc="50" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="CryptoUtilities" start="111" end="111" startBytecode="48" endBytecode="48" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    <SourceLine classname="CryptoUtilities" start="111" end="111" startBytecode="48" endBytecode="48" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="copyN2"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.KILLED_BY_SUBSEQUENT_STORE" value="true"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_CLASS_AND_INTERFACE" priority="1" rank="4" abbrev="EC" category="CORRECTNESS" first="10" last="12" removedByChange="true">
+    <Class classname="CryptoUtilities">
+      <SourceLine classname="CryptoUtilities" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Class>
+    <Method classname="CryptoUtilities" name="powerMod" signature="(Lcomponents/naturalnumber/NaturalNumber;Lcomponents/naturalnumber/NaturalNumber;Lcomponents/naturalnumber/NaturalNumber;)V" isStatic="true">
+      <SourceLine classname="CryptoUtilities" start="145" end="170" startBytecode="0" endBytecode="68" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/Integer;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.Integer" start="52" end="1236" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Type>
+    <Type descriptor="Lcomponents/naturalnumber/NaturalNumber;" role="TYPE_EXPECTED">
+      <SourceLine classname="components.naturalnumber.NaturalNumber" sourcefile="SourceFile" sourcepath="components/naturalnumber/SourceFile"/>
+    </Type>
+    <Method classname="java.lang.Integer" name="valueOf" signature="(I)Ljava/lang/Integer;" isStatic="true" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="java.lang.Integer" start="639" end="642" startBytecode="0" endBytecode="99" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <LocalVariable name="p" register="1" pc="78" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Method classname="java.lang.Object" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.Object" start="150" end="150" startBytecode="0" endBytecode="45" sourcefile="Object.java" sourcepath="java/lang/Object.java"/>
+    </Method>
+    <Method classname="components.naturalnumber.NaturalNumberSecondary" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="components.naturalnumber.NaturalNumberSecondary" start="200" end="210" startBytecode="0" endBytecode="123" sourcefile="SourceFile" sourcepath="components/naturalnumber/SourceFile"/>
+    </Method>
+    <SourceLine classname="CryptoUtilities" start="159" end="159" startBytecode="81" endBytecode="81" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    <SourceLine classname="CryptoUtilities" start="159" end="159" startBytecode="81" endBytecode="81" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_TYPES" priority="1" rank="1" abbrev="EC" category="CORRECTNESS" first="31" last="31" removedByChange="true">
+    <Class classname="CryptoUtilities">
+      <SourceLine classname="CryptoUtilities" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Class>
+    <Method classname="CryptoUtilities" name="isPrime2" signature="(Lcomponents/naturalnumber/NaturalNumber;)Z" isStatic="true">
+      <SourceLine classname="CryptoUtilities" start="314" end="350" startBytecode="0" endBytecode="74" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/Integer;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.Integer" start="52" end="1236" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Type>
+    <Type descriptor="Lcomponents/naturalnumber/NaturalNumber2;" role="TYPE_EXPECTED">
+      <SourceLine classname="components.naturalnumber.NaturalNumber2" start="1" end="234" sourcefile="SourceFile" sourcepath="components/naturalnumber/SourceFile"/>
+    </Type>
+    <Method classname="java.lang.Integer" name="valueOf" signature="(I)Ljava/lang/Integer;" isStatic="true" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="java.lang.Integer" start="639" end="642" startBytecode="0" endBytecode="99" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <LocalVariable name="random" register="4" pc="115" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Method classname="components.naturalnumber.NaturalNumberSecondary" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="components.naturalnumber.NaturalNumberSecondary" start="200" end="210" startBytecode="0" endBytecode="123" sourcefile="SourceFile" sourcepath="components/naturalnumber/SourceFile"/>
+    </Method>
+    <SourceLine classname="CryptoUtilities" start="337" end="337" startBytecode="118" endBytecode="118" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    <SourceLine classname="CryptoUtilities" start="337" end="337" startBytecode="118" endBytecode="118" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="34" last="44" removedByChange="true">
+    <Class classname="CryptoUtilities">
+      <SourceLine classname="CryptoUtilities" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Class>
+    <Field classname="CryptoUtilities" name="GENERATOR" signature="Lcomponents/random/Random;" isStatic="true">
+      <SourceLine classname="CryptoUtilities" start="36" end="36" startBytecode="0" endBytecode="0" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="34" last="44" removedByChange="true">
+    <Class classname="CryptoUtilities">
+      <SourceLine classname="CryptoUtilities" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Class>
+    <Field classname="CryptoUtilities" name="TWO" signature="Lcomponents/naturalnumber/NaturalNumber;" isStatic="true">
+      <SourceLine classname="CryptoUtilities" start="31" end="31" startBytecode="0" endBytecode="0" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_TYPES" priority="1" rank="1" abbrev="EC" category="CORRECTNESS" first="57" last="59" removedByChange="true">
+    <Class classname="CryptoUtilitiesTest">
+      <SourceLine classname="CryptoUtilitiesTest" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    </Class>
+    <Method classname="CryptoUtilitiesTest" name="testIsPrime1_0" signature="()V" isStatic="false">
+      <SourceLine classname="CryptoUtilitiesTest" start="89" end="91" startBytecode="0" endBytecode="10" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/Boolean;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.Boolean" start="43" end="280" sourcefile="Boolean.java" sourcepath="java/lang/Boolean.java"/>
+    </Type>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_EXPECTED">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Method classname="CryptoUtilities" name="isPrime1" signature="(Lcomponents/naturalnumber/NaturalNumber;)Z" isStatic="true" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="CryptoUtilities" start="268" end="287" startBytecode="0" endBytecode="207" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Method>
+    <String value="true" role="STRING_CONSTANT"/>
+    <Method classname="java.lang.String" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.String" start="975" end="993" startBytecode="0" endBytecode="208" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <Method classname="org.junit.Assert" name="assertEquals" signature="(Ljava/lang/Object;Ljava/lang/Object;)V" isStatic="true" role="METHOD_CALLED">
+      <SourceLine classname="org.junit.Assert" start="144" end="145" startBytecode="0" endBytecode="62" sourcefile="Assert.java" sourcepath="org/junit/Assert.java"/>
+    </Method>
+    <SourceLine classname="CryptoUtilitiesTest" start="90" end="90" startBytecode="18" endBytecode="18" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    <SourceLine classname="CryptoUtilitiesTest" start="90" end="90" startBytecode="18" endBytecode="18" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_TYPES" priority="1" rank="1" abbrev="EC" category="CORRECTNESS" first="57" last="61" removedByChange="true">
+    <Class classname="CryptoUtilitiesTest">
+      <SourceLine classname="CryptoUtilitiesTest" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    </Class>
+    <Method classname="CryptoUtilitiesTest" name="testIsPrime1_13" signature="()V" isStatic="false">
+      <SourceLine classname="CryptoUtilitiesTest" start="97" end="99" startBytecode="0" endBytecode="10" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/Boolean;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.Boolean" start="43" end="280" sourcefile="Boolean.java" sourcepath="java/lang/Boolean.java"/>
+    </Type>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_EXPECTED">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Method classname="CryptoUtilities" name="isPrime1" signature="(Lcomponents/naturalnumber/NaturalNumber;)Z" isStatic="true" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="CryptoUtilities" start="273" end="292" startBytecode="0" endBytecode="207" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Method>
+    <String value="false" role="STRING_CONSTANT"/>
+    <Method classname="java.lang.String" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.String" start="975" end="993" startBytecode="0" endBytecode="208" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <Method classname="org.junit.Assert" name="assertEquals" signature="(Ljava/lang/Object;Ljava/lang/Object;)V" isStatic="true" role="METHOD_CALLED">
+      <SourceLine classname="org.junit.Assert" start="144" end="145" startBytecode="0" endBytecode="62" sourcefile="Assert.java" sourcepath="org/junit/Assert.java"/>
+    </Method>
+    <SourceLine classname="CryptoUtilitiesTest" start="98" end="98" startBytecode="19" endBytecode="19" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    <SourceLine classname="CryptoUtilitiesTest" start="98" end="98" startBytecode="19" endBytecode="19" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_TYPES" priority="1" rank="1" abbrev="EC" category="CORRECTNESS" first="60" last="60" removedByChange="true">
+    <Class classname="CryptoUtilitiesTest">
+      <SourceLine classname="CryptoUtilitiesTest" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    </Class>
+    <Method classname="CryptoUtilitiesTest" name="testIsPrime1_2" signature="()V" isStatic="false">
+      <SourceLine classname="CryptoUtilitiesTest" start="89" end="91" startBytecode="0" endBytecode="10" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/Boolean;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.Boolean" start="43" end="280" sourcefile="Boolean.java" sourcepath="java/lang/Boolean.java"/>
+    </Type>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_EXPECTED">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Method classname="CryptoUtilities" name="isPrime1" signature="(Lcomponents/naturalnumber/NaturalNumber;)Z" isStatic="true" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="CryptoUtilities" start="273" end="292" startBytecode="0" endBytecode="207" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Method>
+    <String value="true" role="STRING_CONSTANT"/>
+    <Method classname="java.lang.String" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.String" start="975" end="993" startBytecode="0" endBytecode="208" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <Method classname="org.junit.Assert" name="assertEquals" signature="(Ljava/lang/Object;Ljava/lang/Object;)V" isStatic="true" role="METHOD_CALLED">
+      <SourceLine classname="org.junit.Assert" start="144" end="145" startBytecode="0" endBytecode="62" sourcefile="Assert.java" sourcepath="org/junit/Assert.java"/>
+    </Method>
+    <SourceLine classname="CryptoUtilitiesTest" start="90" end="90" startBytecode="18" endBytecode="18" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    <SourceLine classname="CryptoUtilitiesTest" start="90" end="90" startBytecode="18" endBytecode="18" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_TYPES" priority="1" rank="1" abbrev="EC" category="CORRECTNESS" first="57" last="61" removedByChange="true">
+    <Class classname="CryptoUtilitiesTest">
+      <SourceLine classname="CryptoUtilitiesTest" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    </Class>
+    <Method classname="CryptoUtilitiesTest" name="testIsPrime1_2020202" signature="()V" isStatic="false">
+      <SourceLine classname="CryptoUtilitiesTest" start="104" end="106" startBytecode="0" endBytecode="10" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/Boolean;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.Boolean" start="43" end="280" sourcefile="Boolean.java" sourcepath="java/lang/Boolean.java"/>
+    </Type>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_EXPECTED">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Method classname="CryptoUtilities" name="isPrime1" signature="(Lcomponents/naturalnumber/NaturalNumber;)Z" isStatic="true" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="CryptoUtilities" start="273" end="292" startBytecode="0" endBytecode="207" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Method>
+    <String value="true" role="STRING_CONSTANT"/>
+    <Method classname="java.lang.String" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.String" start="975" end="993" startBytecode="0" endBytecode="208" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <Method classname="org.junit.Assert" name="assertEquals" signature="(Ljava/lang/Object;Ljava/lang/Object;)V" isStatic="true" role="METHOD_CALLED">
+      <SourceLine classname="org.junit.Assert" start="144" end="145" startBytecode="0" endBytecode="62" sourcefile="Assert.java" sourcepath="org/junit/Assert.java"/>
+    </Method>
+    <SourceLine classname="CryptoUtilitiesTest" start="105" end="105" startBytecode="19" endBytecode="19" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    <SourceLine classname="CryptoUtilitiesTest" start="105" end="105" startBytecode="19" endBytecode="19" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_TYPES" priority="1" rank="1" abbrev="EC" category="CORRECTNESS" first="57" last="59" removedByChange="true">
+    <Class classname="CryptoUtilitiesTest">
+      <SourceLine classname="CryptoUtilitiesTest" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    </Class>
+    <Method classname="CryptoUtilitiesTest" name="testIsPrime2_0" signature="()V" isStatic="false">
+      <SourceLine classname="CryptoUtilitiesTest" start="113" end="115" startBytecode="0" endBytecode="10" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/Boolean;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.Boolean" start="43" end="280" sourcefile="Boolean.java" sourcepath="java/lang/Boolean.java"/>
+    </Type>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_EXPECTED">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Method classname="CryptoUtilities" name="isPrime1" signature="(Lcomponents/naturalnumber/NaturalNumber;)Z" isStatic="true" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="CryptoUtilities" start="268" end="287" startBytecode="0" endBytecode="207" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Method>
+    <String value="true" role="STRING_CONSTANT"/>
+    <Method classname="java.lang.String" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.String" start="975" end="993" startBytecode="0" endBytecode="208" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <Method classname="org.junit.Assert" name="assertEquals" signature="(Ljava/lang/Object;Ljava/lang/Object;)V" isStatic="true" role="METHOD_CALLED">
+      <SourceLine classname="org.junit.Assert" start="144" end="145" startBytecode="0" endBytecode="62" sourcefile="Assert.java" sourcepath="org/junit/Assert.java"/>
+    </Method>
+    <SourceLine classname="CryptoUtilitiesTest" start="114" end="114" startBytecode="18" endBytecode="18" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    <SourceLine classname="CryptoUtilitiesTest" start="114" end="114" startBytecode="18" endBytecode="18" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_TYPES" priority="1" rank="1" abbrev="EC" category="CORRECTNESS" first="60" last="62" removedByChange="true">
+    <Class classname="CryptoUtilitiesTest">
+      <SourceLine classname="CryptoUtilitiesTest" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    </Class>
+    <Method classname="CryptoUtilitiesTest" name="testIsPrime2_2" signature="()V" isStatic="false">
+      <SourceLine classname="CryptoUtilitiesTest" start="116" end="118" startBytecode="0" endBytecode="10" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/Boolean;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.Boolean" start="43" end="280" sourcefile="Boolean.java" sourcepath="java/lang/Boolean.java"/>
+    </Type>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_EXPECTED">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Method classname="CryptoUtilities" name="isPrime1" signature="(Lcomponents/naturalnumber/NaturalNumber;)Z" isStatic="true" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="CryptoUtilities" start="273" end="292" startBytecode="0" endBytecode="207" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Method>
+    <String value="true" role="STRING_CONSTANT"/>
+    <Method classname="java.lang.String" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.String" start="975" end="993" startBytecode="0" endBytecode="208" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <Method classname="org.junit.Assert" name="assertEquals" signature="(Ljava/lang/Object;Ljava/lang/Object;)V" isStatic="true" role="METHOD_CALLED">
+      <SourceLine classname="org.junit.Assert" start="144" end="145" startBytecode="0" endBytecode="62" sourcefile="Assert.java" sourcepath="org/junit/Assert.java"/>
+    </Method>
+    <SourceLine classname="CryptoUtilitiesTest" start="117" end="117" startBytecode="18" endBytecode="18" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    <SourceLine classname="CryptoUtilitiesTest" start="117" end="117" startBytecode="18" endBytecode="18" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_TYPES" priority="1" rank="1" abbrev="EC" category="CORRECTNESS" first="57" last="62" removedByChange="true">
+    <Class classname="CryptoUtilitiesTest">
+      <SourceLine classname="CryptoUtilitiesTest" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    </Class>
+    <Method classname="CryptoUtilitiesTest" name="testIsPrime2_27" signature="()V" isStatic="false">
+      <SourceLine classname="CryptoUtilitiesTest" start="123" end="125" startBytecode="0" endBytecode="10" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/Boolean;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.Boolean" start="43" end="280" sourcefile="Boolean.java" sourcepath="java/lang/Boolean.java"/>
+    </Type>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_EXPECTED">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Method classname="CryptoUtilities" name="isPrime1" signature="(Lcomponents/naturalnumber/NaturalNumber;)Z" isStatic="true" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="CryptoUtilities" start="273" end="292" startBytecode="0" endBytecode="207" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Method>
+    <String value="false" role="STRING_CONSTANT"/>
+    <Method classname="java.lang.String" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.String" start="975" end="993" startBytecode="0" endBytecode="208" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <Method classname="org.junit.Assert" name="assertEquals" signature="(Ljava/lang/Object;Ljava/lang/Object;)V" isStatic="true" role="METHOD_CALLED">
+      <SourceLine classname="org.junit.Assert" start="144" end="145" startBytecode="0" endBytecode="62" sourcefile="Assert.java" sourcepath="org/junit/Assert.java"/>
+    </Method>
+    <SourceLine classname="CryptoUtilitiesTest" start="124" end="124" startBytecode="19" endBytecode="19" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    <SourceLine classname="CryptoUtilitiesTest" start="124" end="124" startBytecode="19" endBytecode="19" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_TYPES" priority="1" rank="1" abbrev="EC" category="CORRECTNESS" first="57" last="62" removedByChange="true">
+    <Class classname="CryptoUtilitiesTest">
+      <SourceLine classname="CryptoUtilitiesTest" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    </Class>
+    <Method classname="CryptoUtilitiesTest" name="testIsPrime2_386486" signature="()V" isStatic="false">
+      <SourceLine classname="CryptoUtilitiesTest" start="130" end="132" startBytecode="0" endBytecode="10" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/Boolean;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.Boolean" start="43" end="280" sourcefile="Boolean.java" sourcepath="java/lang/Boolean.java"/>
+    </Type>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_EXPECTED">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Method classname="CryptoUtilities" name="isPrime1" signature="(Lcomponents/naturalnumber/NaturalNumber;)Z" isStatic="true" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="CryptoUtilities" start="273" end="292" startBytecode="0" endBytecode="207" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Method>
+    <String value="true" role="STRING_CONSTANT"/>
+    <Method classname="java.lang.String" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.String" start="975" end="993" startBytecode="0" endBytecode="208" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <Method classname="org.junit.Assert" name="assertEquals" signature="(Ljava/lang/Object;Ljava/lang/Object;)V" isStatic="true" role="METHOD_CALLED">
+      <SourceLine classname="org.junit.Assert" start="144" end="145" startBytecode="0" endBytecode="62" sourcefile="Assert.java" sourcepath="org/junit/Assert.java"/>
+    </Method>
+    <SourceLine classname="CryptoUtilitiesTest" start="131" end="131" startBytecode="19" endBytecode="19" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    <SourceLine classname="CryptoUtilitiesTest" start="131" end="131" startBytecode="19" endBytecode="19" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_TYPES" priority="1" rank="1" abbrev="EC" category="CORRECTNESS" first="57" last="62" removedByChange="true">
+    <Class classname="CryptoUtilitiesTest">
+      <SourceLine classname="CryptoUtilitiesTest" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    </Class>
+    <Method classname="CryptoUtilitiesTest" name="testIsWitnessToCompositeness_1000_100000" signature="()V" isStatic="false">
+      <SourceLine classname="CryptoUtilitiesTest" start="160" end="165" startBytecode="0" endBytecode="24" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/Boolean;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.Boolean" start="43" end="280" sourcefile="Boolean.java" sourcepath="java/lang/Boolean.java"/>
+    </Type>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_EXPECTED">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Method classname="CryptoUtilities" name="isWitnessToCompositeness" signature="(Lcomponents/naturalnumber/NaturalNumber;Lcomponents/naturalnumber/NaturalNumber;)Z" isStatic="true" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="CryptoUtilities" start="224" end="255" startBytecode="0" endBytecode="501" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Method>
+    <String value="true" role="STRING_CONSTANT"/>
+    <Method classname="java.lang.String" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.String" start="975" end="993" startBytecode="0" endBytecode="208" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <Method classname="org.junit.Assert" name="assertEquals" signature="(Ljava/lang/Object;Ljava/lang/Object;)V" isStatic="true" role="METHOD_CALLED">
+      <SourceLine classname="org.junit.Assert" start="144" end="145" startBytecode="0" endBytecode="62" sourcefile="Assert.java" sourcepath="org/junit/Assert.java"/>
+    </Method>
+    <SourceLine classname="CryptoUtilitiesTest" start="164" end="164" startBytecode="49" endBytecode="49" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    <SourceLine classname="CryptoUtilitiesTest" start="164" end="164" startBytecode="49" endBytecode="49" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_TYPES" priority="1" rank="1" abbrev="EC" category="CORRECTNESS" first="57" last="62" removedByChange="true">
+    <Class classname="CryptoUtilitiesTest">
+      <SourceLine classname="CryptoUtilitiesTest" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    </Class>
+    <Method classname="CryptoUtilitiesTest" name="testIsWitnessToCompositeness_15_65" signature="()V" isStatic="false">
+      <SourceLine classname="CryptoUtilitiesTest" start="150" end="155" startBytecode="0" endBytecode="24" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/Boolean;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.Boolean" start="43" end="280" sourcefile="Boolean.java" sourcepath="java/lang/Boolean.java"/>
+    </Type>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_EXPECTED">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Method classname="CryptoUtilities" name="isWitnessToCompositeness" signature="(Lcomponents/naturalnumber/NaturalNumber;Lcomponents/naturalnumber/NaturalNumber;)Z" isStatic="true" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="CryptoUtilities" start="224" end="255" startBytecode="0" endBytecode="501" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Method>
+    <String value="false" role="STRING_CONSTANT"/>
+    <Method classname="java.lang.String" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.String" start="975" end="993" startBytecode="0" endBytecode="208" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <Method classname="org.junit.Assert" name="assertEquals" signature="(Ljava/lang/Object;Ljava/lang/Object;)V" isStatic="true" role="METHOD_CALLED">
+      <SourceLine classname="org.junit.Assert" start="144" end="145" startBytecode="0" endBytecode="62" sourcefile="Assert.java" sourcepath="org/junit/Assert.java"/>
+    </Method>
+    <SourceLine classname="CryptoUtilitiesTest" start="154" end="154" startBytecode="48" endBytecode="48" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    <SourceLine classname="CryptoUtilitiesTest" start="154" end="154" startBytecode="48" endBytecode="48" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_TYPES" priority="1" rank="1" abbrev="EC" category="CORRECTNESS" first="57" last="62" removedByChange="true">
+    <Class classname="CryptoUtilitiesTest">
+      <SourceLine classname="CryptoUtilitiesTest" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    </Class>
+    <Method classname="CryptoUtilitiesTest" name="testIsWitnessToCompositeness_2_30" signature="()V" isStatic="false">
+      <SourceLine classname="CryptoUtilitiesTest" start="140" end="145" startBytecode="0" endBytecode="24" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/Boolean;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.Boolean" start="43" end="280" sourcefile="Boolean.java" sourcepath="java/lang/Boolean.java"/>
+    </Type>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_EXPECTED">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Method classname="CryptoUtilities" name="isWitnessToCompositeness" signature="(Lcomponents/naturalnumber/NaturalNumber;Lcomponents/naturalnumber/NaturalNumber;)Z" isStatic="true" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="CryptoUtilities" start="224" end="255" startBytecode="0" endBytecode="501" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Method>
+    <String value="true" role="STRING_CONSTANT"/>
+    <Method classname="java.lang.String" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.String" start="975" end="993" startBytecode="0" endBytecode="208" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <Method classname="org.junit.Assert" name="assertEquals" signature="(Ljava/lang/Object;Ljava/lang/Object;)V" isStatic="true" role="METHOD_CALLED">
+      <SourceLine classname="org.junit.Assert" start="144" end="145" startBytecode="0" endBytecode="62" sourcefile="Assert.java" sourcepath="org/junit/Assert.java"/>
+    </Method>
+    <SourceLine classname="CryptoUtilitiesTest" start="144" end="144" startBytecode="47" endBytecode="47" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+    <SourceLine classname="CryptoUtilitiesTest" start="144" end="144" startBytecode="47" endBytecode="47" sourcefile="CryptoUtilitiesTest.java" sourcepath="CryptoUtilitiesTest.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 2 Apr 2015 01:21:29 -0400" total_classes="1" referenced_classes="16" total_bugs="0" total_size="116" num_packages="1" java_version="1.7.0_71" vm_version="24.71-b01" cpu_seconds="1.19" clock_seconds="0.51" peak_mbytes="333.75" alloc_mbytes="455.00" gc_seconds="0.02">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="116">
+      <ClassStats class="CryptoUtilitiesTest" sourceFile="CryptoUtilitiesTest.java" interface="false" size="116" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="115" invocations="324" avgMicrosecondsPerInvocation="357" maxMicrosecondsPerInvocation="19605" standardDeviationMircosecondsPerInvocation="1174"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="67" invocations="2" avgMicrosecondsPerInvocation="33777" maxMicrosecondsPerInvocation="57491" standardDeviationMircosecondsPerInvocation="23714"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="23" invocations="75" avgMicrosecondsPerInvocation="315" maxMicrosecondsPerInvocation="1734" standardDeviationMircosecondsPerInvocation="334"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="23" invocations="324" avgMicrosecondsPerInvocation="72" maxMicrosecondsPerInvocation="534" standardDeviationMircosecondsPerInvocation="61"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="19" invocations="16" avgMicrosecondsPerInvocation="1239" maxMicrosecondsPerInvocation="5438" standardDeviationMircosecondsPerInvocation="1637"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="16" invocations="19" avgMicrosecondsPerInvocation="876" maxMicrosecondsPerInvocation="1733" standardDeviationMircosecondsPerInvocation="390"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="16" invocations="19" avgMicrosecondsPerInvocation="844" maxMicrosecondsPerInvocation="2822" standardDeviationMircosecondsPerInvocation="613"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="13" invocations="19" avgMicrosecondsPerInvocation="697" maxMicrosecondsPerInvocation="1408" standardDeviationMircosecondsPerInvocation="318"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="11" invocations="19" avgMicrosecondsPerInvocation="600" maxMicrosecondsPerInvocation="1512" standardDeviationMircosecondsPerInvocation="361"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="11" invocations="19" avgMicrosecondsPerInvocation="598" maxMicrosecondsPerInvocation="1132" standardDeviationMircosecondsPerInvocation="251"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1427470670262" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1427470670266" release="" codeSize="8" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1427470737688" release="" codeSize="94" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1427470872128" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1427471901082" release="" codeSize="102" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1427471904564" release="" codeSize="5" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1427471969594" release="" codeSize="107" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1427471989534" release="" codeSize="105" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1427472004865" release="" codeSize="106" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1427472417041" release="" codeSize="100" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1427472453366" release="" codeSize="115" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1427472488414" release="" codeSize="47" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1427472579902" release="" codeSize="115" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1427472664398" release="" codeSize="116" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1427472708951" release="" codeSize="117" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1427472728557" release="" codeSize="118" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1427472759387" release="" codeSize="240" numClasses="2"/>
+    <AppVersion sequence="17" timestamp="1427491248535" release="" codeSize="122" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1427491296159" release="" codeSize="130" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1427492501939" release="" codeSize="141" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1427492633459" release="" codeSize="140" numClasses="1"/>
+    <AppVersion sequence="21" timestamp="1427492664492" release="" codeSize="140" numClasses="1"/>
+    <AppVersion sequence="22" timestamp="1427492681211" release="" codeSize="99" numClasses="1"/>
+    <AppVersion sequence="23" timestamp="1427492698279" release="" codeSize="140" numClasses="1"/>
+    <AppVersion sequence="24" timestamp="1427492766238" release="" codeSize="140" numClasses="1"/>
+    <AppVersion sequence="25" timestamp="1427493125918" release="" codeSize="153" numClasses="1"/>
+    <AppVersion sequence="26" timestamp="1427493159186" release="" codeSize="153" numClasses="1"/>
+    <AppVersion sequence="27" timestamp="1427493182739" release="" codeSize="152" numClasses="1"/>
+    <AppVersion sequence="28" timestamp="1427493196619" release="" codeSize="152" numClasses="1"/>
+    <AppVersion sequence="29" timestamp="1427498806588" release="" codeSize="158" numClasses="1"/>
+    <AppVersion sequence="30" timestamp="1427510829570" release="" codeSize="179" numClasses="1"/>
+    <AppVersion sequence="31" timestamp="1427511065572" release="" codeSize="184" numClasses="1"/>
+    <AppVersion sequence="32" timestamp="1427511175511" release="" codeSize="186" numClasses="1"/>
+    <AppVersion sequence="33" timestamp="1427511444749" release="" codeSize="188" numClasses="1"/>
+    <AppVersion sequence="34" timestamp="1427511511722" release="" codeSize="23" numClasses="1"/>
+    <AppVersion sequence="35" timestamp="1427511543726" release="" codeSize="23" numClasses="1"/>
+    <AppVersion sequence="36" timestamp="1427511568795" release="" codeSize="187" numClasses="1"/>
+    <AppVersion sequence="37" timestamp="1427511824895" release="" codeSize="188" numClasses="1"/>
+    <AppVersion sequence="38" timestamp="1427511960379" release="" codeSize="195" numClasses="1"/>
+    <AppVersion sequence="39" timestamp="1427512447508" release="" codeSize="199" numClasses="1"/>
+    <AppVersion sequence="40" timestamp="1427512485450" release="" codeSize="199" numClasses="1"/>
+    <AppVersion sequence="41" timestamp="1427512614322" release="" codeSize="199" numClasses="1"/>
+    <AppVersion sequence="42" timestamp="1427513176590" release="" codeSize="207" numClasses="1"/>
+    <AppVersion sequence="43" timestamp="1427513212998" release="" codeSize="207" numClasses="1"/>
+    <AppVersion sequence="44" timestamp="1427513311669" release="" codeSize="23" numClasses="1"/>
+    <AppVersion sequence="45" timestamp="1427513317528" release="" codeSize="164" numClasses="1"/>
+    <AppVersion sequence="46" timestamp="1427513363486" release="" codeSize="206" numClasses="1"/>
+    <AppVersion sequence="47" timestamp="1427513372315" release="" codeSize="206" numClasses="1"/>
+    <AppVersion sequence="48" timestamp="1427513629636" release="" codeSize="206" numClasses="1"/>
+    <AppVersion sequence="49" timestamp="1427513962119" release="" codeSize="206" numClasses="1"/>
+    <AppVersion sequence="50" timestamp="1427514074022" release="" codeSize="206" numClasses="1"/>
+    <AppVersion sequence="51" timestamp="1427514768515" release="" codeSize="420" numClasses="2"/>
+    <AppVersion sequence="52" timestamp="1427669305437" release="" codeSize="209" numClasses="1"/>
+    <AppVersion sequence="53" timestamp="1427669330098" release="" codeSize="209" numClasses="1"/>
+    <AppVersion sequence="54" timestamp="1427669608895" release="" codeSize="212" numClasses="1"/>
+    <AppVersion sequence="55" timestamp="1427669748423" release="" codeSize="424" numClasses="2"/>
+    <AppVersion sequence="56" timestamp="1427822643013" release="" codeSize="138" numClasses="2"/>
+    <AppVersion sequence="57" timestamp="1427939834726" release="" codeSize="107" numClasses="1"/>
+    <AppVersion sequence="58" timestamp="1427940016621" release="" codeSize="214" numClasses="1"/>
+    <AppVersion sequence="59" timestamp="1427940046853" release="" codeSize="214" numClasses="1"/>
+    <AppVersion sequence="60" timestamp="1427940129860" release="" codeSize="107" numClasses="1"/>
+    <AppVersion sequence="61" timestamp="1427940252622" release="" codeSize="108" numClasses="1"/>
+    <AppVersion sequence="62" timestamp="1427940309030" release="" codeSize="110" numClasses="1"/>
+    <AppVersion sequence="63" timestamp="1427940385131" release="" codeSize="116" numClasses="1"/>
+    <AppVersion sequence="64" timestamp="1427940710743" release="" codeSize="116" numClasses="1"/>
+    <AppVersion sequence="65" timestamp="1427940766101" release="" codeSize="213" numClasses="1"/>
+    <AppVersion sequence="66" timestamp="1427940810967" release="" codeSize="116" numClasses="1"/>
+    <AppVersion sequence="67" timestamp="1427940835657" release="" codeSize="116" numClasses="1"/>
+    <AppVersion sequence="68" timestamp="1427940871637" release="" codeSize="116" numClasses="1"/>
+    <AppVersion sequence="69" timestamp="1427940992676" release="" codeSize="116" numClasses="1"/>
+    <AppVersion sequence="70" timestamp="1427941043544" release="" codeSize="214" numClasses="1"/>
+    <AppVersion sequence="71" timestamp="1427941120203" release="" codeSize="215" numClasses="1"/>
+    <AppVersion sequence="72" timestamp="1427941149164" release="" codeSize="217" numClasses="1"/>
+    <AppVersion sequence="73" timestamp="1427941197115" release="" codeSize="116" numClasses="1"/>
+    <AppVersion sequence="74" timestamp="1427941212325" release="" codeSize="232" numClasses="2"/>
+    <AppVersion sequence="75" timestamp="1427951995167" release="" codeSize="116" numClasses="1"/>
+    <AppVersion sequence="76" timestamp="1427952046704" release="" codeSize="116" numClasses="1"/>
+    <AppVersion sequence="77" timestamp="1427952060181" release="" codeSize="116" numClasses="1"/>
+    <AppVersion sequence="78" timestamp="1427952069545" release="" codeSize="116" numClasses="1"/>
+    <AppVersion sequence="79" timestamp="1427952085269" release="" codeSize="116" numClasses="1"/>
+  </History>
+</BugCollection>

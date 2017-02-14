@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="1" timestamp="1426205468070" analysisTimestamp="1426205466903" release="">
+  <Project projectName="XMLTreeExpressionEvaluator">
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/XMLTreeExpressionEvaluator/bin</Jar>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/XMLTreeExpressionEvaluator/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/rt.jar</AuxClasspathEntry>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/XMLTreeExpressionEvaluator/src</SrcDir>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/XMLTreeExpressionEvaluator/test</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 12 Mar 2015 20:09:02 -0400" total_classes="2" referenced_classes="21" total_bugs="0" total_size="183" num_packages="1" java_version="1.7.0_71" vm_version="24.71-b01" cpu_seconds="3.36" clock_seconds="1.17" peak_mbytes="297.45" alloc_mbytes="455.00" gc_seconds="0.03">
+    <PackageStats package="" total_bugs="0" total_types="2" total_size="183">
+      <ClassStats class="XMLTreeIntExpressionEvaluator" sourceFile="XMLTreeIntExpressionEvaluator.java" interface="false" size="87" bugs="0"/>
+      <ClassStats class="XMLTreeNNExpressionEvaluator" sourceFile="XMLTreeNNExpressionEvaluator.java" interface="false" size="96" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="202" invocations="356" avgMicrosecondsPerInvocation="569" maxMicrosecondsPerInvocation="13650" standardDeviationMircosecondsPerInvocation="1141"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="114" invocations="2" avgMicrosecondsPerInvocation="57451" maxMicrosecondsPerInvocation="94218" standardDeviationMircosecondsPerInvocation="36767"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="64" invocations="21" avgMicrosecondsPerInvocation="3051" maxMicrosecondsPerInvocation="15244" standardDeviationMircosecondsPerInvocation="4128"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="63" invocations="7" avgMicrosecondsPerInvocation="9051" maxMicrosecondsPerInvocation="35615" standardDeviationMircosecondsPerInvocation="12118"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="57" invocations="7" avgMicrosecondsPerInvocation="8205" maxMicrosecondsPerInvocation="27265" standardDeviationMircosecondsPerInvocation="10776"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="55" invocations="63" avgMicrosecondsPerInvocation="885" maxMicrosecondsPerInvocation="7163" standardDeviationMircosecondsPerInvocation="1055"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="54" invocations="7" avgMicrosecondsPerInvocation="7824" maxMicrosecondsPerInvocation="28364" standardDeviationMircosecondsPerInvocation="9925"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="53" invocations="9" avgMicrosecondsPerInvocation="5963" maxMicrosecondsPerInvocation="14594" standardDeviationMircosecondsPerInvocation="5191"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="39" invocations="9" avgMicrosecondsPerInvocation="4429" maxMicrosecondsPerInvocation="8064" standardDeviationMircosecondsPerInvocation="3143"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="29" invocations="356" avgMicrosecondsPerInvocation="83" maxMicrosecondsPerInvocation="562" standardDeviationMircosecondsPerInvocation="60"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="27" invocations="7" avgMicrosecondsPerInvocation="3924" maxMicrosecondsPerInvocation="11627" standardDeviationMircosecondsPerInvocation="4537"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="22" invocations="21" avgMicrosecondsPerInvocation="1081" maxMicrosecondsPerInvocation="5880" standardDeviationMircosecondsPerInvocation="1487"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="21" invocations="324" avgMicrosecondsPerInvocation="67" maxMicrosecondsPerInvocation="1506" standardDeviationMircosecondsPerInvocation="128"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="20" invocations="21" avgMicrosecondsPerInvocation="997" maxMicrosecondsPerInvocation="4985" standardDeviationMircosecondsPerInvocation="1366"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="19" invocations="7" avgMicrosecondsPerInvocation="2803" maxMicrosecondsPerInvocation="7151" standardDeviationMircosecondsPerInvocation="2815"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="17" invocations="21" avgMicrosecondsPerInvocation="846" maxMicrosecondsPerInvocation="5914" standardDeviationMircosecondsPerInvocation="1435"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1426205468070" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

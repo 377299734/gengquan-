@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="21" timestamp="1423243030078" analysisTimestamp="1423243029481" release="">
+  <Project projectName="XMLTreeExploration">
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/XMLTreeExploration/bin/snippet/XMLTreeExploration.class</Jar>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/XMLTreeExploration/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/rt.jar</AuxClasspathEntry>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/XMLTreeExploration/src</SrcDir>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/XMLTreeExploration/test</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DB_DUPLICATE_BRANCHES" priority="2" rank="17" abbrev="DB" category="STYLE" first="18" last="18" removedByChange="true">
+    <Class classname="snippet.XMLTreeExploration">
+      <SourceLine classname="snippet.XMLTreeExploration" sourcefile="XMLTreeExploration.java" sourcepath="snippet/XMLTreeExploration.java"/>
+    </Class>
+    <Method classname="snippet.XMLTreeExploration" name="printMiddleNode" signature="(Lcomponents/xmltree/XMLTree;Lcomponents/simplewriter/SimpleWriter;)V" isStatic="true">
+      <SourceLine classname="snippet.XMLTreeExploration" start="44" end="54" startBytecode="0" endBytecode="170" sourcefile="XMLTreeExploration.java" sourcepath="snippet/XMLTreeExploration.java"/>
+    </Method>
+    <SourceLine classname="snippet.XMLTreeExploration" start="49" end="50" startBytecode="52" endBytecode="60" sourcefile="XMLTreeExploration.java" sourcepath="snippet/XMLTreeExploration.java"/>
+    <SourceLine classname="snippet.XMLTreeExploration" start="51" end="51" startBytecode="63" endBytecode="66" sourcefile="XMLTreeExploration.java" sourcepath="snippet/XMLTreeExploration.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="19" last="19" removedByChange="true">
+    <Class classname="snippet.XMLTreeExploration">
+      <SourceLine classname="snippet.XMLTreeExploration" sourcefile="XMLTreeExploration.java" sourcepath="snippet/XMLTreeExploration.java"/>
+    </Class>
+    <Method classname="snippet.XMLTreeExploration" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="snippet.XMLTreeExploration" start="64" end="124" startBytecode="0" endBytecode="150" sourcefile="XMLTreeExploration.java" sourcepath="snippet/XMLTreeExploration.java"/>
+    </Method>
+    <LocalVariable name="in" register="1" pc="8" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="snippet.XMLTreeExploration" start="64" end="64" startBytecode="7" endBytecode="7" sourcefile="XMLTreeExploration.java" sourcepath="snippet/XMLTreeExploration.java"/>
+    <SourceLine classname="snippet.XMLTreeExploration" start="64" end="64" startBytecode="7" endBytecode="7" sourcefile="XMLTreeExploration.java" sourcepath="snippet/XMLTreeExploration.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="in"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="6" last="6" removedByChange="true">
+    <Class classname="snippet.XMLTreeExploration">
+      <SourceLine classname="snippet.XMLTreeExploration" sourcefile="XMLTreeExploration.java" sourcepath="snippet/XMLTreeExploration.java"/>
+    </Class>
+    <Method classname="snippet.XMLTreeExploration" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="snippet.XMLTreeExploration" start="31" end="43" startBytecode="0" endBytecode="17" sourcefile="XMLTreeExploration.java" sourcepath="snippet/XMLTreeExploration.java"/>
+    </Method>
+    <LocalVariable name="xml" register="3" pc="26" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="snippet.XMLTreeExploration" start="34" end="34" startBytecode="25" endBytecode="25" sourcefile="XMLTreeExploration.java" sourcepath="snippet/XMLTreeExploration.java"/>
+    <SourceLine classname="snippet.XMLTreeExploration" start="34" end="34" startBytecode="25" endBytecode="25" sourcefile="XMLTreeExploration.java" sourcepath="snippet/XMLTreeExploration.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="xml"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="9" last="9" removedByChange="true">
+    <Class classname="snippet.XMLTreeExploration">
+      <SourceLine classname="snippet.XMLTreeExploration" sourcefile="XMLTreeExploration.java" sourcepath="snippet/XMLTreeExploration.java"/>
+    </Class>
+    <Method classname="snippet.XMLTreeExploration" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="snippet.XMLTreeExploration" start="31" end="57" startBytecode="0" endBytecode="63" sourcefile="XMLTreeExploration.java" sourcepath="snippet/XMLTreeExploration.java"/>
+    </Method>
+    <LocalVariable name="title" register="5" pc="151" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="snippet.XMLTreeExploration" start="52" end="52" startBytecode="149" endBytecode="149" sourcefile="XMLTreeExploration.java" sourcepath="snippet/XMLTreeExploration.java"/>
+    <SourceLine classname="snippet.XMLTreeExploration" start="52" end="52" startBytecode="149" endBytecode="149" sourcefile="XMLTreeExploration.java" sourcepath="snippet/XMLTreeExploration.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="title"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 6 Feb 2015 12:17:09 -0500" total_classes="1" referenced_classes="16" total_bugs="0" total_size="54" num_packages="1" java_version="1.7.0_71" vm_version="24.71-b01" cpu_seconds="1.85" clock_seconds="0.60" peak_mbytes="340.04" alloc_mbytes="455.00" gc_seconds="0.04">
+    <PackageStats package="snippet" total_bugs="0" total_types="1" total_size="54">
+      <ClassStats class="snippet.XMLTreeExploration" sourceFile="XMLTreeExploration.java" interface="false" size="54" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="154" invocations="345" avgMicrosecondsPerInvocation="447" maxMicrosecondsPerInvocation="15239" standardDeviationMircosecondsPerInvocation="1086"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="105" invocations="2" avgMicrosecondsPerInvocation="52566" maxMicrosecondsPerInvocation="93779" standardDeviationMircosecondsPerInvocation="41213"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="37" invocations="16" avgMicrosecondsPerInvocation="2359" maxMicrosecondsPerInvocation="9426" standardDeviationMircosecondsPerInvocation="2905"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="26" invocations="345" avgMicrosecondsPerInvocation="78" maxMicrosecondsPerInvocation="488" standardDeviationMircosecondsPerInvocation="47"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.AtomicityProblem" totalMilliseconds="26" invocations="1" avgMicrosecondsPerInvocation="26585" maxMicrosecondsPerInvocation="26585" standardDeviationMircosecondsPerInvocation="0"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="21" invocations="57" avgMicrosecondsPerInvocation="371" maxMicrosecondsPerInvocation="1656" standardDeviationMircosecondsPerInvocation="335"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="16" invocations="313" avgMicrosecondsPerInvocation="54" maxMicrosecondsPerInvocation="839" standardDeviationMircosecondsPerInvocation="89"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="15" invocations="3" avgMicrosecondsPerInvocation="5077" maxMicrosecondsPerInvocation="11964" standardDeviationMircosecondsPerInvocation="5016"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="14" invocations="16" avgMicrosecondsPerInvocation="923" maxMicrosecondsPerInvocation="4828" standardDeviationMircosecondsPerInvocation="1231"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="11" invocations="3" avgMicrosecondsPerInvocation="3808" maxMicrosecondsPerInvocation="8882" standardDeviationMircosecondsPerInvocation="3690"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1423240279673" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1423240279681" release="" codeSize="10" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1423240732185" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1423240875054" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1423240893939" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1423240911897" release="" codeSize="14" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1423241018316" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1423241148871" release="" codeSize="16" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1423241288991" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1423241389244" release="" codeSize="21" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1423241568375" release="" codeSize="26" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1423242147499" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1423242165635" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1423242196855" release="" codeSize="42" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1423242276302" release="" codeSize="42" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1423242321520" release="" codeSize="42" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1423242402680" release="" codeSize="42" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1423242458930" release="" codeSize="42" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1423242669419" release="" codeSize="50" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1423242784107" release="" codeSize="45" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1423242803882" release="" codeSize="54" numClasses="1"/>
+  </History>
+</BugCollection>

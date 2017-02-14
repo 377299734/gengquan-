@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="2" timestamp="1441124377117" analysisTimestamp="1441124376908" release="">
+  <Project projectName="JUnitTestingRevisited">
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/JUnitTestingRevisited/bin/StackTest1L.class</Jar>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/JUnitTestingRevisited/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/rt.jar</AuxClasspathEntry>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/JUnitTestingRevisited/test</SrcDir>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/JUnitTestingRevisited/src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 1 Sep 2015 12:19:36 -0400" total_classes="1" referenced_classes="9" total_bugs="0" total_size="3" num_packages="1" java_version="1.7.0_71" vm_version="24.71-b01" cpu_seconds="0.32" clock_seconds="0.21" peak_mbytes="355.82" alloc_mbytes="455.00" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="3">
+      <ClassStats class="StackTest1L" sourceFile="StackTest1L.java" interface="false" size="3" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="77" invocations="277" avgMicrosecondsPerInvocation="281" maxMicrosecondsPerInvocation="17295" standardDeviationMircosecondsPerInvocation="1083"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="55" invocations="2" avgMicrosecondsPerInvocation="27827" maxMicrosecondsPerInvocation="47714" standardDeviationMircosecondsPerInvocation="19887"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="11" invocations="277" avgMicrosecondsPerInvocation="42" maxMicrosecondsPerInvocation="113" standardDeviationMircosecondsPerInvocation="16"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1441124294454" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1441124294454" release="" codeSize="3" numClasses="1"/>
+  </History>
+</BugCollection>

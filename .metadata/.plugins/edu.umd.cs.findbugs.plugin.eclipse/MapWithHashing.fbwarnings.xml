@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="25" timestamp="1443069064798" analysisTimestamp="1443069064425" release="">
+  <Project projectName="MapWithHashing">
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/MapWithHashing/bin/MapTest.class</Jar>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/MapWithHashing/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/rt.jar</AuxClasspathEntry>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/MapWithHashing/test</SrcDir>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/MapWithHashing/src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="11" last="13" removedByChange="true">
+    <Class classname="Map4">
+      <SourceLine classname="Map4" sourcefile="Map4.java" sourcepath="Map4.java"/>
+    </Class>
+    <Method classname="Map4" name="remove" signature="(Ljava/lang/Object;)Lcomponents/map/Map$Pair;" isStatic="false">
+      <SourceLine classname="Map4" start="185" end="190" startBytecode="0" endBytecode="26" sourcefile="Map4.java" sourcepath="Map4.java"/>
+    </Method>
+    <LocalVariable name="bucket" register="2" pc="54" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Map4" start="188" end="188" startBytecode="53" endBytecode="53" sourcefile="Map4.java" sourcepath="Map4.java"/>
+    <SourceLine classname="Map4" start="188" end="188" startBytecode="53" endBytecode="53" sourcefile="Map4.java" sourcepath="Map4.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="bucket"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="14" last="14" removedByChange="true">
+    <Class classname="Map4">
+      <SourceLine classname="Map4" sourcefile="Map4.java" sourcepath="Map4.java"/>
+    </Class>
+    <Method classname="Map4" name="remove" signature="(Ljava/lang/Object;)Lcomponents/map/Map$Pair;" isStatic="false">
+      <SourceLine classname="Map4" start="185" end="193" startBytecode="0" endBytecode="40" sourcefile="Map4.java" sourcepath="Map4.java"/>
+    </Method>
+    <LocalVariable name="result" register="3" pc="64" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Map4" start="189" end="189" startBytecode="63" endBytecode="63" sourcefile="Map4.java" sourcepath="Map4.java"/>
+    <SourceLine classname="Map4" start="189" end="189" startBytecode="63" endBytecode="63" sourcefile="Map4.java" sourcepath="Map4.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="result"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.KILLED_BY_SUBSEQUENT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="11" last="12" removedByChange="true">
+    <Class classname="Map4">
+      <SourceLine classname="Map4" sourcefile="Map4.java" sourcepath="Map4.java"/>
+    </Class>
+    <Method classname="Map4" name="value" signature="(Ljava/lang/Object;)Ljava/lang/Object;" isStatic="false">
+      <SourceLine classname="Map4" start="202" end="208" startBytecode="0" endBytecode="34" sourcefile="Map4.java" sourcepath="Map4.java"/>
+    </Method>
+    <LocalVariable name="result" register="3" pc="74" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Map4" start="206" end="206" startBytecode="73" endBytecode="73" sourcefile="Map4.java" sourcepath="Map4.java"/>
+    <SourceLine classname="Map4" start="206" end="206" startBytecode="73" endBytecode="73" sourcefile="Map4.java" sourcepath="Map4.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="result"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="IL_INFINITE_RECURSIVE_LOOP" priority="1" rank="9" abbrev="IL" category="CORRECTNESS" first="5" last="5" removedByChange="true">
+    <Class classname="Map4">
+      <SourceLine classname="Map4" sourcefile="Map4.java" sourcepath="Map4.java"/>
+    </Class>
+    <Method classname="Map4" name="add" signature="(Ljava/lang/Object;Ljava/lang/Object;)V" isStatic="false">
+      <SourceLine classname="Map4" start="177" end="186" startBytecode="0" endBytecode="197" sourcefile="Map4.java" sourcepath="Map4.java"/>
+    </Method>
+    <SourceLine classname="Map4" start="185" end="185" startBytecode="67" endBytecode="67" sourcefile="Map4.java" sourcepath="Map4.java"/>
+  </BugInstance>
+  <BugInstance type="IL_INFINITE_RECURSIVE_LOOP" priority="1" rank="9" abbrev="IL" category="CORRECTNESS" first="5" last="5" removedByChange="true">
+    <Class classname="Map4">
+      <SourceLine classname="Map4" sourcefile="Map4.java" sourcepath="Map4.java"/>
+    </Class>
+    <Method classname="Map4" name="hasKey" signature="(Ljava/lang/Object;)Z" isStatic="false">
+      <SourceLine classname="Map4" start="241" end="253" startBytecode="0" endBytecode="118" sourcefile="Map4.java" sourcepath="Map4.java"/>
+    </Method>
+    <SourceLine classname="Map4" start="253" end="253" startBytecode="22" endBytecode="22" sourcefile="Map4.java" sourcepath="Map4.java"/>
+  </BugInstance>
+  <BugInstance type="IL_INFINITE_RECURSIVE_LOOP" priority="1" rank="9" abbrev="IL" category="CORRECTNESS" first="5" last="5" removedByChange="true">
+    <Class classname="Map4">
+      <SourceLine classname="Map4" sourcefile="Map4.java" sourcepath="Map4.java"/>
+    </Class>
+    <Method classname="Map4" name="remove" signature="(Ljava/lang/Object;)Lcomponents/map/Map$Pair;" isStatic="false">
+      <SourceLine classname="Map4" start="190" end="204" startBytecode="0" endBytecode="173" sourcefile="Map4.java" sourcepath="Map4.java"/>
+    </Method>
+    <SourceLine classname="Map4" start="203" end="203" startBytecode="46" endBytecode="46" sourcefile="Map4.java" sourcepath="Map4.java"/>
+  </BugInstance>
+  <BugInstance type="IL_INFINITE_RECURSIVE_LOOP" priority="1" rank="9" abbrev="IL" category="CORRECTNESS" first="5" last="5" removedByChange="true">
+    <Class classname="Map4">
+      <SourceLine classname="Map4" sourcefile="Map4.java" sourcepath="Map4.java"/>
+    </Class>
+    <Method classname="Map4" name="removeAny" signature="()Lcomponents/map/Map$Pair;" isStatic="false">
+      <SourceLine classname="Map4" start="210" end="217" startBytecode="0" endBytecode="126" sourcefile="Map4.java" sourcepath="Map4.java"/>
+    </Method>
+    <SourceLine classname="Map4" start="216" end="216" startBytecode="24" endBytecode="24" sourcefile="Map4.java" sourcepath="Map4.java"/>
+  </BugInstance>
+  <BugInstance type="IL_INFINITE_RECURSIVE_LOOP" priority="1" rank="9" abbrev="IL" category="CORRECTNESS" first="5" last="5" removedByChange="true">
+    <Class classname="Map4">
+      <SourceLine classname="Map4" sourcefile="Map4.java" sourcepath="Map4.java"/>
+    </Class>
+    <Method classname="Map4" name="value" signature="(Ljava/lang/Object;)Ljava/lang/Object;" isStatic="false">
+      <SourceLine classname="Map4" start="222" end="236" startBytecode="0" endBytecode="173" sourcefile="Map4.java" sourcepath="Map4.java"/>
+    </Method>
+    <SourceLine classname="Map4" start="235" end="235" startBytecode="46" endBytecode="46" sourcefile="Map4.java" sourcepath="Map4.java"/>
+  </BugInstance>
+  <BugInstance type="UR_UNINIT_READ" priority="2" rank="3" abbrev="UR" category="CORRECTNESS" first="3" last="3" removedByChange="true">
+    <Class classname="Map4">
+      <SourceLine classname="Map4" sourcefile="Map4.java" sourcepath="Map4.java"/>
+    </Class>
+    <Method classname="Map4" name="&lt;init&gt;" signature="()V" isStatic="false">
+      <SourceLine classname="Map4" start="115" end="119" startBytecode="0" endBytecode="80" sourcefile="Map4.java" sourcepath="Map4.java"/>
+    </Method>
+    <Field classname="Map4" name="size" signature="I" isStatic="false">
+      <SourceLine classname="Map4" sourcefile="Map4.java" sourcepath="Map4.java"/>
+    </Field>
+    <SourceLine classname="Map4" start="117" end="117" startBytecode="6" endBytecode="6" sourcefile="Map4.java" sourcepath="Map4.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 24 Sep 2015 00:31:04 -0400" total_classes="1" referenced_classes="15" total_bugs="0" total_size="78" num_packages="1" java_version="1.7.0_71" vm_version="24.71-b01" cpu_seconds="0.66" clock_seconds="0.38" peak_mbytes="406.57" alloc_mbytes="455.00" gc_seconds="0.00">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="78">
+      <ClassStats class="MapTest" sourceFile="MapTest.java" interface="false" size="78" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="77" invocations="314" avgMicrosecondsPerInvocation="245" maxMicrosecondsPerInvocation="2766" standardDeviationMircosecondsPerInvocation="380"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="57" invocations="2" avgMicrosecondsPerInvocation="28563" maxMicrosecondsPerInvocation="48850" standardDeviationMircosecondsPerInvocation="20287"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="19" invocations="14" avgMicrosecondsPerInvocation="1391" maxMicrosecondsPerInvocation="5513" standardDeviationMircosecondsPerInvocation="1291"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="16" invocations="15" avgMicrosecondsPerInvocation="1103" maxMicrosecondsPerInvocation="5376" standardDeviationMircosecondsPerInvocation="1629"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="15" invocations="314" avgMicrosecondsPerInvocation="49" maxMicrosecondsPerInvocation="287" standardDeviationMircosecondsPerInvocation="28"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="14" invocations="68" avgMicrosecondsPerInvocation="216" maxMicrosecondsPerInvocation="786" standardDeviationMircosecondsPerInvocation="167"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="13" invocations="14" avgMicrosecondsPerInvocation="974" maxMicrosecondsPerInvocation="3315" standardDeviationMircosecondsPerInvocation="912"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="11" invocations="14" avgMicrosecondsPerInvocation="797" maxMicrosecondsPerInvocation="3058" standardDeviationMircosecondsPerInvocation="877"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1443027503409" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1443027503409" release="" codeSize="123" numClasses="2"/>
+    <AppVersion sequence="2" timestamp="1443027641892" release="" codeSize="58" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1443027942666" release="" codeSize="123" numClasses="2"/>
+    <AppVersion sequence="4" timestamp="1443028017472" release="" codeSize="123" numClasses="2"/>
+    <AppVersion sequence="5" timestamp="1443028224867" release="" codeSize="110" numClasses="2"/>
+    <AppVersion sequence="6" timestamp="1443028280957" release="" codeSize="123" numClasses="2"/>
+    <AppVersion sequence="7" timestamp="1443029061638" release="" codeSize="122" numClasses="2"/>
+    <AppVersion sequence="8" timestamp="1443029187131" release="" codeSize="106" numClasses="2"/>
+    <AppVersion sequence="9" timestamp="1443060812475" release="" codeSize="110" numClasses="2"/>
+    <AppVersion sequence="10" timestamp="1443061443157" release="" codeSize="110" numClasses="2"/>
+    <AppVersion sequence="11" timestamp="1443064960224" release="" codeSize="119" numClasses="2"/>
+    <AppVersion sequence="12" timestamp="1443064981069" release="" codeSize="119" numClasses="2"/>
+    <AppVersion sequence="13" timestamp="1443064989870" release="" codeSize="119" numClasses="2"/>
+    <AppVersion sequence="14" timestamp="1443065245008" release="" codeSize="125" numClasses="2"/>
+    <AppVersion sequence="15" timestamp="1443065314362" release="" codeSize="123" numClasses="2"/>
+    <AppVersion sequence="16" timestamp="1443066846623" release="" codeSize="117" numClasses="2"/>
+    <AppVersion sequence="17" timestamp="1443066913209" release="" codeSize="117" numClasses="2"/>
+    <AppVersion sequence="18" timestamp="1443068007289" release="" codeSize="132" numClasses="2"/>
+    <AppVersion sequence="19" timestamp="1443068048956" release="" codeSize="44" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1443068122857" release="" codeSize="44" numClasses="1"/>
+    <AppVersion sequence="21" timestamp="1443068730523" release="" codeSize="78" numClasses="1"/>
+    <AppVersion sequence="22" timestamp="1443068774987" release="" codeSize="78" numClasses="1"/>
+    <AppVersion sequence="23" timestamp="1443068909168" release="" codeSize="74" numClasses="1"/>
+    <AppVersion sequence="24" timestamp="1443068918403" release="" codeSize="78" numClasses="1"/>
+  </History>
+</BugCollection>

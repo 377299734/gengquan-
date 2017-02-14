@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="20" timestamp="1445951948934" analysisTimestamp="1445951948486" release="">
+  <Project projectName="ListWithRetreat">
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/ListWithRetreat/bin/List3$List3Iterator.class</Jar>
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/ListWithRetreat/bin/List3$Node.class</Jar>
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/ListWithRetreat/bin/List3.class</Jar>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/ListWithRetreat/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/rt.jar</AuxClasspathEntry>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/ListWithRetreat/src</SrcDir>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/ListWithRetreat/test</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1" last="4" removedByChange="true">
+    <Class classname="List3">
+      <SourceLine classname="List3" sourcefile="List3.java" sourcepath="List3.java"/>
+    </Class>
+    <Method classname="List3" name="removeRightFront" signature="()Ljava/lang/Object;" isStatic="false">
+      <SourceLine classname="List3" start="267" end="282" startBytecode="0" endBytecode="54" sourcefile="List3.java" sourcepath="List3.java"/>
+    </Method>
+    <LocalVariable name="stuff" register="1" pc="34" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="List3" start="269" end="269" startBytecode="33" endBytecode="33" sourcefile="List3.java" sourcepath="List3.java"/>
+    <SourceLine classname="List3" start="269" end="269" startBytecode="33" endBytecode="33" sourcefile="List3.java" sourcepath="List3.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="stuff"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 27 Oct 2015 09:19:08 -0400" total_classes="3" referenced_classes="22" total_bugs="0" total_size="177" num_packages="1" java_version="1.7.0_71" vm_version="24.71-b01" cpu_seconds="0.86" clock_seconds="0.45" peak_mbytes="398.92" alloc_mbytes="455.00" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="3" total_size="177">
+      <ClassStats class="List3" sourceFile="List3.java" interface="false" size="135" bugs="0"/>
+      <ClassStats class="List3$List3Iterator" sourceFile="List3.java" interface="false" size="25" bugs="0"/>
+      <ClassStats class="List3$Node" sourceFile="List3.java" interface="false" size="17" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="83" invocations="308" avgMicrosecondsPerInvocation="271" maxMicrosecondsPerInvocation="2831" standardDeviationMircosecondsPerInvocation="420"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="65" invocations="2" avgMicrosecondsPerInvocation="32783" maxMicrosecondsPerInvocation="54011" standardDeviationMircosecondsPerInvocation="21228"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="29" invocations="51" avgMicrosecondsPerInvocation="575" maxMicrosecondsPerInvocation="17238" standardDeviationMircosecondsPerInvocation="2383"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="19" invocations="51" avgMicrosecondsPerInvocation="380" maxMicrosecondsPerInvocation="4171" standardDeviationMircosecondsPerInvocation="727"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="18" invocations="94" avgMicrosecondsPerInvocation="192" maxMicrosecondsPerInvocation="964" standardDeviationMircosecondsPerInvocation="222"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="17" invocations="22" avgMicrosecondsPerInvocation="794" maxMicrosecondsPerInvocation="5461" standardDeviationMircosecondsPerInvocation="1445"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="17" invocations="310" avgMicrosecondsPerInvocation="55" maxMicrosecondsPerInvocation="225" standardDeviationMircosecondsPerInvocation="32"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="14" invocations="22" avgMicrosecondsPerInvocation="663" maxMicrosecondsPerInvocation="8307" standardDeviationMircosecondsPerInvocation="1751"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="11" invocations="35" avgMicrosecondsPerInvocation="329" maxMicrosecondsPerInvocation="3933" standardDeviationMircosecondsPerInvocation="648"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1445895474492" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1445895474502" release="" codeSize="177" numClasses="3"/>
+    <AppVersion sequence="2" timestamp="1445895855388" release="" codeSize="176" numClasses="3"/>
+    <AppVersion sequence="3" timestamp="1445896070037" release="" codeSize="176" numClasses="3"/>
+    <AppVersion sequence="4" timestamp="1445896103256" release="" codeSize="177" numClasses="3"/>
+    <AppVersion sequence="5" timestamp="1445896142948" release="" codeSize="177" numClasses="3"/>
+    <AppVersion sequence="6" timestamp="1445896233378" release="" codeSize="177" numClasses="3"/>
+    <AppVersion sequence="7" timestamp="1445923928604" release="" codeSize="301" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1445924101313" release="" codeSize="324" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1445924130392" release="" codeSize="324" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1445924167433" release="" codeSize="325" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1445924184826" release="" codeSize="325" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1445924229170" release="" codeSize="324" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1445924301867" release="" codeSize="318" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1445924352407" release="" codeSize="305" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1445951028061" release="" codeSize="313" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1445951498620" release="" codeSize="327" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1445951511030" release="" codeSize="327" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1445951766164" release="" codeSize="317" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1445951850403" release="" codeSize="317" numClasses="1"/>
+  </History>
+</BugCollection>

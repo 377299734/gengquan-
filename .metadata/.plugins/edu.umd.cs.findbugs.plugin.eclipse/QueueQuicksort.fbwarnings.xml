@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="14" timestamp="1443719857422" analysisTimestamp="1443719856909" release="">
+  <Project projectName="QueueQuicksort">
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/QueueQuicksort/bin/SortingMachine4.class</Jar>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/QueueQuicksort/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/rt.jar</AuxClasspathEntry>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/QueueQuicksort/src</SrcDir>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/QueueQuicksort/test</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE" first="12">
+    <Class classname="QueueSortMain$StringLT">
+      <SourceLine classname="QueueSortMain$StringLT" start="1" end="23" sourcefile="QueueSortMain.java" sourcepath="QueueSortMain.java"/>
+    </Class>
+    <SourceLine classname="QueueSortMain$StringLT" start="20" end="20" startBytecode="0" endBytecode="0" sourcefile="StringLT.java" sourcepath="StringLT.java"/>
+  </BugInstance>
+  <BugInstance type="IL_INFINITE_RECURSIVE_LOOP" priority="1" rank="9" abbrev="IL" category="CORRECTNESS" first="10" last="12" removedByChange="true">
+    <Class classname="SortingMachine4">
+      <SourceLine classname="SortingMachine4" sourcefile="SortingMachine4.java" sourcepath="SortingMachine4.java"/>
+    </Class>
+    <Method classname="SortingMachine4" name="isInInsertionMode" signature="()Z" isStatic="false">
+      <SourceLine classname="SortingMachine4" start="258" end="258" startBytecode="0" endBytecode="64" sourcefile="SortingMachine4.java" sourcepath="SortingMachine4.java"/>
+    </Method>
+    <SourceLine classname="SortingMachine4" start="258" end="258" startBytecode="1" endBytecode="1" sourcefile="SortingMachine4.java" sourcepath="SortingMachine4.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 1 Oct 2015 13:17:36 -0400" total_classes="1" referenced_classes="24" total_bugs="1" total_size="86" num_packages="1" java_version="1.7.0_71" vm_version="24.71-b01" cpu_seconds="1.08" clock_seconds="0.52" peak_mbytes="377.49" alloc_mbytes="455.00" gc_seconds="0.01" priority_2="1">
+    <PackageStats package="" total_bugs="1" total_types="2" total_size="86" priority_2="1">
+      <ClassStats class="SortingMachine4" sourceFile="SortingMachine4.java" interface="false" size="86" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="87" invocations="326" avgMicrosecondsPerInvocation="267" maxMicrosecondsPerInvocation="2948" standardDeviationMircosecondsPerInvocation="421"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="76" invocations="2" avgMicrosecondsPerInvocation="38150" maxMicrosecondsPerInvocation="65298" standardDeviationMircosecondsPerInvocation="27148"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="23" invocations="24" avgMicrosecondsPerInvocation="967" maxMicrosecondsPerInvocation="5719" standardDeviationMircosecondsPerInvocation="1542"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="20" invocations="15" avgMicrosecondsPerInvocation="1387" maxMicrosecondsPerInvocation="6996" standardDeviationMircosecondsPerInvocation="2027"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="20" invocations="24" avgMicrosecondsPerInvocation="862" maxMicrosecondsPerInvocation="2958" standardDeviationMircosecondsPerInvocation="797"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="19" invocations="88" avgMicrosecondsPerInvocation="226" maxMicrosecondsPerInvocation="945" standardDeviationMircosecondsPerInvocation="181"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="19" invocations="328" avgMicrosecondsPerInvocation="59" maxMicrosecondsPerInvocation="324" standardDeviationMircosecondsPerInvocation="35"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="16" invocations="24" avgMicrosecondsPerInvocation="704" maxMicrosecondsPerInvocation="2171" standardDeviationMircosecondsPerInvocation="578"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="16" invocations="24" avgMicrosecondsPerInvocation="704" maxMicrosecondsPerInvocation="14533" standardDeviationMircosecondsPerInvocation="2918"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="16" invocations="15" avgMicrosecondsPerInvocation="1106" maxMicrosecondsPerInvocation="4335" standardDeviationMircosecondsPerInvocation="1134"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="15" invocations="17" avgMicrosecondsPerInvocation="925" maxMicrosecondsPerInvocation="3828" standardDeviationMircosecondsPerInvocation="886"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="14" invocations="16" avgMicrosecondsPerInvocation="935" maxMicrosecondsPerInvocation="3729" standardDeviationMircosecondsPerInvocation="982"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="12" invocations="17" avgMicrosecondsPerInvocation="753" maxMicrosecondsPerInvocation="2043" standardDeviationMircosecondsPerInvocation="604"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1443717988576" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1443717988581" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1443717991078" release="" codeSize="35" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1443718112930" release="" codeSize="35" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1443718179148" release="" codeSize="35" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1443718249370" release="" codeSize="52" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1443718458742" release="" codeSize="45" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1443718489936" release="" codeSize="43" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1443718861665" release="" codeSize="34" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1443718998880" release="" codeSize="33" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1443719528534" release="" codeSize="85" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1443719699917" release="" codeSize="86" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1443719770127" release="" codeSize="32" numClasses="2"/>
+    <AppVersion sequence="13" timestamp="1443719801979" release="" codeSize="86" numClasses="1"/>
+  </History>
+</BugCollection>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="19" timestamp="1426090818111" analysisTimestamp="1426090817596" release="">
+  <Project projectName="XMLTreeRecursion">
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/XMLTreeRecursion/bin/XMLTreeRecursion.class</Jar>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/XMLTreeRecursion/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/rt.jar</AuxClasspathEntry>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/XMLTreeRecursion/test</SrcDir>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/XMLTreeRecursion/src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="EC_UNRELATED_CLASS_AND_INTERFACE" priority="1" rank="4" abbrev="EC" category="CORRECTNESS" first="3" last="3" removedByChange="true">
+    <Class classname="XMLTreeRecursion">
+      <SourceLine classname="XMLTreeRecursion" sourcefile="XMLTreeRecursion.java" sourcepath="XMLTreeRecursion.java"/>
+    </Class>
+    <Method classname="XMLTreeRecursion" name="tagCount" signature="(Lcomponents/xmltree/XMLTree;Ljava/lang/String;)I" isStatic="true">
+      <SourceLine classname="XMLTreeRecursion" start="38" end="48" startBytecode="0" endBytecode="41" sourcefile="XMLTreeRecursion.java" sourcepath="XMLTreeRecursion.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Type descriptor="Lcomponents/xmltree/XMLTree;" role="TYPE_EXPECTED">
+      <SourceLine classname="components.xmltree.XMLTree" sourcefile="SourceFile" sourcepath="components/xmltree/SourceFile"/>
+    </Type>
+    <LocalVariable name="tag" register="1" pc="43" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <LocalVariable name="xml" register="0" pc="43" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Method classname="java.lang.Object" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.Object" start="150" end="150" startBytecode="0" endBytecode="45" sourcefile="Object.java" sourcepath="java/lang/Object.java"/>
+    </Method>
+    <Method classname="components.xmltree.XMLTreeSecondary" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="components.xmltree.XMLTreeSecondary" start="159" end="169" startBytecode="0" endBytecode="123" sourcefile="SourceFile" sourcepath="components/xmltree/SourceFile"/>
+    </Method>
+    <SourceLine classname="XMLTreeRecursion" start="42" end="42" startBytecode="44" endBytecode="44" sourcefile="XMLTreeRecursion.java" sourcepath="XMLTreeRecursion.java"/>
+    <SourceLine classname="XMLTreeRecursion" start="42" end="42" startBytecode="44" endBytecode="44" sourcefile="XMLTreeRecursion.java" sourcepath="XMLTreeRecursion.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 11 Mar 2015 12:20:17 -0400" total_classes="1" referenced_classes="17" total_bugs="0" total_size="71" num_packages="1" java_version="1.7.0_71" vm_version="24.71-b01" cpu_seconds="1.19" clock_seconds="0.52" peak_mbytes="356.54" alloc_mbytes="455.00" gc_seconds="0.03">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="71">
+      <ClassStats class="XMLTreeRecursion" sourceFile="XMLTreeRecursion.java" interface="false" size="71" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="149" invocations="346" avgMicrosecondsPerInvocation="433" maxMicrosecondsPerInvocation="30353" standardDeviationMircosecondsPerInvocation="1794"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="78" invocations="2" avgMicrosecondsPerInvocation="39486" maxMicrosecondsPerInvocation="67742" standardDeviationMircosecondsPerInvocation="28256"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="25" invocations="17" avgMicrosecondsPerInvocation="1477" maxMicrosecondsPerInvocation="5985" standardDeviationMircosecondsPerInvocation="1740"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="23" invocations="346" avgMicrosecondsPerInvocation="68" maxMicrosecondsPerInvocation="339" standardDeviationMircosecondsPerInvocation="47"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="18" invocations="65" avgMicrosecondsPerInvocation="280" maxMicrosecondsPerInvocation="752" standardDeviationMircosecondsPerInvocation="200"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="17" invocations="13" avgMicrosecondsPerInvocation="1351" maxMicrosecondsPerInvocation="4206" standardDeviationMircosecondsPerInvocation="999"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="15" invocations="8" avgMicrosecondsPerInvocation="1888" maxMicrosecondsPerInvocation="4557" standardDeviationMircosecondsPerInvocation="1627"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="13" invocations="13" avgMicrosecondsPerInvocation="1065" maxMicrosecondsPerInvocation="2881" standardDeviationMircosecondsPerInvocation="653"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="13" invocations="8" avgMicrosecondsPerInvocation="1650" maxMicrosecondsPerInvocation="4601" standardDeviationMircosecondsPerInvocation="1508"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="11" invocations="313" avgMicrosecondsPerInvocation="37" maxMicrosecondsPerInvocation="837" standardDeviationMircosecondsPerInvocation="74"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="11" invocations="8" avgMicrosecondsPerInvocation="1420" maxMicrosecondsPerInvocation="4225" standardDeviationMircosecondsPerInvocation="1214"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1426088214229" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1426088214235" release="" codeSize="8" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1426088778583" release="" codeSize="56" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1426088926899" release="" codeSize="56" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1426089010316" release="" codeSize="56" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1426089164223" release="" codeSize="56" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1426089312727" release="" codeSize="56" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1426089322818" release="" codeSize="56" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1426089370635" release="" codeSize="58" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1426089520438" release="" codeSize="57" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1426089599155" release="" codeSize="59" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1426089722022" release="" codeSize="57" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1426090010476" release="" codeSize="15" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1426090020391" release="" codeSize="57" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1426090157707" release="" codeSize="59" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1426090429313" release="" codeSize="50" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1426090460913" release="" codeSize="61" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1426090761216" release="" codeSize="70" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1426090775787" release="" codeSize="71" numClasses="1"/>
+  </History>
+</BugCollection>

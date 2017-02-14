@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 8 elements from project &apos;Glossary&apos;&#x0A;- Original project: &apos;Glossary&apos;&#x0A;- Original elements:&#x0A;     definition.html&#x0A;     glossary.html&#x0A;     index.html&#x0A;     language.html&#x0A;     meaning.html&#x0A;     term.html&#x0A;     terms.txt&#x0A;     word.html" description="Delete elements" element1="data/terms.txt" element2="data/meaning.html" element3="data/language.html" element4="data/word.html" element5="data/definition.html" element6="data/glossary.html" element7="data/term.html" element8="data/index.html" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="8" stamp="1441248319174" subPackages="false" version="1.0"/>
+</session>

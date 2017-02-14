@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="21" timestamp="1425011080199" analysisTimestamp="1425011079437" release="">
+  <Project projectName="RSSAggregator">
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/RSSAggregator/bin/RSSAggregator.class</Jar>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/RSSAggregator/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/rt.jar</AuxClasspathEntry>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/RSSAggregator/test</SrcDir>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/RSSAggregator/src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="EC_UNRELATED_CLASS_AND_INTERFACE" priority="1" rank="4" abbrev="EC" category="CORRECTNESS" first="16" last="17" removedByChange="true">
+    <Class classname="CopyOfRSSAggregator">
+      <SourceLine classname="CopyOfRSSAggregator" sourcefile="CopyOfRSSAggregator.java" sourcepath="CopyOfRSSAggregator.java"/>
+    </Class>
+    <Method classname="CopyOfRSSAggregator" name="processItem" signature="(Lcomponents/xmltree/XMLTree;Lcomponents/simplewriter/SimpleWriter;)V" isStatic="true">
+      <SourceLine classname="CopyOfRSSAggregator" start="272" end="350" startBytecode="0" endBytecode="209" sourcefile="CopyOfRSSAggregator.java" sourcepath="CopyOfRSSAggregator.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Type descriptor="Lcomponents/xmltree/XMLTree;" role="TYPE_EXPECTED">
+      <SourceLine classname="components.xmltree.XMLTree" sourcefile="SourceFile" sourcepath="components/xmltree/SourceFile"/>
+    </Type>
+    <String value="link" role="STRING_CONSTANT"/>
+    <Method classname="components.xmltree.XMLTree" name="child" signature="(I)Lcomponents/xmltree/XMLTree;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="components.xmltree.XMLTree" sourcefile="SourceFile" sourcepath="components/xmltree/SourceFile"/>
+    </Method>
+    <Method classname="java.lang.Object" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.Object" start="150" end="150" startBytecode="0" endBytecode="45" sourcefile="Object.java" sourcepath="java/lang/Object.java"/>
+    </Method>
+    <Method classname="components.xmltree.XMLTreeSecondary" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="components.xmltree.XMLTreeSecondary" start="159" end="169" startBytecode="0" endBytecode="123" sourcefile="SourceFile" sourcepath="components/xmltree/SourceFile"/>
+    </Method>
+    <SourceLine classname="CopyOfRSSAggregator" start="296" end="296" startBytecode="182" endBytecode="182" sourcefile="CopyOfRSSAggregator.java" sourcepath="CopyOfRSSAggregator.java"/>
+    <SourceLine classname="CopyOfRSSAggregator" start="296" end="296" startBytecode="182" endBytecode="182" sourcefile="CopyOfRSSAggregator.java" sourcepath="CopyOfRSSAggregator.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_CLASS_AND_INTERFACE" priority="1" rank="4" abbrev="EC" category="CORRECTNESS" first="16" last="17" removedByChange="true">
+    <Class classname="CopyOfRSSAggregator">
+      <SourceLine classname="CopyOfRSSAggregator" sourcefile="CopyOfRSSAggregator.java" sourcepath="CopyOfRSSAggregator.java"/>
+    </Class>
+    <Method classname="CopyOfRSSAggregator" name="processItem" signature="(Lcomponents/xmltree/XMLTree;Lcomponents/simplewriter/SimpleWriter;)V" isStatic="true">
+      <SourceLine classname="CopyOfRSSAggregator" start="272" end="350" startBytecode="0" endBytecode="209" sourcefile="CopyOfRSSAggregator.java" sourcepath="CopyOfRSSAggregator.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Type descriptor="Lcomponents/xmltree/XMLTree;" role="TYPE_EXPECTED">
+      <SourceLine classname="components.xmltree.XMLTree" sourcefile="SourceFile" sourcepath="components/xmltree/SourceFile"/>
+    </Type>
+    <String value="pubDate" role="STRING_CONSTANT"/>
+    <Method classname="components.xmltree.XMLTree" name="child" signature="(I)Lcomponents/xmltree/XMLTree;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="components.xmltree.XMLTree" sourcefile="SourceFile" sourcepath="components/xmltree/SourceFile"/>
+    </Method>
+    <Method classname="java.lang.Object" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.Object" start="150" end="150" startBytecode="0" endBytecode="45" sourcefile="Object.java" sourcepath="java/lang/Object.java"/>
+    </Method>
+    <Method classname="components.xmltree.XMLTreeSecondary" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="components.xmltree.XMLTreeSecondary" start="159" end="169" startBytecode="0" endBytecode="123" sourcefile="SourceFile" sourcepath="components/xmltree/SourceFile"/>
+    </Method>
+    <SourceLine classname="CopyOfRSSAggregator" start="287" end="287" startBytecode="129" endBytecode="129" sourcefile="CopyOfRSSAggregator.java" sourcepath="CopyOfRSSAggregator.java"/>
+    <SourceLine classname="CopyOfRSSAggregator" start="287" end="287" startBytecode="129" endBytecode="129" sourcefile="CopyOfRSSAggregator.java" sourcepath="CopyOfRSSAggregator.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_CLASS_AND_INTERFACE" priority="1" rank="4" abbrev="EC" category="CORRECTNESS" first="16" last="17" removedByChange="true">
+    <Class classname="CopyOfRSSAggregator">
+      <SourceLine classname="CopyOfRSSAggregator" sourcefile="CopyOfRSSAggregator.java" sourcepath="CopyOfRSSAggregator.java"/>
+    </Class>
+    <Method classname="CopyOfRSSAggregator" name="processItem" signature="(Lcomponents/xmltree/XMLTree;Lcomponents/simplewriter/SimpleWriter;)V" isStatic="true">
+      <SourceLine classname="CopyOfRSSAggregator" start="272" end="350" startBytecode="0" endBytecode="209" sourcefile="CopyOfRSSAggregator.java" sourcepath="CopyOfRSSAggregator.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Type descriptor="Lcomponents/xmltree/XMLTree;" role="TYPE_EXPECTED">
+      <SourceLine classname="components.xmltree.XMLTree" sourcefile="SourceFile" sourcepath="components/xmltree/SourceFile"/>
+    </Type>
+    <String value="source" role="STRING_CONSTANT"/>
+    <Method classname="components.xmltree.XMLTree" name="child" signature="(I)Lcomponents/xmltree/XMLTree;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="components.xmltree.XMLTree" sourcefile="SourceFile" sourcepath="components/xmltree/SourceFile"/>
+    </Method>
+    <Method classname="java.lang.Object" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.Object" start="150" end="150" startBytecode="0" endBytecode="45" sourcefile="Object.java" sourcepath="java/lang/Object.java"/>
+    </Method>
+    <Method classname="components.xmltree.XMLTreeSecondary" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="components.xmltree.XMLTreeSecondary" start="159" end="169" startBytecode="0" endBytecode="123" sourcefile="SourceFile" sourcepath="components/xmltree/SourceFile"/>
+    </Method>
+    <SourceLine classname="CopyOfRSSAggregator" start="290" end="290" startBytecode="146" endBytecode="146" sourcefile="CopyOfRSSAggregator.java" sourcepath="CopyOfRSSAggregator.java"/>
+    <SourceLine classname="CopyOfRSSAggregator" start="290" end="290" startBytecode="146" endBytecode="146" sourcefile="CopyOfRSSAggregator.java" sourcepath="CopyOfRSSAggregator.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_CLASS_AND_INTERFACE" priority="1" rank="4" abbrev="EC" category="CORRECTNESS" first="16" last="17" removedByChange="true">
+    <Class classname="CopyOfRSSAggregator">
+      <SourceLine classname="CopyOfRSSAggregator" sourcefile="CopyOfRSSAggregator.java" sourcepath="CopyOfRSSAggregator.java"/>
+    </Class>
+    <Method classname="CopyOfRSSAggregator" name="processItem" signature="(Lcomponents/xmltree/XMLTree;Lcomponents/simplewriter/SimpleWriter;)V" isStatic="true">
+      <SourceLine classname="CopyOfRSSAggregator" start="272" end="350" startBytecode="0" endBytecode="209" sourcefile="CopyOfRSSAggregator.java" sourcepath="CopyOfRSSAggregator.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Type descriptor="Lcomponents/xmltree/XMLTree;" role="TYPE_EXPECTED">
+      <SourceLine classname="components.xmltree.XMLTree" sourcefile="SourceFile" sourcepath="components/xmltree/SourceFile"/>
+    </Type>
+    <String value="title" role="STRING_CONSTANT"/>
+    <Method classname="components.xmltree.XMLTree" name="child" signature="(I)Lcomponents/xmltree/XMLTree;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="components.xmltree.XMLTree" sourcefile="SourceFile" sourcepath="components/xmltree/SourceFile"/>
+    </Method>
+    <Method classname="java.lang.Object" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.Object" start="150" end="150" startBytecode="0" endBytecode="45" sourcefile="Object.java" sourcepath="java/lang/Object.java"/>
+    </Method>
+    <Method classname="components.xmltree.XMLTreeSecondary" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="components.xmltree.XMLTreeSecondary" start="159" end="169" startBytecode="0" endBytecode="123" sourcefile="SourceFile" sourcepath="components/xmltree/SourceFile"/>
+    </Method>
+    <SourceLine classname="CopyOfRSSAggregator" start="293" end="293" startBytecode="164" endBytecode="164" sourcefile="CopyOfRSSAggregator.java" sourcepath="CopyOfRSSAggregator.java"/>
+    <SourceLine classname="CopyOfRSSAggregator" start="293" end="293" startBytecode="164" endBytecode="164" sourcefile="CopyOfRSSAggregator.java" sourcepath="CopyOfRSSAggregator.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="2" last="5" removedByChange="true">
+    <Class classname="RSSAggregator">
+      <SourceLine classname="RSSAggregator" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    </Class>
+    <Method classname="RSSAggregator" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="RSSAggregator" start="361" end="417" startBytecode="0" endBytecode="157" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    </Method>
+    <LocalVariable name="newFile" register="9" pc="352" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="RSSAggregator" start="405" end="405" startBytecode="350" endBytecode="350" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    <SourceLine classname="RSSAggregator" start="405" end="405" startBytecode="350" endBytecode="350" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.KILLED_BY_SUBSEQUENT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="newFile"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 26 Feb 2015 23:24:39 -0500" total_classes="1" referenced_classes="17" total_bugs="0" total_size="191" num_packages="1" java_version="1.7.0_71" vm_version="24.71-b01" cpu_seconds="1.92" clock_seconds="0.77" peak_mbytes="366.31" alloc_mbytes="455.00" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="191">
+      <ClassStats class="RSSAggregator" sourceFile="RSSAggregator.java" interface="false" size="191" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="134" invocations="344" avgMicrosecondsPerInvocation="391" maxMicrosecondsPerInvocation="7084" standardDeviationMircosecondsPerInvocation="708"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="102" invocations="2" avgMicrosecondsPerInvocation="51432" maxMicrosecondsPerInvocation="86578" standardDeviationMircosecondsPerInvocation="35146"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="50" invocations="8" avgMicrosecondsPerInvocation="6303" maxMicrosecondsPerInvocation="19334" standardDeviationMircosecondsPerInvocation="6403"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="48" invocations="8" avgMicrosecondsPerInvocation="6120" maxMicrosecondsPerInvocation="20244" standardDeviationMircosecondsPerInvocation="7211"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="45" invocations="12" avgMicrosecondsPerInvocation="3815" maxMicrosecondsPerInvocation="18821" standardDeviationMircosecondsPerInvocation="5104"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="30" invocations="8" avgMicrosecondsPerInvocation="3840" maxMicrosecondsPerInvocation="10744" standardDeviationMircosecondsPerInvocation="3967"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="26" invocations="17" avgMicrosecondsPerInvocation="1582" maxMicrosecondsPerInvocation="8842" standardDeviationMircosecondsPerInvocation="2315"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="26" invocations="344" avgMicrosecondsPerInvocation="77" maxMicrosecondsPerInvocation="578" standardDeviationMircosecondsPerInvocation="58"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="21" invocations="12" avgMicrosecondsPerInvocation="1831" maxMicrosecondsPerInvocation="4852" standardDeviationMircosecondsPerInvocation="1690"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="19" invocations="67" avgMicrosecondsPerInvocation="286" maxMicrosecondsPerInvocation="1163" standardDeviationMircosecondsPerInvocation="230"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="15" invocations="8" avgMicrosecondsPerInvocation="1983" maxMicrosecondsPerInvocation="4592" standardDeviationMircosecondsPerInvocation="1927"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="14" invocations="311" avgMicrosecondsPerInvocation="45" maxMicrosecondsPerInvocation="519" standardDeviationMircosecondsPerInvocation="66"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="13" invocations="8" avgMicrosecondsPerInvocation="1708" maxMicrosecondsPerInvocation="4243" standardDeviationMircosecondsPerInvocation="1545"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1424545256295" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1424545256299" release="" codeSize="161" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1424550128601" release="" codeSize="184" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1424550342967" release="" codeSize="368" numClasses="2"/>
+    <AppVersion sequence="4" timestamp="1424827697260" release="" codeSize="184" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1424827878388" release="" codeSize="372" numClasses="2"/>
+    <AppVersion sequence="6" timestamp="1424828440755" release="" codeSize="14" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1424828457997" release="" codeSize="186" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1424828605106" release="" codeSize="186" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1424828631087" release="" codeSize="186" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1424828858423" release="" codeSize="189" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1424828968569" release="" codeSize="191" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1424829098014" release="" codeSize="193" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1424830051281" release="" codeSize="394" numClasses="2"/>
+    <AppVersion sequence="14" timestamp="1424989766991" release="" codeSize="191" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1425010297618" release="" codeSize="191" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1425010622143" release="" codeSize="191" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1425010691204" release="" codeSize="191" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1425010744255" release="" codeSize="191" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1425010944886" release="" codeSize="191" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1425010968506" release="" codeSize="191" numClasses="1"/>
+  </History>
+</BugCollection>

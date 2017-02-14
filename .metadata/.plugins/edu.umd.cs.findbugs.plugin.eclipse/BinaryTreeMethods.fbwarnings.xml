@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="5" timestamp="1442942132712" analysisTimestamp="1442942132227" release="">
+  <Project projectName="BinaryTreeMethods">
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/BinaryTreeMethods/bin/BinaryTreeMethods.class</Jar>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/BinaryTreeMethods/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/BinaryTreeMethods/lib/binary-tree-utility.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/rt.jar</AuxClasspathEntry>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/BinaryTreeMethods/test</SrcDir>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/BinaryTreeMethods/src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 22 Sep 2015 13:15:14 -0400" total_classes="1" referenced_classes="17" total_bugs="0" total_size="66" num_packages="1" java_version="1.7.0_71" vm_version="24.71-b01" cpu_seconds="0.82" clock_seconds="0.49" peak_mbytes="343.07" alloc_mbytes="455.00" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="66">
+      <ClassStats class="BinaryTreeMethods" sourceFile="BinaryTreeMethods.java" interface="false" size="66" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="98" invocations="316" avgMicrosecondsPerInvocation="312" maxMicrosecondsPerInvocation="12506" standardDeviationMircosecondsPerInvocation="797"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="71" invocations="2" avgMicrosecondsPerInvocation="35861" maxMicrosecondsPerInvocation="59895" standardDeviationMircosecondsPerInvocation="24034"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="23" invocations="17" avgMicrosecondsPerInvocation="1387" maxMicrosecondsPerInvocation="7258" standardDeviationMircosecondsPerInvocation="2032"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="19" invocations="316" avgMicrosecondsPerInvocation="61" maxMicrosecondsPerInvocation="233" standardDeviationMircosecondsPerInvocation="32"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="18" invocations="5" avgMicrosecondsPerInvocation="3705" maxMicrosecondsPerInvocation="13624" standardDeviationMircosecondsPerInvocation="5024"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="17" invocations="58" avgMicrosecondsPerInvocation="307" maxMicrosecondsPerInvocation="1251" standardDeviationMircosecondsPerInvocation="264"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="16" invocations="5" avgMicrosecondsPerInvocation="3331" maxMicrosecondsPerInvocation="11304" standardDeviationMircosecondsPerInvocation="4078"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="15" invocations="5" avgMicrosecondsPerInvocation="3012" maxMicrosecondsPerInvocation="5752" standardDeviationMircosecondsPerInvocation="2264"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="14" invocations="284" avgMicrosecondsPerInvocation="50" maxMicrosecondsPerInvocation="435" standardDeviationMircosecondsPerInvocation="66"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="13" invocations="7" avgMicrosecondsPerInvocation="1995" maxMicrosecondsPerInvocation="6708" standardDeviationMircosecondsPerInvocation="2045"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="12" invocations="7" avgMicrosecondsPerInvocation="1762" maxMicrosecondsPerInvocation="7170" standardDeviationMircosecondsPerInvocation="2251"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="11" invocations="17" avgMicrosecondsPerInvocation="655" maxMicrosecondsPerInvocation="2922" standardDeviationMircosecondsPerInvocation="901"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1442902989602" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1442902989607" release="" codeSize="76" numClasses="2"/>
+    <AppVersion sequence="2" timestamp="1442941483042" release="" codeSize="55" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1442941635583" release="" codeSize="74" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1442941771332" release="" codeSize="74" numClasses="1"/>
+  </History>
+</BugCollection>

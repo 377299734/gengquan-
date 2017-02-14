@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="4" timestamp="1421427804729" analysisTimestamp="1421427804379" release="">
+  <Project projectName="HelloJack">
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/HelloJack/bin/HelloJack.class</Jar>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/HelloJack/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/rt.jar</AuxClasspathEntry>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/HelloJack/test</SrcDir>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/HelloJack/src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 16 Jan 2015 12:03:24 -0500" total_classes="1" referenced_classes="14" total_bugs="0" total_size="14" num_packages="1" java_version="1.7.0_71" vm_version="24.71-b01" cpu_seconds="0.54" clock_seconds="0.35" peak_mbytes="367.40" alloc_mbytes="455.00" gc_seconds="0.02">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="14">
+      <ClassStats class="HelloJack" sourceFile="HelloJack.java" interface="false" size="14" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="83" invocations="305" avgMicrosecondsPerInvocation="273" maxMicrosecondsPerInvocation="2682" standardDeviationMircosecondsPerInvocation="408"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="71" invocations="2" avgMicrosecondsPerInvocation="35620" maxMicrosecondsPerInvocation="61024" standardDeviationMircosecondsPerInvocation="25404"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="35" invocations="305" avgMicrosecondsPerInvocation="117" maxMicrosecondsPerInvocation="17344" standardDeviationMircosecondsPerInvocation="988"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="25" invocations="14" avgMicrosecondsPerInvocation="1826" maxMicrosecondsPerInvocation="8874" standardDeviationMircosecondsPerInvocation="2538"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="17" invocations="54" avgMicrosecondsPerInvocation="317" maxMicrosecondsPerInvocation="1177" standardDeviationMircosecondsPerInvocation="243"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="11" invocations="14" avgMicrosecondsPerInvocation="801" maxMicrosecondsPerInvocation="2860" standardDeviationMircosecondsPerInvocation="955"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1421427151125" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1421427151125" release="" codeSize="10" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1421427358416" release="" codeSize="14" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1421427408067" release="" codeSize="14" numClasses="1"/>
+  </History>
+</BugCollection>

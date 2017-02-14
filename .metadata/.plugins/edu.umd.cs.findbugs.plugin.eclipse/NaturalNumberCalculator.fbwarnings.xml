@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="72" timestamp="1429846265811" analysisTimestamp="1429846265211" release="">
+  <Project projectName="NaturalNumberCalculator">
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/NaturalNumberCalculator/bin/NNCalcController1.class</Jar>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/NaturalNumberCalculator/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/rt.jar</AuxClasspathEntry>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/NaturalNumberCalculator/test</SrcDir>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/NaturalNumberCalculator/src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="5" last="16" removedByChange="true">
+    <Class classname="NNCalcController1">
+      <SourceLine classname="NNCalcController1" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java"/>
+    </Class>
+    <Method classname="NNCalcController1" name="processEnterEvent" signature="()V" isStatic="false">
+      <SourceLine classname="NNCalcController1" start="97" end="102" startBytecode="0" endBytecode="10" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java"/>
+    </Method>
+    <LocalVariable name="bottom" register="2" pc="20" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="NNCalcController1" start="98" end="98" startBytecode="19" endBytecode="19" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java"/>
+    <SourceLine classname="NNCalcController1" start="98" end="98" startBytecode="19" endBytecode="19" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="bottom"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="5" last="16" removedByChange="true">
+    <Class classname="NNCalcController1">
+      <SourceLine classname="NNCalcController1" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java"/>
+    </Class>
+    <Method classname="NNCalcController1" name="processEnterEvent" signature="()V" isStatic="false">
+      <SourceLine classname="NNCalcController1" start="97" end="102" startBytecode="0" endBytecode="10" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java"/>
+    </Method>
+    <LocalVariable name="top" register="1" pc="10" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="NNCalcController1" start="97" end="97" startBytecode="9" endBytecode="9" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java"/>
+    <SourceLine classname="NNCalcController1" start="97" end="97" startBytecode="9" endBytecode="9" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="top"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="IL_INFINITE_RECURSIVE_LOOP" priority="1" rank="9" abbrev="IL" category="CORRECTNESS" first="4" last="12" removedByChange="true">
+    <Class classname="NNCalcModel1">
+      <SourceLine classname="NNCalcModel1" sourcefile="NNCalcModel1.java" sourcepath="NNCalcModel1.java"/>
+    </Class>
+    <Method classname="NNCalcModel1" name="bottom" signature="()Lcomponents/naturalnumber/NaturalNumber;" isStatic="false">
+      <SourceLine classname="NNCalcModel1" start="34" end="34" startBytecode="0" endBytecode="46" sourcefile="NNCalcModel1.java" sourcepath="NNCalcModel1.java"/>
+    </Method>
+    <SourceLine classname="NNCalcModel1" start="34" end="34" startBytecode="1" endBytecode="1" sourcefile="NNCalcModel1.java" sourcepath="NNCalcModel1.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="27" last="28" removedByChange="true">
+    <Class classname="NNCalcView1">
+      <SourceLine classname="NNCalcView1" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+    </Class>
+    <Method classname="NNCalcView1" name="actionPerformed" signature="(Ljava/awt/event/ActionEvent;)V" isStatic="false">
+      <SourceLine classname="NNCalcView1" start="319" end="412" startBytecode="0" endBytecode="307" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+    </Method>
+    <LocalVariable name="MAX" register="4" pc="93" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="NNCalcView1" start="335" end="335" startBytecode="91" endBytecode="91" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+    <SourceLine classname="NNCalcView1" start="335" end="335" startBytecode="91" endBytecode="91" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="MAX"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+  </BugInstance>
+  <BugInstance type="IP_PARAMETER_IS_DEAD_BUT_OVERWRITTEN" priority="2" rank="8" abbrev="IP" category="CORRECTNESS" first="6" last="13" removedByChange="true">
+    <Class classname="NNCalcView1">
+      <SourceLine classname="NNCalcView1" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+    </Class>
+    <Method classname="NNCalcView1" name="updateDivideAllowed" signature="(Z)V" isStatic="false">
+      <SourceLine classname="NNCalcView1" start="297" end="303" startBytecode="0" endBytecode="10" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+    </Method>
+    <LocalVariable name="allowed" register="1" pc="2" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="NNCalcView1" start="297" end="297" startBytecode="1" endBytecode="1" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+  </BugInstance>
+  <BugInstance type="IP_PARAMETER_IS_DEAD_BUT_OVERWRITTEN" priority="2" rank="8" abbrev="IP" category="CORRECTNESS" first="6" last="13" removedByChange="true">
+    <Class classname="NNCalcView1">
+      <SourceLine classname="NNCalcView1" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+    </Class>
+    <Method classname="NNCalcView1" name="updatePowerAllowed" signature="(Z)V" isStatic="false">
+      <SourceLine classname="NNCalcView1" start="308" end="314" startBytecode="0" endBytecode="10" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+    </Method>
+    <LocalVariable name="allowed" register="1" pc="2" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="NNCalcView1" start="308" end="308" startBytecode="1" endBytecode="1" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+  </BugInstance>
+  <BugInstance type="IP_PARAMETER_IS_DEAD_BUT_OVERWRITTEN" priority="2" rank="8" abbrev="IP" category="CORRECTNESS" first="6" last="13" removedByChange="true">
+    <Class classname="NNCalcView1">
+      <SourceLine classname="NNCalcView1" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+    </Class>
+    <Method classname="NNCalcView1" name="updateRootAllowed" signature="(Z)V" isStatic="false">
+      <SourceLine classname="NNCalcView1" start="319" end="325" startBytecode="0" endBytecode="10" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+    </Method>
+    <LocalVariable name="allowed" register="1" pc="2" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="NNCalcView1" start="319" end="319" startBytecode="1" endBytecode="1" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+  </BugInstance>
+  <BugInstance type="IP_PARAMETER_IS_DEAD_BUT_OVERWRITTEN" priority="2" rank="8" abbrev="IP" category="CORRECTNESS" first="6" last="13" removedByChange="true">
+    <Class classname="NNCalcView1">
+      <SourceLine classname="NNCalcView1" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+    </Class>
+    <Method classname="NNCalcView1" name="updateSubtractAllowed" signature="(Z)V" isStatic="false">
+      <SourceLine classname="NNCalcView1" start="286" end="292" startBytecode="0" endBytecode="12" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+    </Method>
+    <LocalVariable name="allowed" register="1" pc="2" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="NNCalcView1" start="286" end="286" startBytecode="1" endBytecode="1" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_FIELD" priority="2" rank="12" abbrev="UwF" category="CORRECTNESS" first="2" last="2" removedByChange="true">
+    <Class classname="NNCalcView1">
+      <SourceLine classname="NNCalcView1" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+    </Class>
+    <Field classname="NNCalcView1" name="controller" signature="LNNCalcController;" isStatic="false">
+      <SourceLine classname="NNCalcView1" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+    </Field>
+    <SourceLine classname="NNCalcView1" start="326" end="326" startBytecode="22" endBytecode="22" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 23 Apr 2015 23:31:05 -0400" total_classes="1" referenced_classes="14" total_bugs="0" total_size="94" num_packages="1" java_version="1.7.0_71" vm_version="24.71-b01" cpu_seconds="1.80" clock_seconds="0.60" peak_mbytes="362.80" alloc_mbytes="455.00" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="94">
+      <ClassStats class="NNCalcController1" sourceFile="NNCalcController1.java" interface="false" size="94" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="101" invocations="299" avgMicrosecondsPerInvocation="340" maxMicrosecondsPerInvocation="3888" standardDeviationMircosecondsPerInvocation="512"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="77" invocations="2" avgMicrosecondsPerInvocation="38694" maxMicrosecondsPerInvocation="61717" standardDeviationMircosecondsPerInvocation="23023"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="42" invocations="267" avgMicrosecondsPerInvocation="160" maxMicrosecondsPerInvocation="1393" standardDeviationMircosecondsPerInvocation="228"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="27" invocations="13" avgMicrosecondsPerInvocation="2122" maxMicrosecondsPerInvocation="5772" standardDeviationMircosecondsPerInvocation="1288"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="23" invocations="43" avgMicrosecondsPerInvocation="540" maxMicrosecondsPerInvocation="7053" standardDeviationMircosecondsPerInvocation="1072"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="22" invocations="14" avgMicrosecondsPerInvocation="1625" maxMicrosecondsPerInvocation="8409" standardDeviationMircosecondsPerInvocation="2344"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="22" invocations="299" avgMicrosecondsPerInvocation="74" maxMicrosecondsPerInvocation="244" standardDeviationMircosecondsPerInvocation="33"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="18" invocations="13" avgMicrosecondsPerInvocation="1429" maxMicrosecondsPerInvocation="4542" standardDeviationMircosecondsPerInvocation="991"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="18" invocations="22" avgMicrosecondsPerInvocation="828" maxMicrosecondsPerInvocation="13244" standardDeviationMircosecondsPerInvocation="2723"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="16" invocations="13" avgMicrosecondsPerInvocation="1299" maxMicrosecondsPerInvocation="3157" standardDeviationMircosecondsPerInvocation="672"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="14" invocations="13" avgMicrosecondsPerInvocation="1132" maxMicrosecondsPerInvocation="3305" standardDeviationMircosecondsPerInvocation="730"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="13" invocations="14" avgMicrosecondsPerInvocation="970" maxMicrosecondsPerInvocation="5057" standardDeviationMircosecondsPerInvocation="1375"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="13" invocations="13" avgMicrosecondsPerInvocation="1014" maxMicrosecondsPerInvocation="2003" standardDeviationMircosecondsPerInvocation="409"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="11" invocations="13" avgMicrosecondsPerInvocation="921" maxMicrosecondsPerInvocation="1943" standardDeviationMircosecondsPerInvocation="451"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="11" invocations="14" avgMicrosecondsPerInvocation="814" maxMicrosecondsPerInvocation="1908" standardDeviationMircosecondsPerInvocation="401"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1429379925961" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1429379925961" release="" codeSize="380" numClasses="16"/>
+    <AppVersion sequence="2" timestamp="1429761358752" release="" codeSize="178" numClasses="2"/>
+    <AppVersion sequence="3" timestamp="1429761682080" release="" codeSize="181" numClasses="2"/>
+    <AppVersion sequence="4" timestamp="1429761957975" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1429763402811" release="" codeSize="81" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1429769309366" release="" codeSize="274" numClasses="3"/>
+    <AppVersion sequence="7" timestamp="1429769313811" release="" codeSize="81" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1429769419645" release="" codeSize="116" numClasses="2"/>
+    <AppVersion sequence="9" timestamp="1429769432025" release="" codeSize="195" numClasses="2"/>
+    <AppVersion sequence="10" timestamp="1429769906935" release="" codeSize="150" numClasses="2"/>
+    <AppVersion sequence="11" timestamp="1429769916837" release="" codeSize="215" numClasses="2"/>
+    <AppVersion sequence="12" timestamp="1429769919803" release="" codeSize="84" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1429770034795" release="" codeSize="24" numClasses="2"/>
+    <AppVersion sequence="14" timestamp="1429807909946" release="" codeSize="207" numClasses="2"/>
+    <AppVersion sequence="15" timestamp="1429807970976" release="" codeSize="166" numClasses="2"/>
+    <AppVersion sequence="16" timestamp="1429823147579" release="" codeSize="84" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1429823206069" release="" codeSize="86" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1429823351713" release="" codeSize="86" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1429823685888" release="" codeSize="86" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1429823687778" release="" codeSize="212" numClasses="2"/>
+    <AppVersion sequence="21" timestamp="1429823794991" release="" codeSize="213" numClasses="2"/>
+    <AppVersion sequence="22" timestamp="1429823834937" release="" codeSize="213" numClasses="2"/>
+    <AppVersion sequence="23" timestamp="1429823868326" release="" codeSize="212" numClasses="2"/>
+    <AppVersion sequence="24" timestamp="1429823930000" release="" codeSize="87" numClasses="1"/>
+    <AppVersion sequence="25" timestamp="1429824082739" release="" codeSize="213" numClasses="2"/>
+    <AppVersion sequence="26" timestamp="1429824198232" release="" codeSize="215" numClasses="2"/>
+    <AppVersion sequence="27" timestamp="1429824280501" release="" codeSize="215" numClasses="2"/>
+    <AppVersion sequence="28" timestamp="1429824458978" release="" codeSize="215" numClasses="2"/>
+    <AppVersion sequence="29" timestamp="1429824515933" release="" codeSize="215" numClasses="2"/>
+    <AppVersion sequence="30" timestamp="1429824698020" release="" codeSize="215" numClasses="2"/>
+    <AppVersion sequence="31" timestamp="1429824701592" release="" codeSize="87" numClasses="1"/>
+    <AppVersion sequence="32" timestamp="1429825333456" release="" codeSize="215" numClasses="2"/>
+    <AppVersion sequence="33" timestamp="1429825383231" release="" codeSize="215" numClasses="2"/>
+    <AppVersion sequence="34" timestamp="1429825602307" release="" codeSize="87" numClasses="1"/>
+    <AppVersion sequence="35" timestamp="1429825843122" release="" codeSize="142" numClasses="2"/>
+    <AppVersion sequence="36" timestamp="1429825854895" release="" codeSize="220" numClasses="2"/>
+    <AppVersion sequence="37" timestamp="1429825874059" release="" codeSize="220" numClasses="2"/>
+    <AppVersion sequence="38" timestamp="1429825876080" release="" codeSize="142" numClasses="2"/>
+    <AppVersion sequence="39" timestamp="1429825889211" release="" codeSize="215" numClasses="2"/>
+    <AppVersion sequence="40" timestamp="1429826052992" release="" codeSize="216" numClasses="2"/>
+    <AppVersion sequence="41" timestamp="1429826635175" release="" codeSize="230" numClasses="2"/>
+    <AppVersion sequence="42" timestamp="1429826638327" release="" codeSize="9" numClasses="1"/>
+    <AppVersion sequence="43" timestamp="1429826749975" release="" codeSize="232" numClasses="2"/>
+    <AppVersion sequence="44" timestamp="1429826891832" release="" codeSize="232" numClasses="2"/>
+    <AppVersion sequence="45" timestamp="1429826893121" release="" codeSize="232" numClasses="2"/>
+    <AppVersion sequence="46" timestamp="1429826897784" release="" codeSize="217" numClasses="2"/>
+    <AppVersion sequence="47" timestamp="1429826909704" release="" codeSize="217" numClasses="2"/>
+    <AppVersion sequence="48" timestamp="1429826916542" release="" codeSize="8" numClasses="1"/>
+    <AppVersion sequence="49" timestamp="1429827476032" release="" codeSize="215" numClasses="2"/>
+    <AppVersion sequence="50" timestamp="1429827903264" release="" codeSize="215" numClasses="2"/>
+    <AppVersion sequence="51" timestamp="1429828191313" release="" codeSize="195" numClasses="2"/>
+    <AppVersion sequence="52" timestamp="1429828227531" release="" codeSize="195" numClasses="2"/>
+    <AppVersion sequence="53" timestamp="1429828417102" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="54" timestamp="1429828480143" release="" codeSize="87" numClasses="1"/>
+    <AppVersion sequence="55" timestamp="1429829174782" release="" codeSize="83" numClasses="1"/>
+    <AppVersion sequence="56" timestamp="1429829220333" release="" codeSize="96" numClasses="1"/>
+    <AppVersion sequence="57" timestamp="1429829224365" release="" codeSize="187" numClasses="2"/>
+    <AppVersion sequence="58" timestamp="1429829287286" release="" codeSize="94" numClasses="1"/>
+    <AppVersion sequence="59" timestamp="1429829336597" release="" codeSize="83" numClasses="1"/>
+    <AppVersion sequence="60" timestamp="1429829351022" release="" codeSize="96" numClasses="1"/>
+    <AppVersion sequence="61" timestamp="1429841947189" release="" codeSize="93" numClasses="1"/>
+    <AppVersion sequence="62" timestamp="1429842126747" release="" codeSize="187" numClasses="2"/>
+    <AppVersion sequence="63" timestamp="1429842486986" release="" codeSize="93" numClasses="1"/>
+    <AppVersion sequence="64" timestamp="1429842552218" release="" codeSize="187" numClasses="2"/>
+    <AppVersion sequence="65" timestamp="1429842590485" release="" codeSize="187" numClasses="2"/>
+    <AppVersion sequence="66" timestamp="1429842605100" release="" codeSize="187" numClasses="2"/>
+    <AppVersion sequence="67" timestamp="1429842698342" release="" codeSize="186" numClasses="2"/>
+    <AppVersion sequence="68" timestamp="1429846097223" release="" codeSize="94" numClasses="1"/>
+    <AppVersion sequence="69" timestamp="1429846137268" release="" codeSize="94" numClasses="1"/>
+    <AppVersion sequence="70" timestamp="1429846196418" release="" codeSize="93" numClasses="1"/>
+    <AppVersion sequence="71" timestamp="1429846228277" release="" codeSize="93" numClasses="1"/>
+  </History>
+</BugCollection>

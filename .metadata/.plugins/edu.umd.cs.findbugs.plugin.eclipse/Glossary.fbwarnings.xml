@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="141" timestamp="1429254894193" analysisTimestamp="1429254892454" release="">
+  <Project projectName="Glossary">
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/Glossary/bin/Glossary$StringLT.class</Jar>
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/Glossary/bin/Glossary.class</Jar>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/Glossary/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/rt.jar</AuxClasspathEntry>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/Glossary/test</SrcDir>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/Glossary/src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="65" last="65" removedByChange="true">
+    <Class classname="Glossary">
+      <SourceLine classname="Glossary" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Class>
+    <Method classname="Glossary" name="definitionPrint" signature="(Ljava/lang/String;Lcomponents/simplewriter/SimpleWriter;Lcomponents/queue/Queue;Lcomponents/queue/Queue;)V" isStatic="true">
+      <SourceLine classname="Glossary" start="255" end="269" startBytecode="0" endBytecode="39" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Method>
+    <LocalVariable name="keys" register="5" pc="29" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Glossary" start="256" end="256" startBytecode="27" endBytecode="27" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    <SourceLine classname="Glossary" start="256" end="256" startBytecode="27" endBytecode="27" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="keys"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="65" last="65" removedByChange="true">
+    <Class classname="Glossary">
+      <SourceLine classname="Glossary" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Class>
+    <Method classname="Glossary" name="definitionPrint" signature="(Ljava/lang/String;Lcomponents/simplewriter/SimpleWriter;Lcomponents/queue/Queue;Lcomponents/queue/Queue;)V" isStatic="true">
+      <SourceLine classname="Glossary" start="255" end="269" startBytecode="0" endBytecode="39" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Method>
+    <LocalVariable name="places" register="6" pc="38" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Glossary" start="257" end="257" startBytecode="36" endBytecode="36" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    <SourceLine classname="Glossary" start="257" end="257" startBytecode="36" endBytecode="36" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="places"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="2" last="3" removedByChange="true">
+    <Class classname="Glossary">
+      <SourceLine classname="Glossary" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Class>
+    <Method classname="Glossary" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Glossary" start="38" end="48" startBytecode="0" endBytecode="23" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Method>
+    <LocalVariable name="file" register="4" pc="41" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Glossary" start="44" end="44" startBytecode="39" endBytecode="39" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    <SourceLine classname="Glossary" start="44" end="44" startBytecode="39" endBytecode="39" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="file"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="33" last="33" removedByChange="true">
+    <Class classname="Glossary">
+      <SourceLine classname="Glossary" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Class>
+    <Method classname="Glossary" name="generateIndex" signature="(Lcomponents/queue/Queue;)V" isStatic="true">
+      <SourceLine classname="Glossary" start="99" end="130" startBytecode="0" endBytecode="91" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Method>
+    <LocalVariable name="fileOut" register="4" pc="133" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Glossary" start="116" end="116" startBytecode="131" endBytecode="131" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    <SourceLine classname="Glossary" start="116" end="116" startBytecode="131" endBytecode="131" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="fileOut"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.KILLED_BY_SUBSEQUENT_STORE" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="34" last="34" removedByChange="true">
+    <Class classname="Glossary">
+      <SourceLine classname="Glossary" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Class>
+    <Method classname="Glossary" name="generatePages" signature="(Lcomponents/queue/Queue;Lcomponents/queue/Queue;)V" isStatic="true">
+      <SourceLine classname="Glossary" start="137" end="174" startBytecode="0" endBytecode="132" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Method>
+    <LocalVariable name="first" register="5" pc="52" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Glossary" start="141" end="141" startBytecode="50" endBytecode="50" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    <SourceLine classname="Glossary" start="141" end="141" startBytecode="50" endBytecode="50" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="first"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.KILLED_BY_SUBSEQUENT_STORE" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="33" last="107" removedByChange="true">
+    <Class classname="Glossary">
+      <SourceLine classname="Glossary" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Class>
+    <Method classname="Glossary" name="sorter" signature="(Lcomponents/queue/Queue;Lcomponents/queue/Queue;)V" isStatic="true">
+      <SourceLine classname="Glossary" start="121" end="155" startBytecode="0" endBytecode="69" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Method>
+    <LocalVariable name="possible" register="3" pc="86" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Glossary" start="132" end="132" startBytecode="85" endBytecode="85" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    <SourceLine classname="Glossary" start="132" end="132" startBytecode="85" endBytecode="85" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.KILLED_BY_SUBSEQUENT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="possible"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="1" rank="9" abbrev="ES" category="BAD_PRACTICE" first="62" last="62" removedByChange="true">
+    <Class classname="Glossary">
+      <SourceLine classname="Glossary" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Class>
+    <Method classname="Glossary" name="isTerm" signature="(Ljava/lang/String;Ljava/lang/String;)I" isStatic="true">
+      <SourceLine classname="Glossary" start="284" end="305" startBytecode="0" endBytecode="78" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value=" " role="STRING_CONSTANT"/>
+    <LocalVariable name="extra" register="7" pc="106" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Glossary" start="295" end="295" startBytecode="108" endBytecode="108" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    <SourceLine classname="Glossary" start="295" end="295" startBytecode="108" endBytecode="108" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.DYNAMIC_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="2" rank="11" abbrev="ES" category="BAD_PRACTICE" first="8" last="11" removedByChange="true">
+    <Class classname="Glossary">
+      <SourceLine classname="Glossary" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Class>
+    <Method classname="Glossary" name="reader" signature="(Lcomponents/simplereader/SimpleReader;Lcomponents/queue/Queue;)Lcomponents/queue/Queue;" isStatic="true">
+      <SourceLine classname="Glossary" start="30" end="54" startBytecode="0" endBytecode="42" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <LocalVariable name="definition" register="4" pc="53" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Method classname="components.simplereader.SimpleReader" name="nextLine" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="components.simplereader.SimpleReader" sourcefile="SourceFile" sourcepath="components/simplereader/SourceFile"/>
+    </Method>
+    <SourceLine classname="Glossary" start="42" end="42" startBytecode="55" endBytecode="55" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    <SourceLine classname="Glossary" start="42" end="42" startBytecode="55" endBytecode="55" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.EMPTY_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="2" rank="11" abbrev="ES" category="BAD_PRACTICE" first="8" last="11" removedByChange="true">
+    <Class classname="Glossary">
+      <SourceLine classname="Glossary" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Class>
+    <Method classname="Glossary" name="reader" signature="(Lcomponents/simplereader/SimpleReader;Lcomponents/queue/Queue;)Lcomponents/queue/Queue;" isStatic="true">
+      <SourceLine classname="Glossary" start="30" end="54" startBytecode="0" endBytecode="42" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <LocalVariable name="word" register="3" pc="24" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Method classname="components.simplereader.SimpleReader" name="nextLine" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="components.simplereader.SimpleReader" sourcefile="SourceFile" sourcepath="components/simplereader/SourceFile"/>
+    </Method>
+    <SourceLine classname="Glossary" start="36" end="36" startBytecode="26" endBytecode="26" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    <SourceLine classname="Glossary" start="36" end="36" startBytecode="26" endBytecode="26" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.EMPTY_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="2" rank="11" abbrev="ES" category="BAD_PRACTICE" first="13" last="14" removedByChange="true">
+    <Class classname="Glossary">
+      <SourceLine classname="Glossary" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Class>
+    <Method classname="Glossary" name="reader" signature="(Lcomponents/simplereader/SimpleReader;Lcomponents/queue/Queue;)Lcomponents/queue/Queue;" isStatic="true">
+      <SourceLine classname="Glossary" start="30" end="50" startBytecode="0" endBytecode="49" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="" role="STRING_CONSTANT"/>
+    <Method classname="components.simplereader.SimpleReader" name="nextLine" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="components.simplereader.SimpleReader" sourcefile="SourceFile" sourcepath="components/simplereader/SourceFile"/>
+    </Method>
+    <SourceLine classname="Glossary" start="37" end="37" startBytecode="63" endBytecode="63" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    <SourceLine classname="Glossary" start="37" end="37" startBytecode="63" endBytecode="63" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.EMPTY_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="2" rank="11" abbrev="ES" category="BAD_PRACTICE" first="4" last="5" removedByChange="true">
+    <Class classname="Glossary">
+      <SourceLine classname="Glossary" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Class>
+    <Method classname="Glossary" name="reader" signature="(Lcomponents/simplereader/SimpleReader;Lcomponents/simplereader/SimpleReader;Lcomponents/queue/Queue;)Lcomponents/queue/Queue;" isStatic="true">
+      <SourceLine classname="Glossary" start="30" end="41" startBytecode="0" endBytecode="23" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="" role="STRING_CONSTANT"/>
+    <Method classname="components.simplereader.SimpleReader" name="nextLine" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="components.simplereader.SimpleReader" sourcefile="SourceFile" sourcepath="components/simplereader/SourceFile"/>
+    </Method>
+    <SourceLine classname="Glossary" start="30" end="30" startBytecode="52" endBytecode="52" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    <SourceLine classname="Glossary" start="30" end="30" startBytecode="52" endBytecode="52" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.EMPTY_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE" first="62" last="62" removedByChange="true">
+    <Class classname="Glossary">
+      <SourceLine classname="Glossary" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Class>
+    <Method classname="Glossary" name="isTerm" signature="(Ljava/lang/String;Ljava/lang/String;)I" isStatic="true">
+      <SourceLine classname="Glossary" start="284" end="305" startBytecode="0" endBytecode="360" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Method>
+    <SourceLine classname="Glossary" start="296" end="296" startBytecode="63" endBytecode="63" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE" first="13" last="25" removedByChange="true">
+    <Class classname="Glossary">
+      <SourceLine classname="Glossary" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Class>
+    <Method classname="Glossary" name="reader" signature="(Lcomponents/simplereader/SimpleReader;Lcomponents/queue/Queue;)Lcomponents/queue/Queue;" isStatic="true">
+      <SourceLine classname="Glossary" start="30" end="47" startBytecode="0" endBytecode="322" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Method>
+    <SourceLine classname="Glossary" start="39" end="39" startBytecode="37" endBytecode="37" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE" first="28" last="29" removedByChange="true">
+    <Class classname="Glossary">
+      <SourceLine classname="Glossary" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Class>
+    <Method classname="Glossary" name="reader" signature="(Lcomponents/simplereader/SimpleReader;Lcomponents/queue/Queue;)V" isStatic="true">
+      <SourceLine classname="Glossary" start="30" end="46" startBytecode="0" endBytecode="321" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Method>
+    <SourceLine classname="Glossary" start="39" end="39" startBytecode="37" endBytecode="37" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE" first="30">
+    <Class classname="Glossary">
+      <SourceLine classname="Glossary" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Class>
+    <Method classname="Glossary" name="reader" signature="(Lcomponents/simplereader/SimpleReader;Lcomponents/queue/Queue;Lcomponents/queue/Queue;)V" isStatic="true">
+      <SourceLine classname="Glossary" start="59" end="104" startBytecode="0" endBytecode="554" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Method>
+    <SourceLine classname="Glossary" start="90" end="90" startBytecode="158" endBytecode="158" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE" first="23" last="23" removedByChange="true">
+    <Class classname="Glossary$StringLT">
+      <SourceLine classname="Glossary$StringLT" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Class>
+    <Method classname="Glossary$StringLT" name="reader" signature="(Lcomponents/simplereader/SimpleReader;Lcomponents/queue/Queue;)Lcomponents/queue/Queue;" isStatic="true">
+      <SourceLine classname="Glossary$StringLT" start="38" end="55" startBytecode="0" endBytecode="322" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Method>
+    <SourceLine classname="Glossary$StringLT" start="47" end="47" startBytecode="37" endBytecode="37" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+  </BugInstance>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE" first="22">
+    <Class classname="Glossary$StringLT">
+      <SourceLine classname="Glossary$StringLT" start="1" end="27" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="116" last="116" removedByChange="true">
+    <Class classname="GlossaryTest">
+      <SourceLine classname="GlossaryTest" sourcefile="GlossaryTest.java" sourcepath="GlossaryTest.java"/>
+    </Class>
+    <Method classname="GlossaryTest" name="readerTest_1" signature="()V" isStatic="false">
+      <SourceLine classname="GlossaryTest" start="27" end="35" startBytecode="0" endBytecode="13" sourcefile="GlossaryTest.java" sourcepath="GlossaryTest.java"/>
+    </Method>
+    <LocalVariable name="file" register="3" pc="26" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="GlossaryTest" start="29" end="29" startBytecode="25" endBytecode="25" sourcefile="GlossaryTest.java" sourcepath="GlossaryTest.java"/>
+    <SourceLine classname="GlossaryTest" start="29" end="29" startBytecode="25" endBytecode="25" sourcefile="GlossaryTest.java" sourcepath="GlossaryTest.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="file"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="116" last="116" removedByChange="true">
+    <Class classname="GlossaryTest">
+      <SourceLine classname="GlossaryTest" sourcefile="GlossaryTest.java" sourcepath="GlossaryTest.java"/>
+    </Class>
+    <Method classname="GlossaryTest" name="readerTest_1" signature="()V" isStatic="false">
+      <SourceLine classname="GlossaryTest" start="27" end="35" startBytecode="0" endBytecode="13" sourcefile="GlossaryTest.java" sourcepath="GlossaryTest.java"/>
+    </Method>
+    <LocalVariable name="readerString1" register="1" pc="8" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="GlossaryTest" start="27" end="27" startBytecode="7" endBytecode="7" sourcefile="GlossaryTest.java" sourcepath="GlossaryTest.java"/>
+    <SourceLine classname="GlossaryTest" start="27" end="27" startBytecode="7" endBytecode="7" sourcefile="GlossaryTest.java" sourcepath="GlossaryTest.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="readerString1"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="116" last="116" removedByChange="true">
+    <Class classname="GlossaryTest">
+      <SourceLine classname="GlossaryTest" sourcefile="GlossaryTest.java" sourcepath="GlossaryTest.java"/>
+    </Class>
+    <Method classname="GlossaryTest" name="readerTest_1" signature="()V" isStatic="false">
+      <SourceLine classname="GlossaryTest" start="27" end="35" startBytecode="0" endBytecode="13" sourcefile="GlossaryTest.java" sourcepath="GlossaryTest.java"/>
+    </Method>
+    <LocalVariable name="readerTest" register="2" pc="16" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="GlossaryTest" start="28" end="28" startBytecode="15" endBytecode="15" sourcefile="GlossaryTest.java" sourcepath="GlossaryTest.java"/>
+    <SourceLine classname="GlossaryTest" start="28" end="28" startBytecode="15" endBytecode="15" sourcefile="GlossaryTest.java" sourcepath="GlossaryTest.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="readerTest"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_CLASS_AND_INTERFACE" priority="2" rank="6" abbrev="EC" category="CORRECTNESS" first="125" last="125" removedByChange="true">
+    <Class classname="GlossaryTest">
+      <SourceLine classname="GlossaryTest" sourcefile="GlossaryTest.java" sourcepath="GlossaryTest.java"/>
+    </Class>
+    <Method classname="GlossaryTest" name="readerTest_3" signature="()V" isStatic="false">
+      <SourceLine classname="GlossaryTest" start="80" end="94" startBytecode="0" endBytecode="31" sourcefile="GlossaryTest.java" sourcepath="GlossaryTest.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="108" end="3093" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Type descriptor="Lcomponents/map/Map;" role="TYPE_EXPECTED">
+      <SourceLine classname="components.map.Map" sourcefile="SourceFile" sourcepath="components/map/SourceFile"/>
+    </Type>
+    <LocalVariable name="line" register="4" pc="62" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Method classname="components.queue.Queue" name="front" signature="()Ljava/lang/Object;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="components.queue.Queue" sourcefile="SourceFile" sourcepath="components/queue/SourceFile"/>
+    </Method>
+    <Method classname="java.lang.Object" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.Object" start="150" end="150" startBytecode="0" endBytecode="45" sourcefile="Object.java" sourcepath="java/lang/Object.java"/>
+    </Method>
+    <Method classname="components.map.MapSecondary" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="components.map.MapSecondary" start="137" end="171" startBytecode="0" endBytecode="314" sourcefile="SourceFile" sourcepath="components/map/SourceFile"/>
+    </Method>
+    <SourceLine classname="GlossaryTest" start="92" end="92" startBytecode="64" endBytecode="64" sourcefile="GlossaryTest.java" sourcepath="GlossaryTest.java"/>
+    <SourceLine classname="GlossaryTest" start="92" end="92" startBytecode="64" endBytecode="64" sourcefile="GlossaryTest.java" sourcepath="GlossaryTest.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_TYPES" priority="2" rank="3" abbrev="EC" category="CORRECTNESS" first="120" last="120" removedByChange="true">
+    <Class classname="GlossaryTest">
+      <SourceLine classname="GlossaryTest" sourcefile="GlossaryTest.java" sourcepath="GlossaryTest.java"/>
+    </Class>
+    <Method classname="GlossaryTest" name="readerTest_2" signature="()V" isStatic="false">
+      <SourceLine classname="GlossaryTest" start="55" end="70" startBytecode="0" endBytecode="35" sourcefile="GlossaryTest.java" sourcepath="GlossaryTest.java"/>
+    </Method>
+    <Type descriptor="Lcomponents/map/Map1L;" role="TYPE_FOUND" typeParameters="&lt;java.lang.String,java.lang.String&gt;">
+      <SourceLine classname="components.map.Map1L" start="1" end="208" sourcefile="SourceFile" sourcepath="components/map/SourceFile"/>
+    </Type>
+    <Type descriptor="Lcomponents/queue/Queue1L;" role="TYPE_EXPECTED" typeParameters="&lt;components.map.Map&lt;java.lang.String,java.lang.String&gt;&gt;">
+      <SourceLine classname="components.queue.Queue1L" start="1" end="166" sourcefile="SourceFile" sourcepath="components/queue/SourceFile"/>
+    </Type>
+    <LocalVariable name="line" register="4" pc="70" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <LocalVariable name="readerMapB" register="2" pc="70" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Method classname="components.queue.QueueSecondary" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="components.queue.QueueSecondary" start="116" end="138" startBytecode="0" endBytecode="270" sourcefile="SourceFile" sourcepath="components/queue/SourceFile"/>
+    </Method>
+    <SourceLine classname="GlossaryTest" start="68" end="68" startBytecode="72" endBytecode="72" sourcefile="GlossaryTest.java" sourcepath="GlossaryTest.java"/>
+    <SourceLine classname="GlossaryTest" start="68" end="68" startBytecode="72" endBytecode="72" sourcefile="GlossaryTest.java" sourcepath="GlossaryTest.java"/>
+  </BugInstance>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE" first="30" last="31" removedByChange="true">
+    <Class classname="StringLT">
+      <SourceLine classname="StringLT" start="21" end="28" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Class>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 17 Apr 2015 03:14:52 -0400" total_classes="2" referenced_classes="21" total_bugs="2" total_size="169" num_packages="1" java_version="1.7.0_71" vm_version="24.71-b01" cpu_seconds="2.73" clock_seconds="1.75" peak_mbytes="356.00" alloc_mbytes="455.00" gc_seconds="0.01" priority_2="2">
+    <PackageStats package="" total_bugs="2" total_types="2" total_size="169" priority_2="2">
+      <ClassStats class="Glossary" sourceFile="Glossary.java" interface="false" size="161" bugs="1" priority_2="1"/>
+      <ClassStats class="Glossary$StringLT" sourceFile="Glossary.java" interface="false" size="8" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="215" invocations="19" avgMicrosecondsPerInvocation="11321" maxMicrosecondsPerInvocation="78666" standardDeviationMircosecondsPerInvocation="18368"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="160" invocations="2" avgMicrosecondsPerInvocation="80229" maxMicrosecondsPerInvocation="141035" standardDeviationMircosecondsPerInvocation="60806"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="148" invocations="13" avgMicrosecondsPerInvocation="11410" maxMicrosecondsPerInvocation="66005" standardDeviationMircosecondsPerInvocation="18002"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="137" invocations="329" avgMicrosecondsPerInvocation="417" maxMicrosecondsPerInvocation="19017" standardDeviationMircosecondsPerInvocation="1375"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="116" invocations="19" avgMicrosecondsPerInvocation="6110" maxMicrosecondsPerInvocation="32567" standardDeviationMircosecondsPerInvocation="8800"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="99" invocations="13" avgMicrosecondsPerInvocation="7646" maxMicrosecondsPerInvocation="37788" standardDeviationMircosecondsPerInvocation="10060"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="88" invocations="12" avgMicrosecondsPerInvocation="7414" maxMicrosecondsPerInvocation="40935" standardDeviationMircosecondsPerInvocation="10920"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindReturnRef" totalMilliseconds="57" invocations="2" avgMicrosecondsPerInvocation="28697" maxMicrosecondsPerInvocation="57073" standardDeviationMircosecondsPerInvocation="28376"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="48" invocations="21" avgMicrosecondsPerInvocation="2329" maxMicrosecondsPerInvocation="40585" standardDeviationMircosecondsPerInvocation="8576"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="46" invocations="13" avgMicrosecondsPerInvocation="3560" maxMicrosecondsPerInvocation="23458" standardDeviationMircosecondsPerInvocation="6071"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="42" invocations="13" avgMicrosecondsPerInvocation="3255" maxMicrosecondsPerInvocation="12613" standardDeviationMircosecondsPerInvocation="3458"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="41" invocations="2" avgMicrosecondsPerInvocation="20851" maxMicrosecondsPerInvocation="41261" standardDeviationMircosecondsPerInvocation="20410"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRunInvocations" totalMilliseconds="31" invocations="2" avgMicrosecondsPerInvocation="15622" maxMicrosecondsPerInvocation="31211" standardDeviationMircosecondsPerInvocation="15589"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="27" invocations="21" avgMicrosecondsPerInvocation="1323" maxMicrosecondsPerInvocation="6808" standardDeviationMircosecondsPerInvocation="1777"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="26" invocations="72" avgMicrosecondsPerInvocation="362" maxMicrosecondsPerInvocation="2089" standardDeviationMircosecondsPerInvocation="372"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1428868949284" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1428868949298" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1428869323483" release="" codeSize="16" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1428869367235" release="" codeSize="16" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1428870539121" release="" codeSize="26" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1428870604124" release="" codeSize="26" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1428870657228" release="" codeSize="26" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1428870804532" release="" codeSize="26" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1428870996342" release="" codeSize="34" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1428871117565" release="" codeSize="35" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1428871169403" release="" codeSize="35" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1428871173000" release="" codeSize="34" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1428871206580" release="" codeSize="27" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1428871564708" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1428871643724" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1428871666954" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1428871776162" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1428872004063" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1428872075559" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1428872151088" release="" codeSize="29" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1428872809160" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="21" timestamp="1428872889468" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="22" timestamp="1428873350625" release="" codeSize="12" numClasses="2"/>
+    <AppVersion sequence="23" timestamp="1428873477511" release="" codeSize="34" numClasses="2"/>
+    <AppVersion sequence="24" timestamp="1428873693268" release="" codeSize="7" numClasses="1"/>
+    <AppVersion sequence="25" timestamp="1428873697362" release="" codeSize="27" numClasses="1"/>
+    <AppVersion sequence="26" timestamp="1428873929840" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="27" timestamp="1428873966587" release="" codeSize="8" numClasses="1"/>
+    <AppVersion sequence="28" timestamp="1428873987468" release="" codeSize="29" numClasses="1"/>
+    <AppVersion sequence="29" timestamp="1428874012095" release="" codeSize="29" numClasses="1"/>
+    <AppVersion sequence="30" timestamp="1428875861244" release="" codeSize="26" numClasses="2"/>
+    <AppVersion sequence="31" timestamp="1428875932025" release="" codeSize="16" numClasses="2"/>
+    <AppVersion sequence="32" timestamp="1428875963550" release="" codeSize="28" numClasses="2"/>
+    <AppVersion sequence="33" timestamp="1428878203215" release="" codeSize="83" numClasses="2"/>
+    <AppVersion sequence="34" timestamp="1428879041177" release="" codeSize="118" numClasses="2"/>
+    <AppVersion sequence="35" timestamp="1428879196918" release="" codeSize="118" numClasses="2"/>
+    <AppVersion sequence="36" timestamp="1428879265054" release="" codeSize="116" numClasses="2"/>
+    <AppVersion sequence="37" timestamp="1428879519589" release="" codeSize="114" numClasses="2"/>
+    <AppVersion sequence="38" timestamp="1428881990529" release="" codeSize="114" numClasses="2"/>
+    <AppVersion sequence="39" timestamp="1428881995823" release="" codeSize="114" numClasses="2"/>
+    <AppVersion sequence="40" timestamp="1428882017026" release="" codeSize="43" numClasses="2"/>
+    <AppVersion sequence="41" timestamp="1428882028539" release="" codeSize="43" numClasses="2"/>
+    <AppVersion sequence="42" timestamp="1428882034514" release="" codeSize="114" numClasses="2"/>
+    <AppVersion sequence="43" timestamp="1428882058996" release="" codeSize="114" numClasses="2"/>
+    <AppVersion sequence="44" timestamp="1428883663553" release="" codeSize="124" numClasses="2"/>
+    <AppVersion sequence="45" timestamp="1428883836371" release="" codeSize="124" numClasses="2"/>
+    <AppVersion sequence="46" timestamp="1428886387017" release="" codeSize="139" numClasses="2"/>
+    <AppVersion sequence="47" timestamp="1428886456849" release="" codeSize="139" numClasses="2"/>
+    <AppVersion sequence="48" timestamp="1428887546056" release="" codeSize="140" numClasses="2"/>
+    <AppVersion sequence="49" timestamp="1428887640327" release="" codeSize="142" numClasses="2"/>
+    <AppVersion sequence="50" timestamp="1428887686479" release="" codeSize="17" numClasses="2"/>
+    <AppVersion sequence="51" timestamp="1428887728661" release="" codeSize="145" numClasses="2"/>
+    <AppVersion sequence="52" timestamp="1428887777439" release="" codeSize="146" numClasses="2"/>
+    <AppVersion sequence="53" timestamp="1428888187030" release="" codeSize="152" numClasses="2"/>
+    <AppVersion sequence="54" timestamp="1428888488107" release="" codeSize="150" numClasses="2"/>
+    <AppVersion sequence="55" timestamp="1428888844125" release="" codeSize="150" numClasses="2"/>
+    <AppVersion sequence="56" timestamp="1428888908606" release="" codeSize="150" numClasses="2"/>
+    <AppVersion sequence="57" timestamp="1428888948498" release="" codeSize="150" numClasses="2"/>
+    <AppVersion sequence="58" timestamp="1428889204332" release="" codeSize="152" numClasses="2"/>
+    <AppVersion sequence="59" timestamp="1428889756868" release="" codeSize="152" numClasses="2"/>
+    <AppVersion sequence="60" timestamp="1428889794795" release="" codeSize="153" numClasses="2"/>
+    <AppVersion sequence="61" timestamp="1428889835983" release="" codeSize="153" numClasses="2"/>
+    <AppVersion sequence="62" timestamp="1428890448969" release="" codeSize="161" numClasses="2"/>
+    <AppVersion sequence="63" timestamp="1428890502929" release="" codeSize="153" numClasses="2"/>
+    <AppVersion sequence="64" timestamp="1428890912492" release="" codeSize="153" numClasses="2"/>
+    <AppVersion sequence="65" timestamp="1428891768723" release="" codeSize="148" numClasses="2"/>
+    <AppVersion sequence="66" timestamp="1428891840617" release="" codeSize="146" numClasses="2"/>
+    <AppVersion sequence="67" timestamp="1428892049965" release="" codeSize="136" numClasses="2"/>
+    <AppVersion sequence="68" timestamp="1428892060138" release="" codeSize="146" numClasses="2"/>
+    <AppVersion sequence="69" timestamp="1428892618644" release="" codeSize="147" numClasses="2"/>
+    <AppVersion sequence="70" timestamp="1428892687468" release="" codeSize="146" numClasses="2"/>
+    <AppVersion sequence="71" timestamp="1428892814074" release="" codeSize="147" numClasses="2"/>
+    <AppVersion sequence="72" timestamp="1428893597855" release="" codeSize="149" numClasses="2"/>
+    <AppVersion sequence="73" timestamp="1428893728260" release="" codeSize="149" numClasses="2"/>
+    <AppVersion sequence="74" timestamp="1428894573764" release="" codeSize="156" numClasses="2"/>
+    <AppVersion sequence="75" timestamp="1428894927093" release="" codeSize="158" numClasses="2"/>
+    <AppVersion sequence="76" timestamp="1428894986392" release="" codeSize="158" numClasses="2"/>
+    <AppVersion sequence="77" timestamp="1428895046697" release="" codeSize="157" numClasses="2"/>
+    <AppVersion sequence="78" timestamp="1428895186288" release="" codeSize="158" numClasses="2"/>
+    <AppVersion sequence="79" timestamp="1428895413512" release="" codeSize="142" numClasses="2"/>
+    <AppVersion sequence="80" timestamp="1428895437761" release="" codeSize="142" numClasses="2"/>
+    <AppVersion sequence="81" timestamp="1428895482300" release="" codeSize="162" numClasses="2"/>
+    <AppVersion sequence="82" timestamp="1428895651941" release="" codeSize="142" numClasses="2"/>
+    <AppVersion sequence="83" timestamp="1428895669173" release="" codeSize="164" numClasses="2"/>
+    <AppVersion sequence="84" timestamp="1428895683870" release="" codeSize="164" numClasses="2"/>
+    <AppVersion sequence="85" timestamp="1428895949833" release="" codeSize="167" numClasses="2"/>
+    <AppVersion sequence="86" timestamp="1428895998217" release="" codeSize="174" numClasses="2"/>
+    <AppVersion sequence="87" timestamp="1428896074591" release="" codeSize="174" numClasses="2"/>
+    <AppVersion sequence="88" timestamp="1428896197163" release="" codeSize="171" numClasses="2"/>
+    <AppVersion sequence="89" timestamp="1428896248534" release="" codeSize="164" numClasses="2"/>
+    <AppVersion sequence="90" timestamp="1428896303117" release="" codeSize="164" numClasses="2"/>
+    <AppVersion sequence="91" timestamp="1428896429510" release="" codeSize="328" numClasses="4"/>
+    <AppVersion sequence="92" timestamp="1428910252398" release="" codeSize="173" numClasses="2"/>
+    <AppVersion sequence="93" timestamp="1428910734441" release="" codeSize="177" numClasses="2"/>
+    <AppVersion sequence="94" timestamp="1428910797307" release="" codeSize="177" numClasses="2"/>
+    <AppVersion sequence="95" timestamp="1428910891490" release="" codeSize="177" numClasses="2"/>
+    <AppVersion sequence="96" timestamp="1428910958451" release="" codeSize="328" numClasses="4"/>
+    <AppVersion sequence="97" timestamp="1429231979827" release="" codeSize="169" numClasses="2"/>
+    <AppVersion sequence="98" timestamp="1429232290929" release="" codeSize="28" numClasses="2"/>
+    <AppVersion sequence="99" timestamp="1429232320789" release="" codeSize="25" numClasses="2"/>
+    <AppVersion sequence="100" timestamp="1429232329472" release="" codeSize="142" numClasses="2"/>
+    <AppVersion sequence="101" timestamp="1429232384676" release="" codeSize="173" numClasses="2"/>
+    <AppVersion sequence="102" timestamp="1429232471343" release="" codeSize="174" numClasses="2"/>
+    <AppVersion sequence="103" timestamp="1429232501857" release="" codeSize="173" numClasses="2"/>
+    <AppVersion sequence="104" timestamp="1429232503450" release="" codeSize="25" numClasses="2"/>
+    <AppVersion sequence="105" timestamp="1429232504452" release="" codeSize="28" numClasses="2"/>
+    <AppVersion sequence="106" timestamp="1429232533008" release="" codeSize="163" numClasses="2"/>
+    <AppVersion sequence="107" timestamp="1429232894558" release="" codeSize="326" numClasses="4"/>
+    <AppVersion sequence="108" timestamp="1429233143942" release="" codeSize="162" numClasses="2"/>
+    <AppVersion sequence="109" timestamp="1429233169940" release="" codeSize="162" numClasses="2"/>
+    <AppVersion sequence="110" timestamp="1429233914110" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="111" timestamp="1429234353370" release="" codeSize="3" numClasses="1"/>
+    <AppVersion sequence="112" timestamp="1429234575454" release="" codeSize="3" numClasses="1"/>
+    <AppVersion sequence="113" timestamp="1429234705007" release="" codeSize="3" numClasses="1"/>
+    <AppVersion sequence="114" timestamp="1429234712047" release="" codeSize="3" numClasses="1"/>
+    <AppVersion sequence="115" timestamp="1429234720110" release="" codeSize="3" numClasses="1"/>
+    <AppVersion sequence="116" timestamp="1429234726643" release="" codeSize="8" numClasses="1"/>
+    <AppVersion sequence="117" timestamp="1429234848852" release="" codeSize="5" numClasses="1"/>
+    <AppVersion sequence="118" timestamp="1429234904426" release="" codeSize="162" numClasses="2"/>
+    <AppVersion sequence="119" timestamp="1429235584658" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="120" timestamp="1429236228812" release="" codeSize="23" numClasses="1"/>
+    <AppVersion sequence="121" timestamp="1429236288197" release="" codeSize="23" numClasses="1"/>
+    <AppVersion sequence="122" timestamp="1429238778779" release="" codeSize="33" numClasses="1"/>
+    <AppVersion sequence="123" timestamp="1429238868483" release="" codeSize="35" numClasses="1"/>
+    <AppVersion sequence="124" timestamp="1429239155809" release="" codeSize="25" numClasses="1"/>
+    <AppVersion sequence="125" timestamp="1429239184454" release="" codeSize="32" numClasses="1"/>
+    <AppVersion sequence="126" timestamp="1429239221818" release="" codeSize="32" numClasses="1"/>
+    <AppVersion sequence="127" timestamp="1429239252776" release="" codeSize="32" numClasses="1"/>
+    <AppVersion sequence="128" timestamp="1429239294909" release="" codeSize="32" numClasses="1"/>
+    <AppVersion sequence="129" timestamp="1429239319400" release="" codeSize="32" numClasses="1"/>
+    <AppVersion sequence="130" timestamp="1429239326675" release="" codeSize="32" numClasses="1"/>
+    <AppVersion sequence="131" timestamp="1429239683084" release="" codeSize="35" numClasses="1"/>
+    <AppVersion sequence="132" timestamp="1429240183226" release="" codeSize="36" numClasses="1"/>
+    <AppVersion sequence="133" timestamp="1429240436469" release="" codeSize="162" numClasses="2"/>
+    <AppVersion sequence="134" timestamp="1429240482519" release="" codeSize="163" numClasses="2"/>
+    <AppVersion sequence="135" timestamp="1429240536917" release="" codeSize="162" numClasses="2"/>
+    <AppVersion sequence="136" timestamp="1429240582008" release="" codeSize="165" numClasses="2"/>
+    <AppVersion sequence="137" timestamp="1429246707558" release="" codeSize="165" numClasses="2"/>
+    <AppVersion sequence="138" timestamp="1429246889959" release="" codeSize="330" numClasses="4"/>
+    <AppVersion sequence="139" timestamp="1429254776092" release="" codeSize="149" numClasses="2"/>
+    <AppVersion sequence="140" timestamp="1429254784411" release="" codeSize="169" numClasses="2"/>
+  </History>
+</BugCollection>

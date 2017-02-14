@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="111" timestamp="1449626611573" analysisTimestamp="1449626611159" release="">
+  <Project projectName="TagCloudGeneratorWithStandardJava">
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/TagCloudGeneratorWithStandardJava/bin/TagCloudGenerator$EntrySLT.class</Jar>
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/TagCloudGeneratorWithStandardJava/bin/TagCloudGenerator$EntryVLT.class</Jar>
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/TagCloudGeneratorWithStandardJava/bin/TagCloudGenerator.class</Jar>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/TagCloudGeneratorWithStandardJava/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/rt.jar</AuxClasspathEntry>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/TagCloudGeneratorWithStandardJava/src</SrcDir>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/TagCloudGeneratorWithStandardJava/test</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="6" last="83" removedByChange="true">
+    <Class classname="TagCloudGenerator">
+      <SourceLine classname="TagCloudGenerator" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Class>
+    <Method classname="TagCloudGenerator" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="TagCloudGenerator" start="322" end="388" startBytecode="0" endBytecode="167" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Method>
+    <LocalVariable name="out" register="7" pc="294" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="TagCloudGenerator" start="371" end="371" startBytecode="292" endBytecode="292" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    <SourceLine classname="TagCloudGenerator" start="371" end="371" startBytecode="292" endBytecode="292" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="out"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="15" last="18" removedByChange="true">
+    <Class classname="TagCloudGenerator">
+      <SourceLine classname="TagCloudGenerator" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Class>
+    <Method classname="TagCloudGenerator" name="valueSort" signature="(Ljava/util/Map;)Ljava/util/Map;" isStatic="true">
+      <SourceLine classname="TagCloudGenerator" start="156" end="165" startBytecode="0" endBytecode="28" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Method>
+    <LocalVariable name="comp" register="1" pc="29" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="TagCloudGenerator" start="158" end="158" startBytecode="28" endBytecode="28" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    <SourceLine classname="TagCloudGenerator" start="158" end="158" startBytecode="28" endBytecode="28" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="comp"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="23" last="24" removedByChange="true">
+    <Class classname="TagCloudGenerator">
+      <SourceLine classname="TagCloudGenerator" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Class>
+    <Method classname="TagCloudGenerator" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="TagCloudGenerator" start="312" end="424" startBytecode="0" endBytecode="139" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Method>
+    <LocalVariable name="map" register="8" pc="320" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="TagCloudGenerator" start="369" end="369" startBytecode="318" endBytecode="318" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    <SourceLine classname="TagCloudGenerator" start="369" end="369" startBytecode="318" endBytecode="318" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="map"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DMI_ENTRY_SETS_MAY_REUSE_ENTRY_OBJECTS" priority="2" rank="14" abbrev="DMI" category="BAD_PRACTICE" first="22" last="70" removedByChange="true">
+    <Class classname="TagCloudGenerator">
+      <SourceLine classname="TagCloudGenerator" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Class>
+    <Method classname="TagCloudGenerator" name="valueSort" signature="(Ljava/util/Map;)Ljava/util/SortedSet;" isStatic="true">
+      <SourceLine classname="TagCloudGenerator" start="197" end="215" startBytecode="0" endBytecode="193" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Method>
+    <Method classname="java.util.Map" name="entrySet" signature="()Ljava/util/Set;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Map" sourcefile="Map.java" sourcepath="java/util/Map.java"/>
+    </Method>
+    <Method classname="java.util.TreeSet" name="addAll" signature="(Ljava/util/Collection;)Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.TreeSet" start="300" end="312" startBytecode="0" endBytecode="206" sourcefile="TreeSet.java" sourcepath="java/util/TreeSet.java"/>
+    </Method>
+    <LocalVariable name="s" register="2" pc="47" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="TagCloudGenerator" start="213" end="213" startBytecode="47" endBytecode="47" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_ENTRY_SETS_MAY_REUSE_ENTRY_OBJECTS" priority="2" rank="14" abbrev="DMI" category="BAD_PRACTICE" first="55" last="62" removedByChange="true">
+    <Class classname="TagCloudGenerator">
+      <SourceLine classname="TagCloudGenerator" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Class>
+    <Method classname="TagCloudGenerator" name="valueSort" signature="(Ljava/util/Map;I)Ljava/util/SortedSet;" isStatic="true">
+      <SourceLine classname="TagCloudGenerator" start="197" end="221" startBytecode="0" endBytecode="392" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Method>
+    <Method classname="java.util.Map" name="entrySet" signature="()Ljava/util/Set;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Map" sourcefile="Map.java" sourcepath="java/util/Map.java"/>
+    </Method>
+    <Method classname="java.util.TreeSet" name="addAll" signature="(Ljava/util/Collection;)Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.TreeSet" start="300" end="312" startBytecode="0" endBytecode="206" sourcefile="TreeSet.java" sourcepath="java/util/TreeSet.java"/>
+    </Method>
+    <LocalVariable name="s" register="3" pc="104" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="TagCloudGenerator" start="219" end="219" startBytecode="104" endBytecode="104" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="2">
+    <Class classname="TagCloudGenerator">
+      <SourceLine classname="TagCloudGenerator" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Class>
+    <Method classname="TagCloudGenerator" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="TagCloudGenerator" start="326" end="403" startBytecode="0" endBytecode="1142" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Method>
+    <Method classname="java.io.FileReader" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader" start="58" end="59" startBytecode="0" endBytecode="40" sourcefile="FileReader.java" sourcepath="java/io/FileReader.java"/>
+    </Method>
+    <SourceLine classname="TagCloudGenerator" start="351" end="351" startBytecode="152" endBytecode="152" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    <SourceLine classname="TagCloudGenerator" start="351" end="351" startBytecode="152" endBytecode="152" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="6">
+    <Class classname="TagCloudGenerator">
+      <SourceLine classname="TagCloudGenerator" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Class>
+    <Method classname="TagCloudGenerator" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="TagCloudGenerator" start="326" end="403" startBytecode="0" endBytecode="1142" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Method>
+    <Method classname="java.io.FileWriter" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileWriter" start="63" end="64" startBytecode="0" endBytecode="40" sourcefile="FileWriter.java" sourcepath="java/io/FileWriter.java"/>
+    </Method>
+    <SourceLine classname="TagCloudGenerator" start="387" end="387" startBytecode="316" endBytecode="316" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    <SourceLine classname="TagCloudGenerator" start="387" end="387" startBytecode="316" endBytecode="316" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="2">
+    <Class classname="TagCloudGenerator">
+      <SourceLine classname="TagCloudGenerator" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Class>
+    <Method classname="TagCloudGenerator" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="TagCloudGenerator" start="326" end="403" startBytecode="0" endBytecode="1142" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="72" end="79" startBytecode="0" endBytecode="108" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="TagCloudGenerator" start="326" end="326" startBytecode="11" endBytecode="11" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    <SourceLine classname="TagCloudGenerator" start="326" end="326" startBytecode="11" endBytecode="11" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+  </BugInstance>
+  <BugInstance type="EC_NULL_ARG" priority="2" rank="9" abbrev="EC" category="CORRECTNESS" first="31" last="46" removedByChange="true">
+    <Class classname="TagCloudGenerator">
+      <SourceLine classname="TagCloudGenerator" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Class>
+    <Method classname="TagCloudGenerator" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="TagCloudGenerator" start="299" end="370" startBytecode="0" endBytecode="175" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Method>
+    <SourceLine classname="TagCloudGenerator" start="310" end="310" startBytecode="73" endBytecode="73" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    <SourceLine classname="TagCloudGenerator" start="310" end="310" startBytecode="73" endBytecode="73" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+  </BugInstance>
+  <BugInstance type="EC_NULL_ARG" priority="2" rank="9" abbrev="EC" category="CORRECTNESS" first="34" last="35" removedByChange="true">
+    <Class classname="TagCloudGenerator">
+      <SourceLine classname="TagCloudGenerator" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Class>
+    <Method classname="TagCloudGenerator" name="reader" signature="(Ljava/io/BufferedReader;)Ljava/util/Map;" isStatic="true">
+      <SourceLine classname="TagCloudGenerator" start="93" end="155" startBytecode="0" endBytecode="172" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Method>
+    <SourceLine classname="TagCloudGenerator" start="103" end="103" startBytecode="40" endBytecode="40" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    <SourceLine classname="TagCloudGenerator" start="103" end="103" startBytecode="40" endBytecode="40" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="2">
+    <Class classname="TagCloudGenerator">
+      <SourceLine classname="TagCloudGenerator" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Class>
+    <Method classname="TagCloudGenerator" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="TagCloudGenerator" start="326" end="403" startBytecode="0" endBytecode="1142" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Method>
+    <LocalVariable name="file" register="2" pc="43" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="TagCloudGenerator" start="339" end="339" startBytecode="137" endBytecode="137" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    <SourceLine classname="TagCloudGenerator" start="339" end="339" startBytecode="137" endBytecode="137" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="5">
+    <Class classname="TagCloudGenerator">
+      <SourceLine classname="TagCloudGenerator" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Class>
+    <Method classname="TagCloudGenerator" name="reader" signature="(Ljava/io/BufferedReader;)Ljava/util/Map;" isStatic="true">
+      <SourceLine classname="TagCloudGenerator" start="93" end="158" startBytecode="0" endBytecode="679" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Method>
+    <LocalVariable name="line" register="2" pc="277" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="TagCloudGenerator" start="102" end="102" startBytecode="278" endBytecode="278" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    <SourceLine classname="TagCloudGenerator" start="102" end="102" startBytecode="278" endBytecode="278" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_ON_SOME_PATH_EXCEPTION" priority="2" rank="11" abbrev="NP" category="CORRECTNESS" first="26" last="29" removedByChange="true">
+    <Class classname="TagCloudGenerator">
+      <SourceLine classname="TagCloudGenerator" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Class>
+    <Method classname="TagCloudGenerator" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="TagCloudGenerator" start="281" end="347" startBytecode="0" endBytecode="993" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Method>
+    <LocalVariable name="out" register="7" pc="294" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="TagCloudGenerator" start="346" end="346" startBytecode="365" endBytecode="365" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java" role="SOURCE_LINE_DEREF"/>
+    <SourceLine classname="TagCloudGenerator" start="328" end="328" startBytecode="245" endBytecode="245" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java" role="SOURCE_LINE_NULL_VALUE"/>
+    <SourceLine classname="TagCloudGenerator" start="332" end="332" startBytecode="297" endBytecode="297" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java" role="SOURCE_LINE_KNOWN_NULL"/>
+    <SourceLine classname="TagCloudGenerator" start="334" end="334" startBytecode="301" endBytecode="301" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java" role="SOURCE_LINE_KNOWN_NULL"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullDerefProperty.ALWAYS_ON_EXCEPTION_PATH" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullDerefProperty.LONG_RANGE_NULL_SOURCE" value="true"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_ON_SOME_PATH_EXCEPTION" priority="2" rank="11" abbrev="NP" category="CORRECTNESS" first="42" last="45" removedByChange="true">
+    <Class classname="TagCloudGenerator">
+      <SourceLine classname="TagCloudGenerator" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Class>
+    <Method classname="TagCloudGenerator" name="reader" signature="(Ljava/io/BufferedReader;)Ljava/util/Map;" isStatic="true">
+      <SourceLine classname="TagCloudGenerator" start="93" end="164" startBytecode="0" endBytecode="754" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Method>
+    <LocalVariable name="line" register="2" pc="38" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="TagCloudGenerator" start="108" end="108" startBytecode="292" endBytecode="292" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java" role="SOURCE_LINE_DEREF"/>
+    <SourceLine classname="TagCloudGenerator" start="100" end="100" startBytecode="31" endBytecode="31" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java" role="SOURCE_LINE_NULL_VALUE"/>
+    <SourceLine classname="TagCloudGenerator" start="103" end="103" startBytecode="41" endBytecode="41" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java" role="SOURCE_LINE_KNOWN_NULL"/>
+    <SourceLine classname="TagCloudGenerator" start="104" end="104" startBytecode="47" endBytecode="47" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java" role="SOURCE_LINE_KNOWN_NULL"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullDerefProperty.ALWAYS_ON_EXCEPTION_PATH" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullDerefProperty.LONG_RANGE_NULL_SOURCE" value="true"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE" first="6" last="24" removedByChange="true">
+    <Class classname="TagCloudGenerator">
+      <SourceLine classname="TagCloudGenerator" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Class>
+    <Method classname="TagCloudGenerator" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="TagCloudGenerator" start="312" end="424" startBytecode="0" endBytecode="139" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/Writer;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.Writer" start="50" end="294" sourcefile="Writer.java" sourcepath="java/io/Writer.java"/>
+    </Type>
+    <SourceLine classname="TagCloudGenerator" start="361" end="361" startBytecode="248" endBytecode="248" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    <SourceLine classname="TagCloudGenerator" start="361" end="361" startBytecode="248" endBytecode="248" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED" priority="1" rank="3" abbrev="RV" category="CORRECTNESS" first="51" last="51" removedByChange="true">
+    <Class classname="TagCloudGenerator">
+      <SourceLine classname="TagCloudGenerator" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Class>
+    <Method classname="TagCloudGenerator" name="reader" signature="(Ljava/io/BufferedReader;)Ljava/util/Map;" isStatic="true">
+      <SourceLine classname="TagCloudGenerator" start="93" end="180" startBytecode="0" endBytecode="536" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="concat" signature="(Ljava/lang/String;)Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="1970" end="1977" startBytecode="0" endBytecode="106" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="TagCloudGenerator" start="108" end="108" startBytecode="100" endBytecode="100" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    <SourceLine classname="TagCloudGenerator" start="108" end="108" startBytecode="100" endBytecode="100" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE" first="50" last="50" removedByChange="true">
+    <Class classname="TagCloudGenerator">
+      <SourceLine classname="TagCloudGenerator" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Class>
+    <Method classname="TagCloudGenerator" name="reader" signature="(Ljava/io/BufferedReader;)Ljava/util/Map;" isStatic="true">
+      <SourceLine classname="TagCloudGenerator" start="93" end="180" startBytecode="0" endBytecode="546" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Method>
+    <SourceLine classname="TagCloudGenerator" start="108" end="108" startBytecode="94" endBytecode="94" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="75" last="75" removedByChange="true">
+    <Class classname="TagCloudGenerator">
+      <SourceLine classname="TagCloudGenerator" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Class>
+    <Field classname="TagCloudGenerator" name="e" signature="Ljava/io/IOException;" isStatic="false">
+      <SourceLine classname="TagCloudGenerator" start="175" end="175" startBytecode="0" endBytecode="0" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE" first="1" last="59" removedByChange="true">
+    <Class classname="TagCloudGenerator$PairSLT">
+      <SourceLine classname="TagCloudGenerator$PairSLT" start="1" end="39" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Class>
+    <SourceLine classname="TagCloudGenerator$PairSLT" start="30" end="30" startBytecode="0" endBytecode="0" sourcefile="PairSLT.java" sourcepath="PairSLT.java"/>
+  </BugInstance>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE" first="1" last="59" removedByChange="true">
+    <Class classname="TagCloudGenerator$PairVLT">
+      <SourceLine classname="TagCloudGenerator$PairVLT" start="1" end="54" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Class>
+    <SourceLine classname="TagCloudGenerator$PairVLT" start="46" end="46" startBytecode="0" endBytecode="0" sourcefile="PairVLT.java" sourcepath="PairVLT.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 8 Dec 2015 21:03:31 -0500" total_classes="3" referenced_classes="36" total_bugs="5" total_size="170" num_packages="1" java_version="1.7.0_71" vm_version="24.71-b01" cpu_seconds="0.66" clock_seconds="0.42" peak_mbytes="481.02" alloc_mbytes="455.00" gc_seconds="0.01" priority_2="2" priority_1="3">
+    <PackageStats package="" total_bugs="5" total_types="3" total_size="170" priority_2="2" priority_1="3">
+      <ClassStats class="TagCloudGenerator" sourceFile="TagCloudGenerator.java" interface="false" size="150" bugs="5" priority_2="2" priority_1="3"/>
+      <ClassStats class="TagCloudGenerator$EntrySLT" sourceFile="TagCloudGenerator.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="TagCloudGenerator$EntryVLT" sourceFile="TagCloudGenerator.java" interface="false" size="10" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="74" invocations="392" avgMicrosecondsPerInvocation="189" maxMicrosecondsPerInvocation="2557" standardDeviationMircosecondsPerInvocation="308"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="65" invocations="2" avgMicrosecondsPerInvocation="32846" maxMicrosecondsPerInvocation="57864" standardDeviationMircosecondsPerInvocation="25018"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="17" invocations="36" avgMicrosecondsPerInvocation="496" maxMicrosecondsPerInvocation="3128" standardDeviationMircosecondsPerInvocation="701"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="17" invocations="20" avgMicrosecondsPerInvocation="888" maxMicrosecondsPerInvocation="2696" standardDeviationMircosecondsPerInvocation="1019"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="16" invocations="132" avgMicrosecondsPerInvocation="126" maxMicrosecondsPerInvocation="635" standardDeviationMircosecondsPerInvocation="116"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="15" invocations="392" avgMicrosecondsPerInvocation="39" maxMicrosecondsPerInvocation="179" standardDeviationMircosecondsPerInvocation="20"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="15" invocations="20" avgMicrosecondsPerInvocation="762" maxMicrosecondsPerInvocation="3959" standardDeviationMircosecondsPerInvocation="1081"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="11" invocations="15" avgMicrosecondsPerInvocation="738" maxMicrosecondsPerInvocation="3331" standardDeviationMircosecondsPerInvocation="1092"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.StreamResourceTracker" totalMilliseconds="11" invocations="23" avgMicrosecondsPerInvocation="478" maxMicrosecondsPerInvocation="790" standardDeviationMircosecondsPerInvocation="147"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1449168807614" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1449168807621" release="" codeSize="134" numClasses="3"/>
+    <AppVersion sequence="2" timestamp="1449169516085" release="" codeSize="43" numClasses="3"/>
+    <AppVersion sequence="3" timestamp="1449169524053" release="" codeSize="43" numClasses="3"/>
+    <AppVersion sequence="4" timestamp="1449169548096" release="" codeSize="86" numClasses="6"/>
+    <AppVersion sequence="5" timestamp="1449237527129" release="" codeSize="75" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1449238698205" release="" codeSize="106" numClasses="2"/>
+    <AppVersion sequence="7" timestamp="1449239142427" release="" codeSize="126" numClasses="3"/>
+    <AppVersion sequence="8" timestamp="1449239155056" release="" codeSize="160" numClasses="3"/>
+    <AppVersion sequence="9" timestamp="1449239272509" release="" codeSize="161" numClasses="3"/>
+    <AppVersion sequence="10" timestamp="1449239402110" release="" codeSize="154" numClasses="3"/>
+    <AppVersion sequence="11" timestamp="1449239414745" release="" codeSize="161" numClasses="3"/>
+    <AppVersion sequence="12" timestamp="1449239668996" release="" codeSize="154" numClasses="3"/>
+    <AppVersion sequence="13" timestamp="1449239687653" release="" codeSize="127" numClasses="3"/>
+    <AppVersion sequence="14" timestamp="1449239720469" release="" codeSize="161" numClasses="3"/>
+    <AppVersion sequence="15" timestamp="1449240183512" release="" codeSize="162" numClasses="3"/>
+    <AppVersion sequence="16" timestamp="1449240189139" release="" codeSize="162" numClasses="3"/>
+    <AppVersion sequence="17" timestamp="1449240407135" release="" codeSize="150" numClasses="3"/>
+    <AppVersion sequence="18" timestamp="1449240421815" release="" codeSize="162" numClasses="3"/>
+    <AppVersion sequence="19" timestamp="1449240482277" release="" codeSize="162" numClasses="3"/>
+    <AppVersion sequence="20" timestamp="1449241359879" release="" codeSize="156" numClasses="3"/>
+    <AppVersion sequence="21" timestamp="1449241371242" release="" codeSize="163" numClasses="3"/>
+    <AppVersion sequence="22" timestamp="1449241812078" release="" codeSize="128" numClasses="3"/>
+    <AppVersion sequence="23" timestamp="1449241869028" release="" codeSize="160" numClasses="3"/>
+    <AppVersion sequence="24" timestamp="1449242131905" release="" codeSize="159" numClasses="3"/>
+    <AppVersion sequence="25" timestamp="1449242264109" release="" codeSize="160" numClasses="3"/>
+    <AppVersion sequence="26" timestamp="1449242301604" release="" codeSize="164" numClasses="3"/>
+    <AppVersion sequence="27" timestamp="1449242624840" release="" codeSize="154" numClasses="3"/>
+    <AppVersion sequence="28" timestamp="1449242629484" release="" codeSize="162" numClasses="3"/>
+    <AppVersion sequence="29" timestamp="1449242737673" release="" codeSize="328" numClasses="6"/>
+    <AppVersion sequence="30" timestamp="1449250756956" release="" codeSize="165" numClasses="3"/>
+    <AppVersion sequence="31" timestamp="1449251009946" release="" codeSize="168" numClasses="3"/>
+    <AppVersion sequence="32" timestamp="1449251229618" release="" codeSize="168" numClasses="3"/>
+    <AppVersion sequence="33" timestamp="1449251361575" release="" codeSize="168" numClasses="3"/>
+    <AppVersion sequence="34" timestamp="1449251739839" release="" codeSize="175" numClasses="3"/>
+    <AppVersion sequence="35" timestamp="1449251762364" release="" codeSize="175" numClasses="3"/>
+    <AppVersion sequence="36" timestamp="1449251792094" release="" codeSize="169" numClasses="3"/>
+    <AppVersion sequence="37" timestamp="1449252126484" release="" codeSize="158" numClasses="3"/>
+    <AppVersion sequence="38" timestamp="1449252161975" release="" codeSize="166" numClasses="3"/>
+    <AppVersion sequence="39" timestamp="1449252226272" release="" codeSize="165" numClasses="3"/>
+    <AppVersion sequence="40" timestamp="1449252260224" release="" codeSize="134" numClasses="3"/>
+    <AppVersion sequence="41" timestamp="1449252317277" release="" codeSize="165" numClasses="3"/>
+    <AppVersion sequence="42" timestamp="1449252424394" release="" codeSize="168" numClasses="3"/>
+    <AppVersion sequence="43" timestamp="1449252435515" release="" codeSize="134" numClasses="3"/>
+    <AppVersion sequence="44" timestamp="1449252437523" release="" codeSize="134" numClasses="3"/>
+    <AppVersion sequence="45" timestamp="1449252438844" release="" codeSize="168" numClasses="3"/>
+    <AppVersion sequence="46" timestamp="1449252445860" release="" codeSize="165" numClasses="3"/>
+    <AppVersion sequence="47" timestamp="1449252890446" release="" codeSize="162" numClasses="3"/>
+    <AppVersion sequence="48" timestamp="1449253347214" release="" codeSize="131" numClasses="3"/>
+    <AppVersion sequence="49" timestamp="1449253422791" release="" codeSize="138" numClasses="3"/>
+    <AppVersion sequence="50" timestamp="1449253780666" release="" codeSize="149" numClasses="3"/>
+    <AppVersion sequence="51" timestamp="1449292786354" release="" codeSize="149" numClasses="3"/>
+    <AppVersion sequence="52" timestamp="1449292808300" release="" codeSize="149" numClasses="3"/>
+    <AppVersion sequence="53" timestamp="1449292930959" release="" codeSize="150" numClasses="3"/>
+    <AppVersion sequence="54" timestamp="1449293041202" release="" codeSize="150" numClasses="3"/>
+    <AppVersion sequence="55" timestamp="1449293285866" release="" codeSize="149" numClasses="3"/>
+    <AppVersion sequence="56" timestamp="1449293395636" release="" codeSize="149" numClasses="3"/>
+    <AppVersion sequence="57" timestamp="1449293585769" release="" codeSize="144" numClasses="3"/>
+    <AppVersion sequence="58" timestamp="1449293651316" release="" codeSize="144" numClasses="3"/>
+    <AppVersion sequence="59" timestamp="1449294072778" release="" codeSize="144" numClasses="3"/>
+    <AppVersion sequence="60" timestamp="1449294074859" release="" codeSize="144" numClasses="3"/>
+    <AppVersion sequence="61" timestamp="1449294076380" release="" codeSize="149" numClasses="3"/>
+    <AppVersion sequence="62" timestamp="1449294079874" release="" codeSize="149" numClasses="3"/>
+    <AppVersion sequence="63" timestamp="1449294104250" release="" codeSize="150" numClasses="3"/>
+    <AppVersion sequence="64" timestamp="1449294231644" release="" codeSize="150" numClasses="3"/>
+    <AppVersion sequence="65" timestamp="1449294262972" release="" codeSize="150" numClasses="3"/>
+    <AppVersion sequence="66" timestamp="1449294424275" release="" codeSize="144" numClasses="3"/>
+    <AppVersion sequence="67" timestamp="1449294543111" release="" codeSize="144" numClasses="3"/>
+    <AppVersion sequence="68" timestamp="1449294550748" release="" codeSize="150" numClasses="3"/>
+    <AppVersion sequence="69" timestamp="1449596644345" release="" codeSize="150" numClasses="3"/>
+    <AppVersion sequence="70" timestamp="1449598504550" release="" codeSize="150" numClasses="3"/>
+    <AppVersion sequence="71" timestamp="1449600806087" release="" codeSize="105" numClasses="3"/>
+    <AppVersion sequence="72" timestamp="1449600965533" release="" codeSize="110" numClasses="3"/>
+    <AppVersion sequence="73" timestamp="1449601114532" release="" codeSize="112" numClasses="3"/>
+    <AppVersion sequence="74" timestamp="1449601307427" release="" codeSize="152" numClasses="3"/>
+    <AppVersion sequence="75" timestamp="1449601499625" release="" codeSize="28" numClasses="3"/>
+    <AppVersion sequence="76" timestamp="1449601550660" release="" codeSize="133" numClasses="3"/>
+    <AppVersion sequence="77" timestamp="1449601604550" release="" codeSize="124" numClasses="3"/>
+    <AppVersion sequence="78" timestamp="1449606452138" release="" codeSize="167" numClasses="3"/>
+    <AppVersion sequence="79" timestamp="1449620368225" release="" codeSize="166" numClasses="3"/>
+    <AppVersion sequence="80" timestamp="1449620401436" release="" codeSize="164" numClasses="3"/>
+    <AppVersion sequence="81" timestamp="1449620473578" release="" codeSize="164" numClasses="3"/>
+    <AppVersion sequence="82" timestamp="1449620707706" release="" codeSize="153" numClasses="3"/>
+    <AppVersion sequence="83" timestamp="1449620716764" release="" codeSize="153" numClasses="3"/>
+    <AppVersion sequence="84" timestamp="1449620721949" release="" codeSize="164" numClasses="3"/>
+    <AppVersion sequence="85" timestamp="1449620853884" release="" codeSize="164" numClasses="3"/>
+    <AppVersion sequence="86" timestamp="1449620939607" release="" codeSize="164" numClasses="3"/>
+    <AppVersion sequence="87" timestamp="1449624030463" release="" codeSize="165" numClasses="3"/>
+    <AppVersion sequence="88" timestamp="1449624256499" release="" codeSize="169" numClasses="3"/>
+    <AppVersion sequence="89" timestamp="1449624305451" release="" codeSize="170" numClasses="3"/>
+    <AppVersion sequence="90" timestamp="1449624357507" release="" codeSize="171" numClasses="3"/>
+    <AppVersion sequence="91" timestamp="1449624440154" release="" codeSize="172" numClasses="3"/>
+    <AppVersion sequence="92" timestamp="1449624504600" release="" codeSize="173" numClasses="3"/>
+    <AppVersion sequence="93" timestamp="1449624913702" release="" codeSize="171" numClasses="3"/>
+    <AppVersion sequence="94" timestamp="1449625024119" release="" codeSize="172" numClasses="3"/>
+    <AppVersion sequence="95" timestamp="1449625101312" release="" codeSize="171" numClasses="3"/>
+    <AppVersion sequence="96" timestamp="1449625102396" release="" codeSize="172" numClasses="3"/>
+    <AppVersion sequence="97" timestamp="1449625104620" release="" codeSize="172" numClasses="3"/>
+    <AppVersion sequence="98" timestamp="1449625105776" release="" codeSize="172" numClasses="3"/>
+    <AppVersion sequence="99" timestamp="1449625157390" release="" codeSize="165" numClasses="3"/>
+    <AppVersion sequence="100" timestamp="1449625249570" release="" codeSize="165" numClasses="3"/>
+    <AppVersion sequence="101" timestamp="1449625264191" release="" codeSize="165" numClasses="3"/>
+    <AppVersion sequence="102" timestamp="1449625266793" release="" codeSize="165" numClasses="3"/>
+    <AppVersion sequence="103" timestamp="1449625307566" release="" codeSize="330" numClasses="6"/>
+    <AppVersion sequence="104" timestamp="1449625744942" release="" codeSize="8" numClasses="1"/>
+    <AppVersion sequence="105" timestamp="1449625762051" release="" codeSize="165" numClasses="3"/>
+    <AppVersion sequence="106" timestamp="1449625869659" release="" codeSize="165" numClasses="3"/>
+    <AppVersion sequence="107" timestamp="1449626137255" release="" codeSize="168" numClasses="3"/>
+    <AppVersion sequence="108" timestamp="1449626177183" release="" codeSize="170" numClasses="3"/>
+    <AppVersion sequence="109" timestamp="1449626400519" release="" codeSize="170" numClasses="3"/>
+    <AppVersion sequence="110" timestamp="1449626604984" release="" codeSize="124" numClasses="3"/>
+  </History>
+</BugCollection>

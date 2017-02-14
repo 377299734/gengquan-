@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="22" timestamp="1449597150800" analysisTimestamp="1449597150559" release="">
+  <Project projectName="EmailAccounts">
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/EmailAccounts/bin/EmailAccountMain.class</Jar>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/EmailAccounts/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/rt.jar</AuxClasspathEntry>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/EmailAccounts/src</SrcDir>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/EmailAccounts/test</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="6" last="6" removedByChange="true">
+    <Class classname="EmailAccount1">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Class>
+    <Method classname="EmailAccount1" name="toString" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="EmailAccount1" start="65" end="68" startBytecode="0" endBytecode="26" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Method>
+    <LocalVariable name="full" register="1" pc="60" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="EmailAccount1" start="65" end="65" startBytecode="59" endBytecode="59" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    <SourceLine classname="EmailAccount1" start="65" end="65" startBytecode="59" endBytecode="59" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="full"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="NP_TOSTRING_COULD_RETURN_NULL" priority="2" rank="14" abbrev="NP" category="BAD_PRACTICE" first="1" last="6" removedByChange="true">
+    <Class classname="EmailAccount1">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Class>
+    <Method classname="EmailAccount1" name="toString" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="EmailAccount1" start="65" end="68" startBytecode="0" endBytecode="125" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Method>
+    <SourceLine classname="EmailAccount1" start="68" end="68" startBytecode="61" endBytecode="61" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    <SourceLine classname="EmailAccount1" start="68" end="68" startBytecode="61" endBytecode="61" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+  </BugInstance>
+  <BugInstance type="SA_FIELD_SELF_ASSIGNMENT" priority="1" rank="1" abbrev="SA" category="CORRECTNESS" first="1" last="2" removedByChange="true">
+    <Class classname="EmailAccount1">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Class>
+    <Method classname="EmailAccount1" name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="EmailAccount1" start="35" end="40" startBytecode="0" endBytecode="94" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Method>
+    <Field classname="EmailAccount1" name="firstname" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Field>
+    <LocalVariable name="firstName" register="1" pc="0" role="LOCAL_VARIABLE_DID_YOU_MEAN"/>
+    <SourceLine classname="EmailAccount1" start="37" end="37" startBytecode="9" endBytecode="9" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+  </BugInstance>
+  <BugInstance type="SA_FIELD_SELF_ASSIGNMENT" priority="1" rank="1" abbrev="SA" category="CORRECTNESS" first="1" last="2" removedByChange="true">
+    <Class classname="EmailAccount1">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Class>
+    <Method classname="EmailAccount1" name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="EmailAccount1" start="35" end="40" startBytecode="0" endBytecode="94" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Method>
+    <Field classname="EmailAccount1" name="lastname" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Field>
+    <LocalVariable name="lastName" register="2" pc="0" role="LOCAL_VARIABLE_DID_YOU_MEAN"/>
+    <SourceLine classname="EmailAccount1" start="38" end="38" startBytecode="17" endBytecode="17" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" rank="15" abbrev="ST" category="STYLE" first="17" last="19" removedByChange="true">
+    <Class classname="EmailAccount1">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Class>
+    <Method classname="EmailAccount1" name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="EmailAccount1" start="46" end="51" startBytecode="0" endBytecode="86" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Method>
+    <Field classname="EmailAccount1" name="first" signature="Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Field>
+    <SourceLine classname="EmailAccount1" start="48" end="48" startBytecode="5" endBytecode="5" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    <SourceLine classname="EmailAccount1" start="48" end="48" startBytecode="5" endBytecode="5" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" rank="15" abbrev="ST" category="STYLE" first="17" last="19" removedByChange="true">
+    <Class classname="EmailAccount1">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Class>
+    <Method classname="EmailAccount1" name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="EmailAccount1" start="46" end="51" startBytecode="0" endBytecode="86" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Method>
+    <Field classname="EmailAccount1" name="last" signature="Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Field>
+    <SourceLine classname="EmailAccount1" start="49" end="49" startBytecode="9" endBytecode="9" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    <SourceLine classname="EmailAccount1" start="49" end="49" startBytecode="9" endBytecode="9" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" rank="15" abbrev="ST" category="STYLE" first="12">
+    <Class classname="EmailAccount1">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Class>
+    <Method classname="EmailAccount1" name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/String;Lcomponents/map/Map;)V" isStatic="false">
+      <SourceLine classname="EmailAccount1" start="45" end="52" startBytecode="0" endBytecode="122" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Method>
+    <Field classname="EmailAccount1" name="first" signature="Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Field>
+    <SourceLine classname="EmailAccount1" start="48" end="48" startBytecode="5" endBytecode="5" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    <SourceLine classname="EmailAccount1" start="48" end="48" startBytecode="5" endBytecode="5" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" rank="15" abbrev="ST" category="STYLE" first="12">
+    <Class classname="EmailAccount1">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Class>
+    <Method classname="EmailAccount1" name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/String;Lcomponents/map/Map;)V" isStatic="false">
+      <SourceLine classname="EmailAccount1" start="45" end="52" startBytecode="0" endBytecode="122" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Method>
+    <Field classname="EmailAccount1" name="last" signature="Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Field>
+    <SourceLine classname="EmailAccount1" start="49" end="49" startBytecode="9" endBytecode="9" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    <SourceLine classname="EmailAccount1" start="49" end="49" startBytecode="9" endBytecode="9" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" rank="15" abbrev="ST" category="STYLE" first="10">
+    <Class classname="EmailAccount1">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Class>
+    <Method classname="EmailAccount1" name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/String;Lcomponents/map/Map;)V" isStatic="false">
+      <SourceLine classname="EmailAccount1" start="45" end="52" startBytecode="0" endBytecode="122" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Method>
+    <Field classname="EmailAccount1" name="numbers" signature="Lcomponents/map/Map;" isStatic="true">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Field>
+    <SourceLine classname="EmailAccount1" start="50" end="50" startBytecode="13" endBytecode="13" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    <SourceLine classname="EmailAccount1" start="50" end="50" startBytecode="13" endBytecode="13" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" rank="15" abbrev="ST" category="STYLE" first="16" last="20" removedByChange="true">
+    <Class classname="EmailAccount1">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Class>
+    <Method classname="EmailAccount1" name="emailAddress" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="EmailAccount1" start="69" end="88" startBytecode="0" endBytecode="323" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Method>
+    <Field classname="EmailAccount1" name="map" signature="Lcomponents/map/Map;" isStatic="true">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Field>
+    <SourceLine classname="EmailAccount1" start="70" end="70" startBytecode="9" endBytecode="9" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    <SourceLine classname="EmailAccount1" start="70" end="70" startBytecode="9" endBytecode="9" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="2" rank="17" abbrev="ST" category="STYLE" first="15">
+    <Class classname="EmailAccount1">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Class>
+    <Method classname="EmailAccount1" name="emailAddress" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="EmailAccount1" start="69" end="85" startBytecode="0" endBytecode="280" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Method>
+    <Field classname="EmailAccount1" name="num" signature="I" isStatic="true">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Field>
+    <SourceLine classname="EmailAccount1" start="81" end="81" startBytecode="91" endBytecode="91" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    <SourceLine classname="EmailAccount1" start="81" end="81" startBytecode="91" endBytecode="91" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+  </BugInstance>
+  <BugInstance type="UR_UNINIT_READ" priority="2" rank="3" abbrev="UR" category="CORRECTNESS" first="1" last="2" removedByChange="true">
+    <Class classname="EmailAccount1">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Class>
+    <Method classname="EmailAccount1" name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="EmailAccount1" start="35" end="40" startBytecode="0" endBytecode="94" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Method>
+    <Field classname="EmailAccount1" name="firstname" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Field>
+    <LocalVariable name="firstName" register="1" pc="0" role="LOCAL_VARIABLE_DID_YOU_MEAN"/>
+    <SourceLine classname="EmailAccount1" start="37" end="37" startBytecode="6" endBytecode="6" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+  </BugInstance>
+  <BugInstance type="UR_UNINIT_READ" priority="2" rank="3" abbrev="UR" category="CORRECTNESS" first="1" last="2" removedByChange="true">
+    <Class classname="EmailAccount1">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Class>
+    <Method classname="EmailAccount1" name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="EmailAccount1" start="35" end="40" startBytecode="0" endBytecode="94" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Method>
+    <Field classname="EmailAccount1" name="lastname" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Field>
+    <LocalVariable name="lastName" register="2" pc="0" role="LOCAL_VARIABLE_DID_YOU_MEAN"/>
+    <SourceLine classname="EmailAccount1" start="38" end="38" startBytecode="14" endBytecode="14" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1" last="3" removedByChange="true">
+    <Class classname="EmailAccount1">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Class>
+    <Field classname="EmailAccount1" name="firstname" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="EmailAccount1" start="16" end="16" startBytecode="0" endBytecode="0" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1" last="3" removedByChange="true">
+    <Class classname="EmailAccount1">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Class>
+    <Field classname="EmailAccount1" name="lastname" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="EmailAccount1" start="21" end="21" startBytecode="0" endBytecode="0" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_FIELD" priority="2" rank="12" abbrev="UwF" category="CORRECTNESS" first="16" last="20" removedByChange="true">
+    <Class classname="EmailAccount1">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Class>
+    <Field classname="EmailAccount1" name="first" signature="Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Field>
+    <SourceLine classname="EmailAccount1" start="61" end="61" startBytecode="4" endBytecode="4" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_FIELD" priority="2" rank="12" abbrev="UwF" category="CORRECTNESS" first="16" last="20" removedByChange="true">
+    <Class classname="EmailAccount1">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Class>
+    <Field classname="EmailAccount1" name="last" signature="Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Field>
+    <SourceLine classname="EmailAccount1" start="61" end="61" startBytecode="18" endBytecode="18" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 8 Dec 2015 12:52:30 -0500" total_classes="1" referenced_classes="18" total_bugs="4" total_size="35" num_packages="1" java_version="1.7.0_71" vm_version="24.71-b01" cpu_seconds="0.40" clock_seconds="0.24" peak_mbytes="456.57" alloc_mbytes="455.00" gc_seconds="0.01" priority_2="1" priority_1="3">
+    <PackageStats package="" total_bugs="4" total_types="2" total_size="35" priority_2="1" priority_1="3">
+      <ClassStats class="EmailAccountMain" sourceFile="EmailAccountMain.java" interface="false" size="35" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="71" invocations="315" avgMicrosecondsPerInvocation="225" maxMicrosecondsPerInvocation="2674" standardDeviationMircosecondsPerInvocation="364"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="67" invocations="2" avgMicrosecondsPerInvocation="33950" maxMicrosecondsPerInvocation="59865" standardDeviationMircosecondsPerInvocation="25915"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="14" invocations="315" avgMicrosecondsPerInvocation="46" maxMicrosecondsPerInvocation="225" standardDeviationMircosecondsPerInvocation="30"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="12" invocations="18" avgMicrosecondsPerInvocation="667" maxMicrosecondsPerInvocation="4131" standardDeviationMircosecondsPerInvocation="1059"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="11" invocations="55" avgMicrosecondsPerInvocation="201" maxMicrosecondsPerInvocation="839" standardDeviationMircosecondsPerInvocation="184"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1449243195743" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1449243195747" release="" codeSize="14" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1449243203247" release="" codeSize="14" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1449243208126" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1449243522116" release="" codeSize="16" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1449243600907" release="" codeSize="16" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1449243715291" release="" codeSize="18" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1449243719961" release="" codeSize="18" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1449243820492" release="" codeSize="16" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1449243827363" release="" codeSize="38" numClasses="2"/>
+    <AppVersion sequence="10" timestamp="1449594794936" release="" codeSize="29" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1449594850831" release="" codeSize="15" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1449594899655" release="" codeSize="29" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1449596257955" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1449596360539" release="" codeSize="35" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1449596475939" release="" codeSize="32" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1449597070590" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1449597082314" release="" codeSize="33" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1449597109107" release="" codeSize="34" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1449597123272" release="" codeSize="34" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1449597132064" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="21" timestamp="1449597140936" release="" codeSize="31" numClasses="1"/>
+  </History>
+</BugCollection>

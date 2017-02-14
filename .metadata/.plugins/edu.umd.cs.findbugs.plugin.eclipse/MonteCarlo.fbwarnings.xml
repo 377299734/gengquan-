@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="12" timestamp="1422030696840" analysisTimestamp="1422030694501" release="">
+  <Project projectName="MonteCarlo">
+    <Jar>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/MonteCarlo/bin/MonteCarlo.class</Jar>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/MonteCarlo/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/rt.jar</AuxClasspathEntry>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/MonteCarlo/src</SrcDir>
+    <SrcDir>/Users/jakealvord/Documents/Ohio State/Freshman Year Second Semester/Software I/workspace/MonteCarlo/test</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="ICAST_IDIV_CAST_TO_DOUBLE" priority="2" rank="17" abbrev="ICAST" category="STYLE" first="8" last="9" removedByChange="true">
+    <Class classname="MonteCarlo">
+      <SourceLine classname="MonteCarlo" sourcefile="MonteCarlo.java" sourcepath="MonteCarlo.java"/>
+    </Class>
+    <Method classname="MonteCarlo" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="MonteCarlo" start="30" end="77" startBytecode="0" endBytecode="390" sourcefile="MonteCarlo.java" sourcepath="MonteCarlo.java"/>
+    </Method>
+    <SourceLine classname="MonteCarlo" start="70" end="70" startBytecode="116" endBytecode="116" sourcefile="MonteCarlo.java" sourcepath="MonteCarlo.java"/>
+    <SourceLine classname="MonteCarlo" start="70" end="70" startBytecode="116" endBytecode="116" sourcefile="MonteCarlo.java" sourcepath="MonteCarlo.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 21 Jan 2015 12:08:20 -0500" total_classes="1" referenced_classes="16" total_bugs="0" total_size="22" num_packages="1" java_version="1.7.0_71" vm_version="24.71-b01" cpu_seconds="5.93" clock_seconds="2.36" peak_mbytes="254.42" alloc_mbytes="455.00" gc_seconds="0.03">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="22">
+      <ClassStats class="MonteCarlo" sourceFile="MonteCarlo.java" interface="false" size="22" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="717" invocations="2" avgMicrosecondsPerInvocation="358515" maxMicrosecondsPerInvocation="521524" standardDeviationMircosecondsPerInvocation="163009"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="399" invocations="310" avgMicrosecondsPerInvocation="1289" maxMicrosecondsPerInvocation="37186" standardDeviationMircosecondsPerInvocation="3233"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="169" invocations="16" avgMicrosecondsPerInvocation="10590" maxMicrosecondsPerInvocation="38156" standardDeviationMircosecondsPerInvocation="13497"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="151" invocations="55" avgMicrosecondsPerInvocation="2751" maxMicrosecondsPerInvocation="12136" standardDeviationMircosecondsPerInvocation="2542"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="61" invocations="16" avgMicrosecondsPerInvocation="3856" maxMicrosecondsPerInvocation="12889" standardDeviationMircosecondsPerInvocation="4314"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="55" invocations="2" avgMicrosecondsPerInvocation="27823" maxMicrosecondsPerInvocation="53599" standardDeviationMircosecondsPerInvocation="25776"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="55" invocations="277" avgMicrosecondsPerInvocation="200" maxMicrosecondsPerInvocation="2500" standardDeviationMircosecondsPerInvocation="355"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="47" invocations="16" avgMicrosecondsPerInvocation="2959" maxMicrosecondsPerInvocation="14968" standardDeviationMircosecondsPerInvocation="4534"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="46" invocations="310" avgMicrosecondsPerInvocation="149" maxMicrosecondsPerInvocation="2454" standardDeviationMircosecondsPerInvocation="245"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1421857865215" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1421857865219" release="" codeSize="10" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1421858420856" release="" codeSize="21" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1421858730352" release="" codeSize="22" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1421858819979" release="" codeSize="22" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1421859138597" release="" codeSize="22" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1421859441880" release="" codeSize="22" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1421859500466" release="" codeSize="22" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1421859512533" release="" codeSize="22" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1421859550741" release="" codeSize="22" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1421859639640" release="" codeSize="22" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1421860101910" release="" codeSize="44" numClasses="2"/>
+  </History>
+</BugCollection>
